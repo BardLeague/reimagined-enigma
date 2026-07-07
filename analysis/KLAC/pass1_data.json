@@ -1,0 +1,15 @@
+{
+  "ticker": "KLAC",
+  "as_of": "2026-07-07T17:49:03Z",
+  "market_data": {
+    "ticker": "KLAC",
+    "last_price": 235.55,
+    "change_5d_pct": 2.86,
+    "volume": 18390000,
+    "market_cap": 307690000000,
+    "pe_ratio": 66.06,
+    "beta": 1.43
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

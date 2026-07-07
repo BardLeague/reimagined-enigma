@@ -1,0 +1,82 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA Corporation",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (with cyclical capex-cycle overlay)",
+  "moat_rating": "Wide",
+  "moat_source": "CUDA software ecosystem, NVLink/networking fabric lock-in, and annual platform cadence; evidence: ~75% gross margin at $80B+ quarterly scale and $49B quarterly FCF - pricing power of this magnitude at this scale is the strongest moat evidence that exists",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 98.0, "terminal_multiple": 15},
+    "base": {"probability": 50, "intrinsic_value": 221.0, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 362.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 225.5
+  },
+
+  "current_price": 192.53,
+  "margin_of_safety_percent": 14.6,
+
+  "returns": {
+    "three_year": {"bear": -11.0, "base": 2.9, "bull": 15.2, "expected": 2.5},
+    "five_year": {"bear": -12.6, "base": 2.8, "bull": 13.5, "expected": 1.6},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Returns exclude the ~50%-of-FCF capital return stream, which adds roughly 2% annually - stated returns are conservative."
+  },
+
+  "sensitivity_key_driver": "hyperscaler capex trajectory FY2028-2029 (revenue growth path)",
+  "primary_model_risk": "Capex cycle shape: base case assumes growth decelerates smoothly (35% to 8%) rather than a digestion year. AI infrastructure spending has never gone through a downcycle at this scale; if FY2028 capex flattens, bear-case FCF stagnation ($98 IV) becomes central, and the market would re-rate the multiple before the FCF actually printed.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "growth duration: at 29.8x trailing (vs 44x its own 12-month average) the market prices meaningful deceleration; our base case is only modestly more constructive - the +14.6% margin of safety is real but not table-pounding",
+
+  "top_5_bull_arguments": [
+    "$49B of quarterly free cash flow is not a story, it is arithmetic: ~24x annualized FCF for a company guiding +85% y/y growth",
+    "Multiple already compressed (29.8x vs 44x average) while earnings doubled - the derating happened without the earnings miss",
+    "Networking (+263% y/y) is compounding into a second wide-moat franchise inside the company",
+    "China DC revenue at zero in guidance = a free call option on any policy thaw",
+    "~50% of FCF returned to shareholders adds a ~2%/yr return floor the DCF ignores"
+  ],
+  "top_5_bear_arguments": [
+    "Revenue concentration in a handful of hyperscalers whose boards are all asking when AI capex pays back",
+    "Custom ASIC substitution grinds share away at exactly the horizon (yr 3-5) where terminal value lives",
+    "AI capex has never had a downcycle at this scale - the bear case is untested territory and the stock's beta (2.22) says the market knows it",
+    "Expected 5-yr return (+1.6% ex-buybacks) is thin for the risk taken; most of the value is already recognized",
+    "Geopolitical tail risks (Taiwan supply chain, export escalation) are unhedgeable and non-diversifiable at this position size in indices"
+  ],
+  "thesis_breakers": [
+    "First y/y decline in Data Center revenue",
+    "Gross margin below 70% for two consecutive quarters",
+    "A top-2 hyperscaler publicly shifting majority AI compute to internal silicon",
+    "Q2 FY2027 actuals below $85B (guidance $91B +/-2%)",
+    "FCF conversion falling below 40% of revenue"
+  ],
+
+  "position_size_recommendation": "2-3%; the only name on this watchlist trading below expected intrinsic value, though the margin (14.6%) rewards patience for a wider entry on capex-cycle scares",
+  "probability_of_success": 60,
+  "probability_of_permanent_loss": 10,
+
+  "overall_score": 68,
+  "verdict": "buy",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios in pass1/claude_pass1; given 75% gross margins and $49B quarterly FCF on modest capital, ROIC is self-evidently extreme but stating a number without a source would violate the ground-truth constraint. Revenue, FCF, and guidance inputs are all reported (press releases/8-K) - the strongest data foundation on this watchlist; confidence_level medium only because the 5-year capex-cycle path is genuinely unknowable.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: trailing P/E 29.84 vs 44.35 twelve-month average (public.com via pass1), stock roughly flat for 2026 (Yahoo Finance coverage), -1.35% past week. No verified 5-year multiple range beyond this captured."
+}

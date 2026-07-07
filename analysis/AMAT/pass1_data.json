@@ -1,0 +1,15 @@
+{
+  "ticker": "AMAT",
+  "as_of": "2026-07-07T17:49:03Z",
+  "market_data": {
+    "ticker": "AMAT",
+    "last_price": 622.59,
+    "change_5d_pct": -2.56,
+    "volume": 8640000,
+    "market_cap": 508500000000,
+    "pe_ratio": null,
+    "beta": 1.35
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

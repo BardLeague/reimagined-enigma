@@ -1,28 +1,64 @@
 {
-  "generated": "2026-07-07T17:43:04Z",
+  "generated": "2026-07-07T17:49:03Z",
   "cost": {
-    "deterministic_units": 3,
-    "claude_units": 15,
-    "total_units": 18
+    "deterministic_units": 9,
+    "claude_units": 45,
+    "total_units": 54
   },
   "claude_queue": [
-    "COHR",
-    "LITE",
-    "AAOI"
+    "NVDA",
+    "MU",
+    "AVGO",
+    "ASML",
+    "AMAT",
+    "LRCX",
+    "KLAC",
+    "SOUN",
+    "PENG"
   ],
   "tickers": [
     {
-      "ticker": "COHR",
+      "ticker": "NVDA",
       "status": "claude_queued",
       "signal_score": 3
     },
     {
-      "ticker": "LITE",
+      "ticker": "MU",
       "status": "claude_queued",
       "signal_score": 3
     },
     {
-      "ticker": "AAOI",
+      "ticker": "AVGO",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "ASML",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "AMAT",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "LRCX",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "KLAC",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "SOUN",
+      "status": "claude_queued",
+      "signal_score": 2
+    },
+    {
+      "ticker": "PENG",
       "status": "claude_queued",
       "signal_score": 2
     }

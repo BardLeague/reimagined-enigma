@@ -1,0 +1,28 @@
+{
+  "ticker": "NVDA",
+  "thesis": "NVIDIA remains the cash engine of the AI build-out: Q1 FY2027 (ended April 26, 2026) revenue $81.6B (+85% y/y), ~75% gross margin, record quarterly free cash flow of $49B, and Q2 guidance of $91B. Yet the stock is roughly flat for 2026 and trades at ~29.8x trailing earnings - the multiple has compressed while earnings exploded. Unlike the rest of the AI complex, the valuation question here is not whether cash flows exist but how long hyperscaler capex sustains them.",
+  "catalysts": [
+    "Q2 FY2027 results (August 2026): guidance $91.0B +/-2% revenue at ~75% gross margin",
+    "GB300/NVLink ramp: networking revenue $11.0B (+263% y/y in Q4 FY26) becoming a second franchise",
+    "Any reopening of China datacenter compute (currently zero in outlook - pure upside option)",
+    "Capital returns: ~50% of FCF returned ($20B in Q1 alone)",
+    "Next-generation platform announcements (annual cadence)"
+  ],
+  "risk_factors": [
+    "Hyperscaler capex cycle: revenue is concentrated in a handful of AI spenders; a digestion year would compress both earnings and multiple simultaneously",
+    "Custom silicon (hyperscaler ASICs) eroding share of AI compute over the 5-year horizon",
+    "China: export restrictions already exclude China DC revenue; further escalation touches supply chains",
+    "Multiple compression has been the 2026 story: 29.8x trailing vs 44x average - the market is already voting for deceleration",
+    "Gaming supply constraints (management-flagged) and beta 2.22 in any risk-off tape"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_fy2027_revenue": {"value": 81600000000, "unit": "USD", "note": "+85% y/y, +20% q/q; GAAP GM 74.9%", "source": "NVIDIA Q1 FY2027 press release (nvidianews.nvidia.com)", "date": "2026-05-27"},
+    "q1_fy2027_fcf": {"value": 49000000000, "unit": "USD", "note": "record quarterly FCF; $20B returned to shareholders; ~50% of FCF return policy", "source": "NVIDIA Q1 FY2027 press release / CFO commentary", "date": "2026-05-27"},
+    "q2_fy2027_guidance_revenue": {"value": 91000000000, "unit": "USD", "note": "+/-2%; GM ~75%", "source": "NVIDIA Q1 FY2027 press release", "date": "2026-05-27"},
+    "q4_fy2026_datacenter_revenue": {"value": 62300000000, "unit": "USD", "note": "+75% y/y; networking 11.0B +263% y/y", "source": "NVIDIA Q4 FY2026 press release", "date": "2026-02-25"},
+    "china_dc_revenue_in_outlook": {"value": 0, "unit": "USD", "note": "explicitly excluded from guidance", "source": "NVIDIA CFO commentary (8-K)", "date": "2026-05-27"},
+    "market_cap": {"value": 4770000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"},
+    "trailing_pe": {"value": 29.84, "unit": "x", "note": "vs 44.35 12-month average per public.com aggregate", "source": "market snapshot (pass1_data.json)", "date": "2026-07-07"}
+  }
+}

@@ -62,3 +62,15 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | AAOI | claude_pass1 | 2026-07-07T17:48:50Z | VALIDATED | 8 | research pass complete |
 | AAOI | pass2 | 2026-07-07T17:48:50Z | VALIDATED | 8 | expected IV 30.1 vs price 121.26; avoid |
 | AAOI | pass3 | 2026-07-07T17:48:50Z | VALIDATED | 8 | memo written; verdict avoid |
+| NVDA | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| MU | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| AVGO | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| ASML | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| AMAT | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| LRCX | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| KLAC | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| SOUN | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| PENG | pass1 | 2026-07-07T17:49:03Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| NVDA | claude_pass1 | 2026-07-07T17:51:01Z | VALIDATED | 8 | research pass complete |
+| NVDA | pass2 | 2026-07-07T17:51:01Z | VALIDATED | 8 | expected IV 225.5 vs price 192.53; buy |
+| NVDA | pass3 | 2026-07-07T17:51:01Z | VALIDATED | 8 | memo written; verdict buy |

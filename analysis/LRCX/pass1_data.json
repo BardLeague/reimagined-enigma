@@ -1,0 +1,15 @@
+{
+  "ticker": "LRCX",
+  "as_of": "2026-07-07T17:49:03Z",
+  "market_data": {
+    "ticker": "LRCX",
+    "last_price": 349.64,
+    "change_5d_pct": -13.87,
+    "volume": 7801405,
+    "market_cap": 406848000000,
+    "pe_ratio": 61.5,
+    "beta": 1.8
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

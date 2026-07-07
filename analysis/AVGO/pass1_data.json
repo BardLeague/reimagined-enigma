@@ -1,0 +1,15 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-07-07T17:49:03Z",
+  "market_data": {
+    "ticker": "AVGO",
+    "last_price": 373.9,
+    "change_5d_pct": 0.54,
+    "volume": 22463868,
+    "market_cap": 1779000000000,
+    "pe_ratio": 62.11,
+    "beta": 1.46
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}
