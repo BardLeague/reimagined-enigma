@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
-"""Validate pass1/pass2 JSON outputs of the equity analysis framework.
+"""Validate JSON outputs of the equity analysis pipeline.
 
 Usage:
     py scripts/validate_json.py analysis/{TICKER}/pass1_data.json pass1
+    py scripts/validate_json.py analysis/{TICKER}/claude_pass1.json claude_pass1
     py scripts/validate_json.py analysis/{TICKER}/pass2_valuation.json pass2
 
 Exit code 0 on pass; exit code 1 with a printed list of specific errors on
-fail, so the generating agent can self-correct.
+fail, so the generating process can self-correct.
 
-Required-field lists are derived from the schemas in
-framework/equity_analysis_framework_v2.md.
+pass1 is the deterministic market-data pass (scripts/run_watchlist.py);
+claude_pass1 is the selective Claude research pass; pass2 required fields
+are derived from the schema in framework/equity_analysis_framework_v2.md.
 """
 
 import json
@@ -20,35 +22,13 @@ import sys
 # Schema definitions (from the framework doc)
 # ---------------------------------------------------------------------------
 
-# Every metric object uses the shape:
-# {value, source, source_date, basis: "reported"|"estimated",
-#  confidence: "high"|"medium"|"low"}
-METRIC_KEYS = ("value", "source", "source_date", "basis", "confidence")
-BASIS_ENUM = ("reported", "estimated")
-CONFIDENCE_ENUM = ("high", "medium", "low")
+# Deterministic pass1: market snapshot fields. Required numeric fields must
+# be numbers; nullable fields may be null when the provider had no value.
+PASS1_SNAPSHOT_REQUIRED = ("last_price", "change_5d_pct", "volume")
+PASS1_SNAPSHOT_NULLABLE = ("market_cap", "pe_ratio", "beta")
 
-PASS1_METRIC_GROUPS = {
-    "market_data": (
-        "current_price", "market_cap", "enterprise_value", "diluted_shares",
-    ),
-    "financials_ttm": (
-        "revenue", "gross_margin", "operating_margin", "eps_diluted",
-        "fcf", "fcf_margin", "roic", "roe", "roa", "net_debt",
-        "interest_coverage",
-    ),
-    "capital_allocation_3yr": (
-        "buybacks", "dividends", "capex", "sbc_pct_revenue",
-    ),
-}
-
-PASS1_FORWARD_METRICS = (
-    "consensus_revenue_fy1", "consensus_revenue_fy2",
-    "consensus_eps_fy1", "consensus_eps_fy2",
-)
-
-PASS1_TOP_STRINGS = ("ticker", "company", "analysis_date", "data_as_of_date")
-
-FLAG_KEYS = ("missing", "stale", "conflicting", "unverifiable")
+SENTIMENT_ENUM = ("bullish", "neutral", "bearish")
+CLAUDE_PASS1_LISTS = ("catalysts", "risk_factors")
 
 VERDICT_ENUM = ("strong_buy", "buy", "hold", "avoid", "short_candidate")
 RISK_KEYS = ("value_trap", "bankruptcy", "competitive", "regulatory",
@@ -105,33 +85,6 @@ def diagnose_raw(raw):
     return hints
 
 
-def check_metric(errors, obj, path, allow_null_value=True):
-    """Validate one metric object against the shared shape."""
-    if not isinstance(obj, dict):
-        errors.append("%s: expected a metric object %s, got %s"
-                      % (path, dict(zip(METRIC_KEYS, ("...",) * 5)),
-                         type(obj).__name__))
-        return
-    for key in METRIC_KEYS:
-        if key not in obj:
-            errors.append("%s: missing required key '%s'" % (path, key))
-    v = obj.get("value")
-    if v is not None and not is_number(v):
-        errors.append("%s.value: expected number or null, got %r" % (path, v))
-    if v is None and not allow_null_value:
-        errors.append("%s.value: null not allowed here" % path)
-    for key in ("source", "source_date"):
-        if key in obj and not isinstance(obj[key], (str, type(None))):
-            errors.append("%s.%s: expected string, got %r"
-                          % (path, key, obj[key]))
-    if "basis" in obj and obj["basis"] not in BASIS_ENUM:
-        errors.append("%s.basis: %r not in %s" % (path, obj.get("basis"),
-                                                  list(BASIS_ENUM)))
-    if "confidence" in obj and obj["confidence"] not in CONFIDENCE_ENUM:
-        errors.append("%s.confidence: %r not in %s"
-                      % (path, obj.get("confidence"), list(CONFIDENCE_ENUM)))
-
-
 def check_string(errors, data, key, path=""):
     full = "%s%s" % (path, key)
     if key not in data:
@@ -162,48 +115,51 @@ def check_number(errors, data, key, path="", allow_null=False):
 def validate_pass1(data):
     errors = []
 
-    for key in PASS1_TOP_STRINGS:
+    check_string(errors, data, "ticker")
+
+    md = data.get("market_data")
+    if not isinstance(md, dict):
+        errors.append("missing or non-object section 'market_data'")
+    else:
+        for key in PASS1_SNAPSHOT_REQUIRED:
+            check_number(errors, md, key, "market_data.")
+        for key in PASS1_SNAPSHOT_NULLABLE:
+            check_number(errors, md, key, "market_data.", allow_null=True)
+
+    score = check_number(errors, data, "signal_score")
+    if score is not None and (not isinstance(score, int) or score < 0):
+        errors.append("signal_score: %r must be a non-negative integer"
+                      % score)
+
+    rel = check_number(errors, data, "data_reliability_score")
+    if rel is not None and not (1 <= rel <= 10):
+        errors.append("data_reliability_score: %r outside range 1-10" % rel)
+
+    return errors
+
+
+# ---------------------------------------------------------------------------
+# Claude research pass
+# ---------------------------------------------------------------------------
+
+def validate_claude_pass1(data):
+    errors = []
+
+    for key in ("ticker", "thesis"):
         check_string(errors, data, key)
 
-    for group, metrics in PASS1_METRIC_GROUPS.items():
-        section = data.get(group)
-        if not isinstance(section, dict):
-            errors.append("missing or non-object section '%s'" % group)
-            continue
-        for m in metrics:
-            if m not in section:
-                errors.append("%s: missing required metric '%s'" % (group, m))
-            else:
-                check_metric(errors, section[m], "%s.%s" % (group, m))
+    for key in CLAUDE_PASS1_LISTS:
+        if key not in data:
+            errors.append("missing required field '%s'" % key)
+        elif not isinstance(data[key], list):
+            errors.append("%s: expected list, got %s"
+                          % (key, type(data[key]).__name__))
+        elif not all(isinstance(x, str) for x in data[key]):
+            errors.append("%s: all entries must be strings" % key)
 
-    forward = data.get("forward")
-    if not isinstance(forward, dict):
-        errors.append("missing or non-object section 'forward'")
-    else:
-        for m in PASS1_FORWARD_METRICS:
-            if m not in forward:
-                errors.append("forward: missing required metric '%s'" % m)
-            else:
-                check_metric(errors, forward[m], "forward.%s" % m)
-        for key in ("guidance_verbatim", "guidance_date"):
-            check_string(errors, forward, key, "forward.")
-
-    flags = data.get("flags")
-    if not isinstance(flags, dict):
-        errors.append("missing or non-object section 'flags'")
-    else:
-        for key in FLAG_KEYS:
-            if key not in flags:
-                errors.append("flags: missing required list '%s'" % key)
-            elif not isinstance(flags[key], list):
-                errors.append("flags.%s: expected list, got %s"
-                              % (key, type(flags[key]).__name__))
-
-    score = check_number(errors, data, "data_reliability_score")
-    if score is not None and not (1 <= score <= 10):
-        errors.append("data_reliability_score: %r outside range 1-10" % score)
-
-    check_string(errors, data, "reliability_notes")
+    if data.get("sentiment") not in SENTIMENT_ENUM:
+        errors.append("sentiment: %r not in %s"
+                      % (data.get("sentiment"), list(SENTIMENT_ENUM)))
 
     return errors
 
@@ -302,12 +258,14 @@ def validate_pass2(data):
 # Entry point
 # ---------------------------------------------------------------------------
 
-VALIDATORS = {"pass1": validate_pass1, "pass2": validate_pass2}
+VALIDATORS = {"pass1": validate_pass1, "claude_pass1": validate_claude_pass1,
+              "pass2": validate_pass2}
 
 
 def main(argv):
     if len(argv) != 3 or argv[2] not in VALIDATORS:
-        print("Usage: validate_json.py <file.json> <pass1|pass2>")
+        print("Usage: validate_json.py <file.json> "
+              "<pass1|claude_pass1|pass2>")
         return 1
 
     path, which = argv[1], argv[2]

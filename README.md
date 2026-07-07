@@ -1,17 +1,20 @@
 # Equity Analysis Orchestrator
 
-Claude Code orchestration for a three-pass equity analysis framework
-(research → valuation → committee memo) across a watchlist of tickers.
+Cost-efficient, sequential equity analysis pipeline: a deterministic
+yfinance market-data pass filters the watchlist, only high-signal tickers
+get Claude research, then valuation and committee memos follow the framework.
 
-- **Framework:** `framework/equity_analysis_framework_v2.md` — the analytical
-  source of truth.
-- **Subagents:** `.claude/agents/` — `research-analyst` (Pass 1),
-  `valuation-analyst` (Pass 2), `memo-writer` (Pass 3), each embedding its
-  framework pass verbatim.
-- **Scripts:** `scripts/validate_json.py` (validation gate between passes),
-  `scripts/rank_watchlist.py` (cross-watchlist ranking).
-- **Orchestration:** see `CLAUDE.md` for the "run the watchlist",
-  "run {TICKER}", and "rerank" workflows.
+- **Framework:** `framework/equity_analysis_framework_v2.md` — analytical
+  source of truth for valuation (Pass 2) and memo (Pass 3) content.
+- **Market data:** `scripts/market_data.py` — `get_snapshot(ticker)` via
+  yfinance.
+- **Orchestrator:** `scripts/run_watchlist.py` — sequential deterministic
+  pass, signal-score filter (`should_send_to_claude`), cost projection with
+  warning/hard-stop gates, `--dry-run`, `--force`, `--snapshots-file`.
+- **Validation:** `scripts/validate_json.py` (`pass1`, `claude_pass1`,
+  `pass2`); **Ranking:** `scripts/rank_watchlist.py`.
+- **Orchestration contract:** see `CLAUDE.md` — sequential only, no
+  subagents, no indiscriminate Claude usage.
 
-Edit `config/watchlist.json` to set your tickers, open Claude Code at the
-repo root, and say "run the watchlist".
+Edit `config/watchlist.json`, open Claude Code at the repo root, and say
+"run the watchlist" (or "run watchlist --dry-run" to preview cost).
