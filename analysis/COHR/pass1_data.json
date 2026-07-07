@@ -1,0 +1,15 @@
+{
+  "ticker": "COHR",
+  "as_of": "2026-07-07T17:43:04Z",
+  "market_data": {
+    "ticker": "COHR",
+    "last_price": 327.59,
+    "change_5d_pct": -9.48,
+    "volume": 6150326,
+    "market_cap": 64089000000,
+    "pe_ratio": null,
+    "beta": 2.04
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

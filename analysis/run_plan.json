@@ -1,30 +1,30 @@
 {
-  "generated": "2026-07-07T17:32:12Z",
+  "generated": "2026-07-07T17:43:04Z",
   "cost": {
     "deterministic_units": 3,
     "claude_units": 15,
     "total_units": 18
   },
   "claude_queue": [
-    "PLTR",
-    "RKLB",
-    "ASTS"
+    "COHR",
+    "LITE",
+    "AAOI"
   ],
   "tickers": [
     {
-      "ticker": "PLTR",
+      "ticker": "COHR",
       "status": "claude_queued",
-      "signal_score": 5
+      "signal_score": 3
     },
     {
-      "ticker": "RKLB",
+      "ticker": "LITE",
       "status": "claude_queued",
-      "signal_score": 5
+      "signal_score": 3
     },
     {
-      "ticker": "ASTS",
+      "ticker": "AAOI",
       "status": "claude_queued",
-      "signal_score": 5
+      "signal_score": 2
     }
   ]
 }

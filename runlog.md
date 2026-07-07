@@ -50,3 +50,9 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | ASTS | claude_pass1 | 2026-07-07T17:38:08Z | VALIDATED | 8 | research pass complete |
 | ASTS | pass2 | 2026-07-07T17:38:08Z | VALIDATED | 8 | expected IV 42.0 vs price 85.13; avoid |
 | ASTS | pass3 | 2026-07-07T17:38:08Z | VALIDATED | 8 | memo written; verdict avoid |
+| COHR | pass1 | 2026-07-07T17:43:04Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| LITE | pass1 | 2026-07-07T17:43:04Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| AAOI | pass1 | 2026-07-07T17:43:04Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| COHR | claude_pass1 | 2026-07-07T17:45:06Z | VALIDATED | 8 | research pass complete |
+| COHR | pass2 | 2026-07-07T17:45:06Z | VALIDATED | 8 | expected IV 189.0 vs price 327.59; avoid |
+| COHR | pass3 | 2026-07-07T17:45:06Z | VALIDATED | 8 | memo written; verdict avoid |

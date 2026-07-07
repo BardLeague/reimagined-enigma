@@ -1,0 +1,82 @@
+{
+  "ticker": "COHR",
+  "company": "Coherent Corp.",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical grower (AI-capex leveraged optics)",
+  "moat_rating": "Narrow",
+  "moat_source": "technology leadership in datacom optics plus NVIDIA design-in (2B equity stake and multiyear CPO supply agreement); evidence: 41% y/y datacom growth and backlog to 2028, but optics has repeatedly commoditized and FCF is currently negative",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 55.0, "terminal_multiple": 15},
+    "base": {"probability": 50, "intrinsic_value": 174.0, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 353.0, "terminal_multiple": 28},
+    "expected_intrinsic_value": 189.0
+  },
+
+  "current_price": 327.59,
+  "margin_of_safety_percent": -73.3,
+
+  "returns": {
+    "three_year": {"bear": -20.6, "base": -10.4, "bull": 1.5, "expected": -10.0},
+    "five_year": {"bear": -30.0, "base": -11.9, "bull": 1.5, "expected": -13.1},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "free-cash-flow conversion (when capex intensity normalizes)",
+  "primary_model_risk": "FCF emergence timing: TTM FCF is negative with capex at ~70% of operating cash flow; base case assumes ~15% FCF margin by FY2030. If the AI build-out keeps capex elevated (or demand rolls before conversion), the terminal FCF the whole valuation rests on never materializes at modeled scale.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "FCF conversion: at $327.59 (~9x run-rate sales on a negative-FCF business) the price assumes both sustained 20%+ revenue growth AND rapid capex normalization; base case credits the growth but staggers the cash conversion",
+
+  "top_5_bull_arguments": [
+    "NVIDIA's $2B equity stake plus multiyear CPO supply agreement is the strongest possible design-in validation",
+    "Datacenter & Communications is 75% of revenue growing 41% y/y with record bookings and backlog visibility to calendar 2028",
+    "Q4 FY26 guidance ($1.91-2.05B, EPS $1.52-1.72) implies continued sequential acceleration",
+    "1.6T transceiver ramp is margin-accretive per management",
+    "$3B cash provides balance-sheet room to fund the capex cycle without distress"
+  ],
+  "top_5_bear_arguments": [
+    "FCF is negative TTM (-$58M in Q3 alone despite $225M net income) - the market is capitalizing cash flows that do not yet exist",
+    "Expected IV ($189) is ~42% below the current price; even the bull case ($353) barely exceeds it",
+    "AI-capex concentration: 75% of revenue tied to one spending cycle and largely one ecosystem",
+    "Optics history: every prior datacom boom ended in commoditization and margin collapse",
+    "Stock fell 7.4% on an earnings beat - positioning is crowded and expectations saturated"
+  ],
+  "thesis_breakers": [
+    "Datacom revenue growth decelerating below 20% y/y for two consecutive quarters",
+    "FCF still negative in FY2027 (capex normalization thesis fails)",
+    "NVIDIA CPO agreement descoped, delayed, or dual-sourced away",
+    "Non-GAAP gross margin falling below 36%",
+    "A major hyperscaler moving transceivers in-house or to a competing supplier"
+  ],
+
+  "position_size_recommendation": "0% at current price; revisit near expected IV (~$189) or on evidence of positive FCF inflection with growth intact",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 25,
+
+  "overall_score": 42,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced figures in pass1/claude_pass1 (pass1 is a market snapshot; research pass captured income/cash-flow items only). Revenue and EPS inputs are reported figures; FCF path beyond FY2026 is assumption - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. No verified 5-year multiple range captured. Verified datapoints: 52-week range $84.35-$440.00 and -9.48% past week (pass1 web quotes); stock declined 7.39% on Q3 FY26 earnings day (Argus tracking via search)."
+}

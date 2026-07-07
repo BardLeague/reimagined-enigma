@@ -1,0 +1,15 @@
+{
+  "ticker": "LITE",
+  "as_of": "2026-07-07T17:43:04Z",
+  "market_data": {
+    "ticker": "LITE",
+    "last_price": 728.32,
+    "change_5d_pct": -7.05,
+    "volume": 2100000,
+    "market_cap": 56663000000,
+    "pe_ratio": null,
+    "beta": 1.48
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

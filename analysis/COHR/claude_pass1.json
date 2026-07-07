@@ -1,0 +1,27 @@
+{
+  "ticker": "COHR",
+  "thesis": "Coherent is a primary beneficiary of AI datacenter optics: Q3 FY2026 revenue $1.81B (+21% y/y, +27% pro forma), Datacenter & Communications at 75% of revenue growing 41% y/y, record bookings with backlog visibility to calendar 2028, and a landmark NVIDIA partnership ($2B equity stake plus multiyear co-packaged-optics supply agreement). The offset: free cash flow is currently negative (capex consuming ~70% of operating cash flow) and the stock, even after a -9.5% week, prices a flawless 1.6T/CPO ramp.",
+  "catalysts": [
+    "Q4 FY2026 results (August 2026): guidance $1.91-2.05B revenue, non-GAAP EPS $1.52-1.72",
+    "NVIDIA $2B equity investment plus multiyear CPO supply agreement (announced with Q3 FY26 results, May 2026)",
+    "1.6T transceiver ramp - management expects margin accretion",
+    "AI order backlog extending through calendar 2028",
+    "Co-packaged optics adoption inflection (timing is the swing factor both ways)"
+  ],
+  "risk_factors": [
+    "Negative TTM free cash flow: -$58M FCF in Q3 despite $225M net income; capex intensity may persist through the build-out",
+    "Valuation leaves no tolerance for weaker AI capex, slower CPO adoption, or margin disappointment (stock fell 7.4% on earnings day despite a beat)",
+    "Optical networking competition (Lumentum, InnoLight, in-house hyperscaler programs) and customer concentration in AI capex",
+    "CPO transition risk cuts both ways: if it slips, near-term catalysts vanish; if it accelerates, pluggable transceiver revenue cannibalizes",
+    "Beta 2.04; the June-July pullback shows how fast AI-optics multiple compression arrives"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 1810000000, "unit": "USD", "note": "+21% y/y reported, +27% pro forma; non-GAAP GM 39.6%, non-GAAP EPS 1.41, net income ~225M", "source": "Coherent Q3 FY2026 results (StockTitan/Motley Fool transcript)", "date": "2026-05-06"},
+    "q4_fy2026_guidance_revenue": {"value": [1910000000, 2050000000], "unit": "USD", "note": "non-GAAP EPS guided 1.52-1.72, GM 39-41%", "source": "Coherent Q3 FY2026 results", "date": "2026-05-06"},
+    "q3_fy2026_fcf": {"value": -58000000, "unit": "USD", "note": "negative despite 225M net income; capex ~70% of operating cash flow; TTM FCF negative", "source": "Q3 FY2026 coverage (stockanalysis/gurufocus aggregates)", "date": "2026-05-06"},
+    "cash_balance": {"value": 3000000000, "unit": "USD", "note": "boosted by 2B NVIDIA equity investment", "source": "Coherent Q3 FY2026 results coverage", "date": "2026-05-06"},
+    "datacom_share_of_revenue": {"value": 0.75, "unit": "ratio", "note": "+41% y/y", "source": "Coherent Q3 FY2026 results", "date": "2026-05-06"},
+    "market_cap": {"value": 64089000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}
