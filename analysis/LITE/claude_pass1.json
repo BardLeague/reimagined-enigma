@@ -1,0 +1,27 @@
+{
+  "ticker": "LITE",
+  "thesis": "Lumentum is the sharpest growth story in AI optics right now: Q3 FY2026 revenue $808.4M (+90% y/y) with non-GAAP operating margin exploding to 32.2% (+2,140bps y/y), Q4 guided to $960M-$1.01B and EPS $2.85-$3.05. The company is sold out, under-shipping demand by ~30% even after ~40% capacity expansion, with OCS backlog above $400M and an incremental multi-hundred-million-dollar CPO order for 1H CY2027. The stock has re-rated violently to reflect this (+121% over 12 months to ~$728, ~$57B cap), leaving execution perfection embedded in the price, and the balance sheet carries meaningful debt with tight current ratios.",
+  "catalysts": [
+    "Q4 FY2026 results (August 2026): guidance $960M-$1.01B revenue, non-GAAP OM 35-36%, EPS $2.85-$3.05",
+    "OCS (optical circuit switch) scaling - backlog already above $400M",
+    "Incremental multi-hundred-million-dollar CPO order deliverable 1H calendar 2027",
+    "Further capacity expansion converting the ~30% under-shipped demand into revenue",
+    "Continued laser-chip/transceiver design wins in AI datacenter build-outs"
+  ],
+  "risk_factors": [
+    "Valuation: ~$57B cap prices years of continued hypergrowth; at ~61x annualized forward EPS a single guide-down resets the multiple hard",
+    "Balance sheet: debt is meaningful and current ratios are tight; management raised preferred stock and pushed out maturities to buy room",
+    "AI-capex concentration: demand is hyperscaler-driven and cyclical; 'sold out' can become 'inventory correction' within two quarters (optics history)",
+    "Competitive intensity: Coherent, InnoLight, and in-house hyperscaler optics programs target the same sockets",
+    "CPO transition could cannibalize pluggable transceivers faster than OCS/CPO revenue replaces them"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 808400000, "unit": "USD", "note": "+90% y/y; non-GAAP GM 47.9% (+1,270bps), non-GAAP OM 32.2% (+2,140bps), non-GAAP EPS 2.37", "source": "Lumentum Q3 FY2026 results (investor.lumentum.com / 8-K)", "date": "2026-05-11"},
+    "q3_fy2026_adj_ebitda": {"value": 293500000, "unit": "USD", "note": "vs 71.0M in Q3 FY25", "source": "Lumentum Q3 FY2026 results", "date": "2026-05-11"},
+    "q4_fy2026_guidance_revenue": {"value": [960000000, 1010000000], "unit": "USD", "note": "non-GAAP OM 35-36%, EPS 2.85-3.05", "source": "Lumentum Q3 FY2026 results", "date": "2026-05-11"},
+    "ocs_backlog": {"value": 400000000, "unit": "USD", "note": "described as 'well beyond $400 million'", "source": "Lumentum Q3 FY2026 commentary (StockTitan)", "date": "2026-05-11"},
+    "demand_undersupply": {"value": 0.30, "unit": "ratio", "note": "under-shipping demand ~30% after ~40% capacity expansion; sold out", "source": "Lumentum Q3 FY2026 commentary", "date": "2026-05-11"},
+    "market_cap": {"value": 56663000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "LITE",
+  "company": "Lumentum Holdings Inc.",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical grower (AI-capex leveraged optics, currently in hypergrowth phase)",
+  "moat_rating": "Narrow",
+  "moat_source": "capacity position and design wins in laser chips/OCS/CPO during a supply-constrained cycle; evidence: sold out, under-shipping demand ~30%, 47.9% non-GAAP GM - but optics pricing power has historically evaporated when supply catches demand",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "C",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 90.0, "terminal_multiple": 15},
+    "base": {"probability": 50, "intrinsic_value": 437.0, "terminal_multiple": 24},
+    "bull": {"probability": 25, "intrinsic_value": 746.0, "terminal_multiple": 28},
+    "expected_intrinsic_value": 427.5
+  },
+
+  "current_price": 728.32,
+  "margin_of_safety_percent": -70.4,
+
+  "returns": {
+    "three_year": {"bear": -22.1, "base": -8.7, "bull": 0.5, "expected": -9.8},
+    "five_year": {"bear": -34.2, "base": -9.7, "bull": 0.5, "expected": -13.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "revenue growth durability past FY2027 (cycle length)",
+  "primary_model_risk": "Cycle duration: the entire gap between bear ($90) and bull ($746) is how long hyperscaler optics demand outruns supply. Optics cycles have historically ended abruptly; the model's base case assumes deceleration without collapse, which is itself an optimistic reading of the industry's history.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "cycle persistence: at $728.32 (~61x annualized forward EPS) the price assumes hypergrowth well past FY2028; base case has growth decaying to ~12% by FY2030 and still lands ~40% below the current price",
+
+  "top_5_bull_arguments": [
+    "+90% y/y revenue with +2,140bps operating-margin expansion is the best operating quarter in the space",
+    "Sold out and under-shipping demand ~30% after 40% capacity growth - revenue is supply-limited, not demand-limited",
+    "OCS backlog >$400M plus a multi-hundred-million CPO order gives visibility into CY2027",
+    "Q4 guide implies ~22% sequential growth with margins still expanding (OM 35-36%)",
+    "If hypergrowth persists (bull case), IV ~$746 - the bull case roughly equals today's price, meaning upside requires exceeding it"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($427.5) is ~41% below price; unusually, even the BULL case only matches the current quote - asymmetry is fully negative",
+    "Balance sheet grade C: meaningful debt, tight current ratios, preferred-stock raise - leverage into a cyclical peak",
+    "Optics history: every supply-constrained boom (2000, 2017 3D sensing, 2021 datacom) ended with double-digit revenue declines",
+    "Hyperscaler concentration means two customers' capex decisions can end the cycle",
+    "The -7.05% week alongside COHR/AAOI suggests the crowded AI-optics trade is already leaking"
+  ],
+  "thesis_breakers": [
+    "Any quarterly guide implying sequential revenue decline",
+    "Non-GAAP gross margin falling below 42%",
+    "OCS backlog flat or down sequentially",
+    "A hyperscaler capex cut cycle announced (industry-level breaker)",
+    "Liquidity stress: another emergency-flavored financing (preferred/converts) at worse terms"
+  ],
+
+  "position_size_recommendation": "0% at current price; the business deserves respect but entry only makes sense near expected IV (~$427) or after the cycle's first guide-down resets expectations",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 30,
+
+  "overall_score": 44,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced figures (market snapshot + earnings-release research only). Revenue/EPS/margin inputs are reported; FCF path is constructed from guided operating margins less assumed capex intensity - confidence_level medium. Net debt not netted in scenario IVs (debt 'meaningful' per coverage but no sourced figure); this biases stated IVs slightly high.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +121% stock move over 12 months, -7.05% past week, analyst price target raised to $1,200 by one shop (pass1 web quotes). No verified 5-year multiple range captured; terminal multiples justified against cyclical-optics history, not company-specific trading ranges."
+}

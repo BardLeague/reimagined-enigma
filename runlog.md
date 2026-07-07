@@ -56,3 +56,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | COHR | claude_pass1 | 2026-07-07T17:45:06Z | VALIDATED | 8 | research pass complete |
 | COHR | pass2 | 2026-07-07T17:45:06Z | VALIDATED | 8 | expected IV 189.0 vs price 327.59; avoid |
 | COHR | pass3 | 2026-07-07T17:45:06Z | VALIDATED | 8 | memo written; verdict avoid |
+| LITE | claude_pass1 | 2026-07-07T17:46:59Z | VALIDATED | 8 | research pass complete |
+| LITE | pass2 | 2026-07-07T17:46:59Z | VALIDATED | 8 | expected IV 427.5 vs price 728.32; avoid |
+| LITE | pass3 | 2026-07-07T17:46:59Z | VALIDATED | 8 | memo written; verdict avoid |
