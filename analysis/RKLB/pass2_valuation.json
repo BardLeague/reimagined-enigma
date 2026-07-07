@@ -1,0 +1,82 @@
+{
+  "ticker": "RKLB",
+  "company": "Rocket Lab Corporation",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (pre-profitability, investment phase)",
+  "moat_rating": "Narrow",
+  "moat_source": "flight heritage and vertical integration (50+ successful Electron launches, launch + spacecraft systems under one roof); evidence: 38.2% GAAP gross margin and $2.2B backlog, but SpaceX and emerging entrants cap pricing power",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "C",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 2.3, "terminal_multiple": 25},
+    "base": {"probability": 50, "intrinsic_value": 17.4, "terminal_multiple": 35},
+    "bull": {"probability": 25, "intrinsic_value": 36.0, "terminal_multiple": 40},
+    "expected_intrinsic_value": 18.3
+  },
+
+  "current_price": 87.38,
+  "margin_of_safety_percent": -377.5,
+
+  "returns": {
+    "three_year": {"bear": -25.4, "base": -19.6, "bull": -13.5, "expected": -19.5},
+    "five_year": {"bear": -51.7, "base": -27.5, "bull": -16.2, "expected": -30.7},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "year-5 FCF margin (whether positive free cash flow emerges at all)",
+  "primary_model_risk": "FCF emergence: the company has no demonstrated free cash flow; base case assumes ~15% FCF margin materializes on ~$3.5B revenue by 2030. If margins emerge later or lower, even the bear case is generous. No DCF input is anchored to a reported FCF figure.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "free cash flow: at $87.38 the price requires roughly 10x the base-case year-5 FCF, i.e. it capitalizes Neutron success, share gains AND SpaceX-class economics simultaneously; our base case only credits solid execution",
+
+  "top_5_bull_arguments": [
+    "Record Q1 2026: $200.3M revenue +63.5% y/y with 38.2% GAAP gross margin - real operating leverage emerging",
+    "$2.2B backlog plus the largest contract in company history (Neutron + Electron through 2029) gives multi-year revenue visibility",
+    "Space Systems now ~2/3 of revenue - diversified beyond launch into higher-margin satellite components and platforms",
+    "US defense flow ($190M Anduril hypersonic program) positions RKLB as the credible non-SpaceX national-security launch provider",
+    "Neutron success in 2026 would open the medium-lift market and could re-rate the story entirely"
+  ],
+  "top_5_bear_arguments": [
+    "A 10% discount-rate DCF on any defensible FCF path yields ~$18 expected IV vs $87.38 price - the gap is not a rounding error, it is the thesis",
+    "No demonstrated free cash flow; every DCF input on the cash side is an assumption, not a datum",
+    "Neutron slip or failure is binary risk into a stock priced for flawless execution (beta 3.12)",
+    "SpaceX IPO could vacuum up the sector's speculative capital",
+    "Two simultaneous acquisition integrations (Mynaric, Motiv) during the most operationally demanding year in company history"
+  ],
+  "thesis_breakers": [
+    "Neutron debut failure or slip beyond 2026",
+    "Backlog shrinking sequentially for two consecutive quarters",
+    "Gross margin falling back below 30%",
+    "A capital raise materially dilutive at depressed prices (funding gap signal)",
+    "Loss of a major defense program to a competitor"
+  ],
+
+  "position_size_recommendation": "0% at current price (story admired, price refused; DCF-based buy zone is far below market and would only be actionable after a major derating or after FCF becomes observable)",
+  "probability_of_success": 20,
+  "probability_of_permanent_loss": 40,
+
+  "overall_score": 30,
+  "verdict": "avoid",
+  "confidence_level": "low",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: no sourced balance-sheet or income-statement ratios in pass1/claude_pass1 (company is pre-profit; no P/E exists). DCF is explicitly degraded: no reported FCF exists, so scenario cash flows are constructed from sourced revenue ($200.3M Q1 2026, $2.2B backlog) plus assumed margin emergence - hence confidence_level low and the avoid verdict leans on valuation asymmetry rather than model precision.",
+  "historical_context": "Directional context only - low confidence. No verified historical multiple range captured. Verified datapoints only: +34% single-day move after Q1 2026 earnings (CNBC), +24.02% past week, 52-week range $22.85-$117 region per quote aggregates (pass1)."
+}

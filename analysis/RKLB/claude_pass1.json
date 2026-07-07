@@ -1,0 +1,27 @@
+{
+  "ticker": "RKLB",
+  "thesis": "Rocket Lab is executing a credible transition from small-launch provider to end-to-end space company: record Q1 2026 revenue of $200.3M (+63.5% y/y), $2.2B backlog, its largest-ever launch contract (Neutron + Electron through 2029), and Space Systems now ~two-thirds of revenue. The +24% week reflects contract momentum and sector rotation. At ~$60B market cap (~75x annualized revenue), the price assumes Neutron succeeds on schedule and margins scale far beyond anything yet demonstrated.",
+  "catalysts": [
+    "Neutron debut launch expected in 2026 - the single largest de-risking event",
+    "Largest contract in company history signed with confidential customer for Neutron and Electron through 2029 (May 2026)",
+    "$190M hypersonic test launch program with Anduril (US defense)",
+    "$2.2B backlog incl. 31 new Electron/HASTE contracts and five Neutron launch agreements (Q1 2026 results, May 2026)",
+    "Q2 2026 earnings (August 2026); continued US defense award flow",
+    "Mynaric and Motiv acquisitions expanding Space Systems capabilities"
+  ],
+  "risk_factors": [
+    "Neutron execution risk: any failure or slip in the debut is the dominant near-term risk to a stock priced for success",
+    "Valuation: ~$60B market cap on ~$800M annualized revenue (~75x sales), unprofitable; a 10% discount-rate DCF cannot approach the current price on demonstrated economics",
+    "Acquisition integration risk (Mynaric AG, Motiv Space Systems)",
+    "Sector sentiment whiplash: stock reacted to a Blue Origin test failure and anticipation of a SpaceX IPO, which could redirect capital away from RKLB",
+    "Beta 3.12 - drawdowns are violent; 5-day move of +24% cuts both ways"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 200300000, "unit": "USD", "note": "+63.5% y/y, GAAP gross margin 38.2%", "source": "Rocket Lab Q1 2026 results (8-K via StockTitan; CNBC 2026-05-08)", "date": "2026-05-08"},
+    "backlog": {"value": 2200000000, "unit": "USD", "source": "Rocket Lab Q1 2026 results (8-K via StockTitan)", "date": "2026-05-08"},
+    "anduril_hypersonic_program": {"value": 190000000, "unit": "USD", "source": "Q1 2026 results coverage (Simply Wall St / StockTitan)", "date": "2026-05-08"},
+    "market_cap": {"value": 60090000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"},
+    "profitability": {"value": null, "unit": "USD", "note": "No sourced net income or FCF figure captured; company understood to be pre-FCF (no trailing P/E quoted anywhere). Treated as investment-phase in valuation.", "source": "absence across quote aggregates", "date": "2026-07-07"}
+  }
+}

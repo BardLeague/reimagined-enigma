@@ -1,0 +1,28 @@
+{
+  "ticker": "ASTS",
+  "thesis": "AST SpaceMobile is the purest bet on direct-to-smartphone satellite broadband: 50+ mobile network operator partners representing ~3 billion subscribers (AT&T, Verizon, Vodafone, Rakuten, stc), $1.2B in contracted partner commitments, ~$3.5B cash, and a target of ~45 BlueBird satellites in orbit by end of 2026. FY2026 revenue guidance is only $150-200M against a ~$33B market cap, so the stock trades almost entirely on constellation execution and 2027+ monetization. The +31% week was largely sympathy momentum (Rocket Lab-Iridium acquisition read-across), not a fundamental change.",
+  "catalysts": [
+    "BlueBird satellite launch cadence toward ~45 in orbit by end of 2026; BlueBird 1-5 full operational status gates carrier revenue",
+    "Initial intermittent US service targeted in 2026 with AT&T/Verizon; first substantial MNO revenue recognition",
+    "Further prepayments/commitments on the $1.2B contracted partner base ($175M stc prepayment already received)",
+    "US Government revenue stream expansion (already a named FY2026 revenue driver)",
+    "Q2 2026 earnings (Aug 17, 2026)",
+    "Sector momentum: Rocket Lab-Iridium $8B deal repricing space connectivity assets"
+  ],
+  "risk_factors": [
+    "Funding: full global constellation requires 100+ more satellites; if capital markets tighten, dilution or delay follows despite ~$3.5B cash (Q1 2026 net loss $191M)",
+    "Launch risk: a single failure carrying multiple Block 2 satellites causes multi-quarter delay and capital loss",
+    "Unproven at scale: interference management and handoffs across a 243-satellite fleet under full commercial load is an unsolved engineering problem",
+    "Competition: Starlink direct-to-cell and carrier alternatives could compress wholesale economics before AST reaches scale",
+    "Regulatory: FCC decisions and per-country landing rights are ongoing gating items",
+    "Valuation: ~165x FY2026 guided revenue; beta 2.72 with a +31% week that can unwind as fast as it arrived"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "fy2026_revenue_guidance": {"value": [150000000, 200000000], "unit": "USD", "source": "AST SpaceMobile Q1 2026 8-K (SEC EDGAR)", "date": "2026-05-15"},
+    "q1_2026_net_loss": {"value": -191000000, "unit": "USD", "source": "AST SpaceMobile Q1 2026 results coverage (8-K via search)", "date": "2026-05-15"},
+    "cash_and_restricted": {"value": 3500000000, "unit": "USD", "note": "as of 2026-03-31", "source": "AST SpaceMobile Q1 2026 8-K (SEC EDGAR)", "date": "2026-03-31"},
+    "contracted_partner_commitments": {"value": 1200000000, "unit": "USD", "note": "incl. $175M stc Group prepayment on 10-year agreement", "source": "AST SpaceMobile disclosures / partner coverage", "date": "2026-05-15"},
+    "market_cap": {"value": 33040000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

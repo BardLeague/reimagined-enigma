@@ -1,0 +1,17 @@
+[
+  {"ticker": "NVDA", "last_price": 192.53, "change_5d_pct": -1.35, "volume": 56510000, "market_cap": 4770000000000, "pe_ratio": 29.84, "beta": 2.22},
+  {"ticker": "MU", "last_price": 912.77, "change_5d_pct": -14.94, "volume": 35948270, "market_cap": 1112000000000, "pe_ratio": 22.28, "beta": 2.14},
+  {"ticker": "AVGO", "last_price": 373.90, "change_5d_pct": 0.54, "volume": 22463868, "market_cap": 1779000000000, "pe_ratio": 62.11, "beta": 1.46},
+  {"ticker": "ASML", "last_price": 1855.35, "change_5d_pct": -5.05, "volume": 1940852, "market_cap": 714724000000, "pe_ratio": 63.14, "beta": 1.39},
+  {"ticker": "AMAT", "last_price": 622.59, "change_5d_pct": -2.56, "volume": 8640000, "market_cap": 508500000000, "pe_ratio": null, "beta": 1.35},
+  {"ticker": "LRCX", "last_price": 349.64, "change_5d_pct": -13.87, "volume": 7801405, "market_cap": 406848000000, "pe_ratio": 61.50, "beta": 1.80},
+  {"ticker": "KLAC", "last_price": 235.55, "change_5d_pct": 2.86, "volume": 18390000, "market_cap": 307690000000, "pe_ratio": 66.06, "beta": 1.43},
+  {"ticker": "PLTR", "last_price": 133.36, "change_5d_pct": 14.03, "volume": 20790000, "market_cap": 319690000000, "pe_ratio": 145.67, "beta": 2.10},
+  {"ticker": "SOUN", "last_price": 6.96, "change_5d_pct": 2.26, "volume": 19010000, "market_cap": 2830000000, "pe_ratio": null, "beta": 4.16},
+  {"ticker": "AAOI", "last_price": 121.26, "change_5d_pct": -6.33, "volume": 16160000, "market_cap": 9710000000, "pe_ratio": null, "beta": 2.12},
+  {"ticker": "RKLB", "last_price": 87.38, "change_5d_pct": 24.02, "volume": 22380000, "market_cap": 60090000000, "pe_ratio": null, "beta": 3.12},
+  {"ticker": "ASTS", "last_price": 85.13, "change_5d_pct": 31.21, "volume": 25360000, "market_cap": 33040000000, "pe_ratio": null, "beta": 2.72},
+  {"ticker": "COHR", "last_price": 327.59, "change_5d_pct": -9.48, "volume": 6150326, "market_cap": 64089000000, "pe_ratio": null, "beta": 2.04},
+  {"ticker": "LITE", "last_price": 728.32, "change_5d_pct": -7.05, "volume": 2100000, "market_cap": 56663000000, "pe_ratio": null, "beta": 1.48},
+  {"ticker": "PENG", "last_price": 67.71, "change_5d_pct": 3.06, "volume": 2870000, "market_cap": 3120000000, "pe_ratio": null, "beta": 2.83}
+]

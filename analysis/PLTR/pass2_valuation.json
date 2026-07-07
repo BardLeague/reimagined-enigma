@@ -1,0 +1,82 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies Inc.",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower",
+  "moat_rating": "Narrow",
+  "moat_source": "switching costs and government accreditation (deep workflow integration, security clearances); evidence: 85% y/y growth with ~54% FCF margin implies pricing power today, but hyperscaler/foundation-model competition caps the moat rating",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 45.5, "terminal_multiple": 25},
+    "base": {"probability": 50, "intrinsic_value": 117.7, "terminal_multiple": 35},
+    "bull": {"probability": 25, "intrinsic_value": 190.0, "terminal_multiple": 40},
+    "expected_intrinsic_value": 117.7
+  },
+
+  "current_price": 133.36,
+  "margin_of_safety_percent": -13.3,
+
+  "returns": {
+    "three_year": {"bear": -15.4, "base": -2.4, "bull": 7.8, "expected": -3.1},
+    "five_year": {"bear": -19.4, "base": -2.5, "bull": 7.3, "expected": -4.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "terminal multiple on year-5 FCF",
+  "primary_model_risk": "Terminal multiple: +/-2 turns on year-5 FCF moves base-case IV by roughly +/-15%, more than any operating assumption; the valuation is a bet on what the market will pay for decelerated growth in 2031.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "duration of hypergrowth: at $133.36 the price embeds roughly 45%+ compound revenue growth for 5 years at ~50% FCF margins with a 35x+ exit multiple; base case assumes deceleration to the low-20s by 2030",
+
+  "top_5_bull_arguments": [
+    "Raised FY2026 guidance to $7.65-7.662B revenue (+71% y/y) with US commercial guided +120% - execution is not the question",
+    "$4.2-4.4B adjusted FCF guidance at ~55% margin funds everything internally; balance sheet risk is negligible",
+    "Nvidia sovereign-AI partnership and Army NGC2 award deepen the government accreditation moat",
+    "US commercial +133% y/y shows the AIP land-and-expand motion is working beyond government",
+    "If hypergrowth persists longer than modeled (bull case), 40x on ~$17B year-5 FCF yields ~$190/share"
+  ],
+  "top_5_bear_arguments": [
+    "At ~145x trailing earnings and ~33x forward sales, even the base case (deceleration to +22% by 2030) produces a negative expected return from $133.36",
+    "Foundation-model vendors and hyperscalers are attacking AIP differentiation; competitive risk rated High",
+    "UK NHS contract (~$440M) non-renewal would be the first visible crack in the government franchise",
+    "Stock fell ~27-30% earlier in 2026 on deceleration fears alone - beta 2.10 cuts both ways",
+    "Expected intrinsic value ($117.7) sits below the current price; the July rally re-opened the gap the drawdown had closed"
+  ],
+  "thesis_breakers": [
+    "Any quarter with US commercial revenue growth below ~60% y/y (guidance implies 120%)",
+    "FY2026 revenue guidance cut below $7.4B",
+    "Adjusted FCF margin falling below 45% for two consecutive quarters",
+    "Loss of a flagship US government program (NGC2 descoped or recompeted away)",
+    "NHS non-renewal followed by a second sovereign contract loss (pattern, not one-off)"
+  ],
+
+  "position_size_recommendation": "0-1% (watchlist; buy zone begins below ~$106, a 10% discount to expected IV)",
+  "probability_of_success": 40,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 55,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA are null: the deterministic pass1 snapshot does not carry balance-sheet or income-statement detail and no sourced figures for these ratios were captured in claude_pass1; inventing them would violate the ground-truth constraint. Valuation rests on guided revenue/FCF (8-K sourced) rather than a full three-statement model - confidence_level medium reflects that.",
+  "historical_context": "Directional context only - low confidence. No verified 5-year historical multiple range was captured in pass1/claude_pass1; terminal multiples are justified against business quality and growth durability rather than the company's own trading history. The only verified historical datapoints: the stock fell ~27-30% earlier in 2026 and has a 52-week range of $106.37-$207.52 (pass1 web quotes)."
+}

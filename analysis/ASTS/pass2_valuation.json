@@ -1,0 +1,82 @@
+{
+  "ticker": "ASTS",
+  "company": "AST SpaceMobile, Inc.",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "pre-scale infrastructure build-out (binary secular bet)",
+  "moat_rating": "Narrow",
+  "moat_source": "spectrum partnerships and carrier lock-in (50+ MNOs, ~3B subscribers, $1.2B contracted commitments); evidence: exclusive-style carrier agreements are real switching-cost assets, but the technology is unproven at fleet scale and Starlink is a funded fast-follower",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 5.0, "terminal_multiple": 20},
+    "base": {"probability": 45, "intrinsic_value": 28.4, "terminal_multiple": 35},
+    "bull": {"probability": 25, "intrinsic_value": 111.0, "terminal_multiple": 40},
+    "expected_intrinsic_value": 42.0
+  },
+
+  "current_price": 85.13,
+  "margin_of_safety_percent": -102.7,
+
+  "returns": {
+    "three_year": {"bear": -24.2, "base": -15.7, "bull": 5.7, "expected": -12.9},
+    "five_year": {"bear": -43.3, "base": -19.7, "bull": 5.4, "expected": -20.5},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "2030 revenue scale (constellation completion and carrier monetization rate)",
+  "primary_model_risk": "Revenue emergence: FY2026 guidance is $150-200M; base case requires ~$3B revenue by 2030 - a 15-20x scale-up gated by launch cadence, funding, and unproven fleet-scale engineering. No DCF input past 2026 is anchored to a reported figure.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "High",
+    "regulatory": "Medium",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "probability of full-constellation success: at $85.13 the market prices the bull case (full global constellation, premium wholesale economics) as the central outcome; our base case assigns it 25% and still gets only $42 expected IV",
+
+  "top_5_bull_arguments": [
+    "50+ MNO partners covering ~3B subscribers is a distribution asset no competitor (including Starlink) has assembled",
+    "$1.2B contracted commitments and a $175M stc prepayment show carriers paying before service - real demand signal",
+    "~$3.5B cash funds the 2026 build-out without immediate dilution",
+    "US Government revenue provides a non-carrier monetization path already in guidance",
+    "If the 243-satellite constellation works at scale, bull-case IV (~$111) exceeds today's price - the option is real, just mispriced"
+  ],
+  "top_5_bear_arguments": [
+    "~165x guided FY2026 revenue; expected IV ($42) is half the current price even crediting a 25% bull probability",
+    "Q1 2026 net loss of $191M with 100+ satellites still to fund - more capital will be needed beyond the $3.5B",
+    "Fleet-scale interference/handoff engineering is unproven; the technology risk is rated High for a reason",
+    "Starlink direct-to-cell can compress wholesale pricing before AST reaches scale",
+    "The +31.2% week was sympathy momentum from the Rocket Lab-Iridium deal, not an AST fundamental - momentum unwinds"
+  ],
+  "thesis_breakers": [
+    "A launch failure destroying multiple Block 2 satellites",
+    "FY2026 revenue guidance cut below $150M or BlueBird 1-5 operational slip into 2027",
+    "A dilutive capital raise above ~15% of shares outstanding",
+    "A major carrier partner (AT&T or Verizon) signing a competing direct-to-cell exclusive",
+    "FCC or landing-rights setback in a top-5 market"
+  ],
+
+  "position_size_recommendation": "0% at current price; the bull option becomes interesting near or below expected IV (~$42), roughly half today's price",
+  "probability_of_success": 25,
+  "probability_of_permanent_loss": 40,
+
+  "overall_score": 32,
+  "verdict": "avoid",
+  "confidence_level": "low",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: pre-scale company with negative earnings; no sourced ratios exist. DCF is explicitly degraded: only FY2026 guidance ($150-200M) and cash ($3.5B) are reported figures; all post-2026 cash flows are constructed scenarios - hence confidence_level low.",
+  "historical_context": "Directional context only - low confidence. No verified historical multiple range captured in pass1/claude_pass1. Verified datapoints only: +31.21% past week, market cap ~$33.04B vs $25.43B quoted a week prior (pass1 web quotes)."
+}

@@ -1,0 +1,30 @@
+{
+  "generated": "2026-07-07T17:32:12Z",
+  "cost": {
+    "deterministic_units": 3,
+    "claude_units": 15,
+    "total_units": 18
+  },
+  "claude_queue": [
+    "PLTR",
+    "RKLB",
+    "ASTS"
+  ],
+  "tickers": [
+    {
+      "ticker": "PLTR",
+      "status": "claude_queued",
+      "signal_score": 5
+    },
+    {
+      "ticker": "RKLB",
+      "status": "claude_queued",
+      "signal_score": 5
+    },
+    {
+      "ticker": "ASTS",
+      "status": "claude_queued",
+      "signal_score": 5
+    }
+  ]
+}

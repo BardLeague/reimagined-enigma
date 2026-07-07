@@ -38,3 +38,15 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | COHR | pass1 | 2026-07-07T17:01:31Z | FAILED | - | 2026-07-06 parallel run terminated by session limit; no outputs persisted |
 | LITE | pass1 | 2026-07-07T17:01:31Z | FAILED | - | 2026-07-06 parallel run terminated by session limit; no outputs persisted |
 | PENG | pass1 | 2026-07-07T17:01:31Z | FAILED | - | 2026-07-06 parallel run terminated by session limit; no outputs persisted |
+| PLTR | pass1 | 2026-07-07T17:32:12Z | VALIDATED | 8 | signal_score=5; queued for claude |
+| RKLB | pass1 | 2026-07-07T17:32:12Z | VALIDATED | 8 | signal_score=5; queued for claude |
+| ASTS | pass1 | 2026-07-07T17:32:12Z | VALIDATED | 8 | signal_score=5; queued for claude |
+| PLTR | claude_pass1 | 2026-07-07T17:33:07Z | VALIDATED | 8 | research pass complete |
+| PLTR | pass2 | 2026-07-07T17:34:07Z | VALIDATED | 8 | expected IV 117.7 vs price 133.36; hold |
+| PLTR | pass3 | 2026-07-07T17:34:33Z | VALIDATED | 8 | memo written; verdict hold |
+| RKLB | claude_pass1 | 2026-07-07T17:36:18Z | VALIDATED | 8 | research pass complete |
+| RKLB | pass2 | 2026-07-07T17:36:18Z | VALIDATED | 8 | expected IV 18.3 vs price 87.38; avoid |
+| RKLB | pass3 | 2026-07-07T17:36:18Z | VALIDATED | 8 | memo written; verdict avoid |
+| ASTS | claude_pass1 | 2026-07-07T17:38:08Z | VALIDATED | 8 | research pass complete |
+| ASTS | pass2 | 2026-07-07T17:38:08Z | VALIDATED | 8 | expected IV 42.0 vs price 85.13; avoid |
+| ASTS | pass3 | 2026-07-07T17:38:08Z | VALIDATED | 8 | memo written; verdict avoid |

@@ -1,0 +1,29 @@
+{
+  "ticker": "PLTR",
+  "thesis": "Palantir is compounding revenue at a rate (Q1 2026 +85% y/y, US commercial +133% y/y) that has few precedents at this scale, with raised FY2026 guidance of ~$7.65B revenue and $4.2-4.4B adjusted FCF. The July 2026 rally (+14% for the week) reflects a sovereign-AI partnership with Nvidia, the Army NGC2 award, and rotation back into AI software after a ~27-30% drawdown earlier in 2026. The debate is not growth but price: at roughly $320B market cap and ~145x trailing earnings, the stock embeds continuation of hypergrowth for years.",
+  "catalysts": [
+    "Nvidia sovereign-AI partnership deploying Nemotron models in Palantir platforms for US government and critical infrastructure (announced early July 2026)",
+    "US Army selected Palantir Foundry as cloud data layer for NGC2, the Army's highest-priority modernization program (July 2026)",
+    "Raised FY2026 guidance: revenue $7.65-7.662B (+71% y/y), US commercial revenue guided +120% y/y (Q1 2026 8-K, May 2026)",
+    "DA Davidson upgrade neutral-to-buy, price target $175 (July 2, 2026)",
+    "Q2 2026 earnings (early August 2026) - next guidance checkpoint",
+    "Michael Burry reduced his publicized short position (late June 2026)"
+  ],
+  "risk_factors": [
+    "Valuation: ~84x forward GAAP earnings, ~33x forward sales; any growth deceleration is severely punished (stock fell ~27-30% earlier in 2026 on exactly this)",
+    "Foundation-model disruption: Anthropic/OpenAI enterprise offerings and hyperscalers (Microsoft, AWS, Databricks) pressure AIP differentiation and pricing power",
+    "UK NHS contract (~$440M) at risk of non-renewal after parliamentary committee opposition; expires early 2027",
+    "Government revenue concentration and political/procurement cyclicality",
+    "Beta 2.10 and retail-heavy shareholder base amplify drawdowns in risk-off tapes"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 1633000000, "unit": "USD", "source": "Palantir Q1 2026 8-K press release (SEC EDGAR)", "date": "2026-05-04"},
+    "q1_2026_us_revenue": {"value": 1282000000, "unit": "USD", "note": "+104% y/y", "source": "Palantir Q1 2026 8-K press release (SEC EDGAR)", "date": "2026-05-04"},
+    "fy2026_revenue_guidance": {"value": [7650000000, 7662000000], "unit": "USD", "note": "+71% y/y", "source": "Palantir Q1 2026 8-K press release (SEC EDGAR)", "date": "2026-05-04"},
+    "fy2026_adj_fcf_guidance": {"value": [4200000000, 4400000000], "unit": "USD", "source": "Palantir Q1 2026 8-K press release (SEC EDGAR)", "date": "2026-05-04"},
+    "fcf_margin_q1_2026": {"value": 0.54, "unit": "ratio", "note": "calculated (CFO minus capex over revenue); adjusted 0.57", "source": "mlq.ai / Futurum Q1 2026 earnings summaries (secondary)", "date": "2026-05-04"},
+    "market_cap": {"value": 319690000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"},
+    "trailing_pe": {"value": 145.67, "unit": "x", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}
