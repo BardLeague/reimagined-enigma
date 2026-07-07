@@ -1,0 +1,82 @@
+{
+  "ticker": "AAOI",
+  "company": "Applied Optoelectronics, Inc.",
+  "analysis_date": "2026-07-07",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical (low-margin optics manufacturer in a capacity-ramp phase)",
+  "moat_rating": "None",
+  "moat_source": "no durable moat identified: 29-30% gross margin, hyperscaler customers that have dual-sourced away before, and commodity-trending transceiver products; the current advantage is temporary supply scarcity",
+  "management_grade": "C",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "C",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 2.5, "terminal_multiple": 10},
+    "base": {"probability": 50, "intrinsic_value": 25.0, "terminal_multiple": 15},
+    "bull": {"probability": 25, "intrinsic_value": 68.0, "terminal_multiple": 20},
+    "expected_intrinsic_value": 30.1
+  },
+
+  "current_price": 121.26,
+  "margin_of_safety_percent": -302.9,
+
+  "returns": {
+    "three_year": {"bear": -25.6, "base": -19.4, "bull": -9.7, "expected": -18.5},
+    "five_year": {"bear": -54.0, "base": -27.1, "bull": -10.9, "expected": -29.8},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Per-share math uses ~60M shares (see notes)."
+  },
+
+  "sensitivity_key_driver": "hyperscaler socket retention through the capacity ramp",
+  "primary_model_risk": "Customer concentration: the base case assumes AAOI keeps its 800G socket while 6.5x-ing capacity. AAOI has lost hyperscaler orders abruptly in prior cycles; if that repeats after the capex is spent, the bear case ($2.50) understates nothing - the company would carry stranded capacity and losses.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "sustainable margin: at ~$121 (~10x+ forward sales on a breakeven, 29-30% GM assembler) the price assumes AAOI converts the 800G scarcity moment into durable double-digit FCF margins it has never once achieved in its public history",
+
+  "top_5_bull_arguments": [
+    "First volume 800G shipments to a large hyperscaler with demand exceeding capacity through mid-2027 per management",
+    "Capacity ramp 100K to 650K+ units/month by year-end 2026 - if sold through, revenue could triple",
+    "Q2 2026 guide ($180-198M) puts breakeven within reach for the first time this cycle",
+    "CATV segment ($66.8M/quarter) diversifies away from pure AI capex",
+    "Scarcity pricing through mid-2027 gives a window to build cash before competition normalizes"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($30.1) is roughly a quarter of the current price - the widest gap on this watchlist after RKLB",
+    "29-30% gross margin against 45%+ at Coherent/Lumentum: AAOI is the price-taker in the room",
+    "Still lossmaking at record revenue; Q1 missed guidance midpoint on EPS",
+    "6.5x capacity expansion into a cyclical peak is how optics companies destroy capital (AAOI's own 2018-19 history)",
+    "One dual-sourcing decision by its lead hyperscaler ends the story - it has happened to AAOI before"
+  ],
+  "thesis_breakers": [
+    "Loss or material reduction of the lead hyperscaler 800G program",
+    "Q3/Q4 2026 guidance implying the 650K units/month capacity will not be absorbed",
+    "Non-GAAP gross margin falling below 27%",
+    "Failure to reach sustained non-GAAP profitability by Q4 2026",
+    "A capital raise to fund the ramp at dilutive terms"
+  ],
+
+  "position_size_recommendation": "0%; this is a trading vehicle, not an investment, at current prices - no margin of safety exists under any modeled scenario",
+  "probability_of_success": 15,
+  "probability_of_permanent_loss": 45,
+
+  "overall_score": 25,
+  "verdict": "avoid",
+  "confidence_level": "low",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: company is lossmaking; no sourced ratios exist. DCF heavily degraded: no positive FCF has ever been sourced for this name; all cash-side inputs are constructed. Snapshot carries a price/market-cap inconsistency (121.26 vs 9.71B implying ~162); per-share math uses the ~60M share count consistent with both source pairs, and the lower price - if the true price is ~162, the overvaluation conclusion only strengthens.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -6.33% past week, prior episodes of hyperscaler order loss referenced across coverage (2018-19 era), Q1 2026 EPS/revenue miss (8-K). No verified 5-year multiple range captured."
+}

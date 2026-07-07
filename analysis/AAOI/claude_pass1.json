@@ -1,0 +1,26 @@
+{
+  "ticker": "AAOI",
+  "thesis": "Applied Optoelectronics is a levered 800G catch-up story: Q1 2026 revenue $151.1M (+51% y/y) with first volume 800G shipments to a large hyperscaler, management claiming demand exceeds capacity through mid-2027, and a planned capacity ramp from 100K to 650K+ units/month by year-end 2026. But the company is still lossmaking (non-GAAP EPS -$0.07 in Q1, Q2 guided to roughly breakeven), gross margin is only 29-30% versus 45%+ at scale leaders, and the ~$7-10B market cap already prices the capacity ramp succeeding. History warns: AAOI has lost hyperscaler sockets abruptly before.",
+  "catalysts": [
+    "800G capacity ramp: 100K units/month (end Q1 2026) to 650K+ by year-end 2026",
+    "Q2 2026 results (August 2026): guidance $180-198M revenue, non-GAAP EPS -0.03 to +0.03 - the breakeven crossover quarter",
+    "Management expects 800G demand to exceed production capacity through mid-2027",
+    "1.6T product qualification at hyperscale customers",
+    "CATV segment ($66.8M in Q1) providing a second leg unrelated to AI capex"
+  ],
+  "risk_factors": [
+    "Customer concentration: revenue historically dominated by two hyperscalers (Microsoft, Amazon lineage); a single dual-sourcing decision has cratered this company before",
+    "Profitability still fragile: GAAP net loss $14.3M in Q1 2026, non-GAAP loss, and Q1 missed both EPS and revenue expectations",
+    "Gross margin 29-30% - structurally below optics peers; little room for pricing pressure when supply normalizes",
+    "Massive capacity expansion (6.5x in a year) into a cyclical demand peak is the classic optics-cycle mistake",
+    "Beta 2.12; -6.33% past week as the AI-optics complex leaked; conflicting quotes ($121-162) suggest a fast-moving, volatile tape"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 151100000, "unit": "USD", "note": "+51% y/y; datacenter 81.4M, CATV 66.8M; first volume 800G shipments", "source": "AAOI Q1 2026 8-K (SEC EDGAR / StockTitan)", "date": "2026-05-07"},
+    "q1_2026_net_loss_gaap": {"value": -14300000, "unit": "USD", "note": "GAAP EPS -0.19; non-GAAP EPS -0.07 vs -0.05 expected", "source": "AAOI Q1 2026 8-K", "date": "2026-05-07"},
+    "q2_2026_guidance_revenue": {"value": [180000000, 198000000], "unit": "USD", "note": "non-GAAP GM 29-30%; non-GAAP EPS -0.03 to +0.03", "source": "AAOI Q1 2026 8-K", "date": "2026-05-07"},
+    "capacity_ramp": {"value": [100000, 650000], "unit": "units/month 800G+1.6T", "note": "end-Q1 2026 to year-end 2026 target", "source": "AAOI Q1 2026 management commentary", "date": "2026-05-07"},
+    "market_cap": {"value": 9710000000, "unit": "USD", "note": "conflicts with quoted price 121.26 (implies ~7.3B on ~60M shares); both figures retained, ~60M share count used for per-share math", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

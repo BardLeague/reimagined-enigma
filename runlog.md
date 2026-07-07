@@ -59,3 +59,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | LITE | claude_pass1 | 2026-07-07T17:46:59Z | VALIDATED | 8 | research pass complete |
 | LITE | pass2 | 2026-07-07T17:46:59Z | VALIDATED | 8 | expected IV 427.5 vs price 728.32; avoid |
 | LITE | pass3 | 2026-07-07T17:46:59Z | VALIDATED | 8 | memo written; verdict avoid |
+| AAOI | claude_pass1 | 2026-07-07T17:48:50Z | VALIDATED | 8 | research pass complete |
+| AAOI | pass2 | 2026-07-07T17:48:50Z | VALIDATED | 8 | expected IV 30.1 vs price 121.26; avoid |
+| AAOI | pass3 | 2026-07-07T17:48:50Z | VALIDATED | 8 | memo written; verdict avoid |
