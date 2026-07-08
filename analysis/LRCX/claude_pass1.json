@@ -1,0 +1,26 @@
+{
+  "ticker": "LRCX",
+  "thesis": "Lam Research is the memory-capex pure play among big semicap names: record Q3 FY2026 revenue of $5.84B (+24% y/y) with EPS +41%, June-quarter guidance of $6.6B, a raised $140B calendar-2026 WFE outlook, and the first $2.1B quarter for its services business. The memory supercycle (see MU's 85% gross margins) guarantees near-term tool demand - and explains why LRCX fell ~14% this week alongside Micron: the market is starting to price the other side of the memory mountain. At ~53x forward EPS, the stock carries compounder multiples into the most cyclical corner of semicap.",
+  "catalysts": [
+    "Q4 FY2026 results (~late July 2026): guidance $6.6B +/- 0.4B revenue, GM 50.5%, EPS 1.65 +/- 0.15",
+    "Calendar-2026 WFE outlook already raised to $140B (from $135B); H2 > H1 expected",
+    "Memory-fab capacity announcements from Micron/Samsung/SK hynix (direct order flow to Lam)",
+    "Customer Support Business Group momentum (record $2.1B quarter - recurring-revenue mix shift)",
+    "Advanced packaging and gate-all-around etch/deposition share gains"
+  ],
+  "risk_factors": [
+    "Memory concentration: Lam's etch/deposition leadership skews to NAND/DRAM - the segment whose 85% margins today guarantee a supply response and capex digestion later",
+    "Valuation: ~53x forward EPS (guide ~6.60/yr run-rate) vs a historical semicap band of 15-25x",
+    "The -13.87% week tracking Micron's -14.94% shows the stock trades as a memory derivative in drawdowns (beta 1.80)",
+    "China/export-control exposure common to all semicap (peer AMAT just paid a $253M settlement)",
+    "WFE outlooks are revised down as fast as up when memory prices turn"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 5840000000, "unit": "USD", "note": "+24% y/y; EPS 1.47, +41% y/y, beat consensus 1.36", "source": "Lam Research Q3 FY2026 results (quartr/public.com earnings aggregates)", "date": "2026-04-22"},
+    "q4_fy2026_guidance": {"value": 6600000000, "unit": "USD", "note": "+/- 400M; GM 50.5% +/-1pp, OM 36.5% +/-1pp, EPS 1.65 +/- 0.15", "source": "Lam Research Q3 FY2026 guidance", "date": "2026-04-22"},
+    "cy2026_wfe_outlook": {"value": 140000000000, "unit": "USD", "note": "raised from 135B; H2 2026 > H1", "source": "Lam Research commentary (Q3 FY2026)", "date": "2026-04-22"},
+    "csbg_quarterly_revenue": {"value": 2100000000, "unit": "USD", "note": "first $2.1B quarter for Customer Support Business Group", "source": "Lam Research Q3 FY2026 results", "date": "2026-04-22"},
+    "market_cap": {"value": 406848000000, "unit": "USD", "note": "price data conflicted this week (prev close 349.64 used; day range 313-330 seen post-drop)", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

@@ -86,3 +86,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | AMAT | claude_pass1 | 2026-07-08T22:25:01Z | VALIDATED | 8 | research pass complete |
 | AMAT | pass2 | 2026-07-08T22:25:01Z | VALIDATED | 8 | expected IV 252.3 vs price 622.59; avoid |
 | AMAT | pass3 | 2026-07-08T22:25:01Z | VALIDATED | 8 | memo written; verdict avoid |
+| LRCX | claude_pass1 | 2026-07-08T22:26:47Z | VALIDATED | 8 | research pass complete |
+| LRCX | pass2 | 2026-07-08T22:26:47Z | VALIDATED | 8 | expected IV 139.8 vs price 349.64; avoid |
+| LRCX | pass3 | 2026-07-08T22:26:47Z | VALIDATED | 8 | memo written; verdict avoid |

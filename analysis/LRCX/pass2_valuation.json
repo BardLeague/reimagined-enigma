@@ -1,0 +1,82 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research Corporation",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical (memory-weighted semiconductor equipment)",
+  "moat_rating": "Narrow",
+  "moat_source": "etch/deposition process leadership and a large installed base feeding services revenue (record $2.1B CSBG quarter); evidence: 50%+ gross margin and +41% EPS growth, but the customer set is the most cyclical in semiconductors",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 60.0, "terminal_multiple": 14},
+    "base": {"probability": 50, "intrinsic_value": 126.0, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 247.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 139.8
+  },
+
+  "current_price": 349.64,
+  "margin_of_safety_percent": -150.1,
+
+  "returns": {
+    "three_year": {"bear": -20.5, "base": -14.9, "bull": -6.2, "expected": -14.1},
+    "five_year": {"bear": -29.7, "base": -18.5, "bull": -6.7, "expected": -18.4},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes dividend/buybacks."
+  },
+
+  "sensitivity_key_driver": "memory capex trajectory 2027-2028 (the digestion year)",
+  "primary_model_risk": "Memory cycle timing: Lam's order book today is a function of Micron/Samsung/SK hynix responding to 85% DRAM gross margins with capacity. That same response is what cracks memory pricing - and memory tool orders - in 2027-2028. The base case models a mid-horizon digestion; if it arrives earlier or deeper (the historical norm after supercycles), the bear case governs.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "High",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "memory-cycle permanence: at $349.64 (~53x forward EPS) the market prices the $140B WFE year as a plateau, not a peak; our base case includes the digestion year that has followed every memory capex boom on record",
+
+  "top_5_bull_arguments": [
+    "Record revenue and EPS with a beat-and-raise cadence (+24% revenue, +41% EPS y/y)",
+    "The memory supercycle math: 85% DRAM margins force a multi-year capacity build that flows directly to Lam's order book",
+    "CY2026 WFE outlook raised to $140B with H2 stronger than H1",
+    "Services (CSBG) at a record $2.1B/quarter adds a recurring cushion absent in prior cycles",
+    "Balance sheet and capital returns are pristine (grade A across the board)"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($139.80) is ~60% below the price - compounder multiples on the most cyclical semicap franchise",
+    "The -13.87% week tracking Micron tick-for-tick shows the market already trades LRCX as a memory derivative",
+    "Every memory capex supercycle has been followed by an order collapse; 53x forward leaves zero room for that history",
+    "Regulatory High: China exposure in a tightening export-control regime",
+    "WFE outlooks revise down faster than up once memory spot prices turn"
+  ],
+  "thesis_breakers": [
+    "First DRAM/NAND price decline (leading indicator for tool-order deferrals)",
+    "Q4 FY2026 actuals below $6.2B (bottom of guide)",
+    "CY2026 WFE outlook cut below $130B",
+    "Memory customer capex cuts announced (Micron/Samsung/SK hynix)",
+    "CSBG revenue declining sequentially (the recurring cushion failing)"
+  ],
+
+  "position_size_recommendation": "0% at current price; the name to buy aggressively in the memory downcycle - accumulation zone near expected IV (~$140)",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 40,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance reported (earnings aggregates); FCF approximates net income (historically high conversion) - confidence_level medium. Price data conflicted this week (349.64 prev close used; intraday 313-330 seen after the drop) - at the lower prints the overvaluation narrows but the verdict holds.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -13.87% past week (vs MU -14.94%), trailing P/E 61.50, 52-week range 90.94-438.50, June 30 close 433.33 (pass1/search). The 15-25x historical semicap band is industry convention - directional only."
+}
