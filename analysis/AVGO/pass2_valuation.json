@@ -1,0 +1,82 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (custom AI silicon + infrastructure software)",
+  "moat_rating": "Wide",
+  "moat_source": "multi-year custom-ASIC design lock-in with hyperscalers plus VMware software switching costs; evidence: AI revenue guided +180% with record FCF, and customers co-invest years ahead (Apple through 2031)",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 167.0, "terminal_multiple": 16},
+    "base": {"probability": 50, "intrinsic_value": 340.0, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 492.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 334.8
+  },
+
+  "current_price": 373.90,
+  "margin_of_safety_percent": -11.7,
+
+  "returns": {
+    "three_year": {"bear": -12.6, "base": -1.9, "bull": 6.0, "expected": -2.6},
+    "five_year": {"bear": -14.9, "base": -1.9, "bull": 5.6, "expected": -3.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Returns exclude the dividend (~1-2%/yr), so stated figures are modestly conservative."
+  },
+
+  "sensitivity_key_driver": "2027 AI revenue realization (the $100B+ target)",
+  "primary_model_risk": "Custom-ASIC program risk: the 2027 $100B+ AI target rests on a handful of hyperscaler XPU programs whose cancellation or descoping is opaque until it happens. Base case credits ~$100B in 2027; the bear case (programs cut in an AI-capex digestion) is the difference between $340 and $167 of intrinsic value.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "2027 AI revenue: the market prices roughly full delivery of the $100B+ guide (price ~12% above our expected IV); we weight a modest shortfall - the disagreement is small, hence hold rather than avoid",
+
+  "top_5_bull_arguments": [
+    "AI semiconductor revenue compounding at +180-200% y/y with $56B guided for FY2026 and $100B+ reiterated for 2027",
+    "Record FCF quarter after quarter funds dividends, buybacks, and VMware deleveraging simultaneously",
+    "Apple extension to 2031 converts the largest customer risk into visible multi-year revenue",
+    "Custom silicon is the structural hedge against NVIDIA concentration for every hyperscaler - AVGO is the default partner",
+    "VMware software adds a sticky, high-margin second engine unrelated to the AI cycle"
+  ],
+  "top_5_bear_arguments": [
+    "62x trailing earnings prices flawless execution of a target (2027 AI $100B+) that management itself calls a guide, not a booking",
+    "Q2 already missed consensus and the Q3 AI guide disappointed - the first hairline cracks (Erste downgrade July 7)",
+    "Expected IV ($334.80) sits ~10% below the price; risk/reward is mildly negative before the dividend",
+    "Debt from VMware constrains optionality if the AI capex cycle digests in 2027-2028",
+    "Custom-ASIC economics invite NVIDIA pricing retaliation exactly when hyperscaler budgets tighten"
+  ],
+  "thesis_breakers": [
+    "Any hyperscaler XPU program cancellation or material descoping",
+    "2027 AI revenue guidance walked back below $80B",
+    "Q3 FY2026 actuals below $28B (guide $29.4B)",
+    "FCF margin compression below 40% of revenue",
+    "Apple partnership renegotiated or descoped despite the 2031 extension"
+  ],
+
+  "position_size_recommendation": "0-2%; fair-value territory - add on capex-scare drawdowns toward expected IV (~$335) rather than at the current quote",
+  "probability_of_success": 50,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 58,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue and guidance figures are reported (press releases); FCF is described as 'record' in the release but not itemized in captured coverage, so the FCF path is calibrated to Broadcom's historically ~50% FCF margin - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +5.3% single-day move on the Apple extension (July 2026), +0.54% past week, 62.11x trailing P/E (pass1). No verified 5-year multiple range captured."
+}

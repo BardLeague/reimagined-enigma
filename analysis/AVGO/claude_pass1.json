@@ -1,0 +1,27 @@
+{
+  "ticker": "AVGO",
+  "thesis": "Broadcom is the custom-silicon toll road of the AI build-out: Q2 FY2026 revenue $22.19B with record operating profit and free cash flow, Q3 guided to $29.4B on AI semiconductor revenue of $16B (+200% y/y), FY2026 AI revenue guided to $56B (+180%) and 2027 reiterated above $100B. The Apple partnership extension through 2031 (this week's +5.3% pop) removes the biggest single-customer risk. Offsets: Q2 slightly missed consensus, the Q3 AI guide underwhelmed some analysts (Erste downgrade July 7), and at ~$1.78T / 62x trailing the multiple already banks years of AI growth.",
+  "catalysts": [
+    "Q3 FY2026 results (~September 2026): guidance $29.4B revenue with $16B AI semiconductor revenue (+200% y/y)",
+    "2027 AI revenue target above $100B - reiterated; any confirmation via new XPU customer wins re-rates",
+    "Apple partnership extended through 2031 (announced early July 2026)",
+    "Custom AI processor customer base expanding beyond Google/Meta/Apple hyperscaler set",
+    "VMware software segment margin expansion and dividend growth (capital-return support)"
+  ],
+  "risk_factors": [
+    "Hyperscaler capex dependence: Q2 miss plus a lighter-than-hoped Q3 AI guide already raised scale-back doubts (Erste downgrade to Hold, July 7, 2026)",
+    "Custom ASIC concentration: a handful of hyperscaler design wins drive the entire AI franchise; program cancellations are lumpy and opaque",
+    "62x trailing earnings leaves limited multiple room if 2027's $100B+ AI target slips",
+    "Debt-heavy balance sheet from the VMware acquisition constrains flexibility in a downturn",
+    "NVIDIA competitive response (NVLink openness, pricing) could compress custom-silicon economics"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q2_fy2026_revenue": {"value": 22190000000, "unit": "USD", "note": "record operating profit and FCF (figures not itemized in coverage); slight miss vs 22.27B consensus", "source": "Broadcom Q2 FY2026 press release (investors.broadcom.com) / CNBC 2026-06-03", "date": "2026-06-03"},
+    "q3_fy2026_guidance_revenue": {"value": 29400000000, "unit": "USD", "note": "incl. AI semiconductor revenue ~16B, +200% y/y", "source": "Broadcom Q2 FY2026 press release", "date": "2026-06-03"},
+    "fy2026_ai_revenue_guidance": {"value": 56000000000, "unit": "USD", "note": "+~180% vs 2025", "source": "Broadcom Q2 FY2026 guidance commentary", "date": "2026-06-03"},
+    "fy2027_ai_revenue_guidance": {"value": 100000000000, "unit": "USD", "note": "'over $100 billion' - reiterated", "source": "Broadcom guidance commentary (June 2026)", "date": "2026-06-03"},
+    "market_cap": {"value": 1779000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"},
+    "trailing_pe": {"value": 62.11, "unit": "x", "source": "market snapshot (pass1_data.json)", "date": "2026-07-07"}
+  }
+}
