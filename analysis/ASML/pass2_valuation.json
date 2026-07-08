@@ -1,0 +1,82 @@
+{
+  "ticker": "ASML",
+  "company": "ASML Holding N.V.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (monopoly equipment supplier with cyclical order flow)",
+  "moat_rating": "Wide",
+  "moat_source": "literal monopoly in EUV lithography with decades of accumulated optics/supply-chain IP; evidence: 53% gross margin on EUR 8.8B quarterly sales, EUR 38.8B backlog, customers (TSMC/Intel/Samsung) with no alternative supplier",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 615.0, "terminal_multiple": 22},
+    "base": {"probability": 50, "intrinsic_value": 1121.0, "terminal_multiple": 30},
+    "bull": {"probability": 25, "intrinsic_value": 1833.0, "terminal_multiple": 35},
+    "expected_intrinsic_value": 1172.5
+  },
+
+  "current_price": 1855.35,
+  "margin_of_safety_percent": -58.2,
+
+  "returns": {
+    "three_year": {"bear": -15.7, "base": -8.6, "bull": -0.2, "expected": -8.3},
+    "five_year": {"bear": -19.8, "base": -9.6, "bull": -0.2, "expected": -9.8},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes dividend/buybacks (~1%/yr)."
+  },
+
+  "sensitivity_key_driver": "terminal multiple (what the market pays for monopoly earnings in 2031)",
+  "primary_model_risk": "Multiple regime: the stock re-rated from its historical ~30x to ~57x annualized earnings in twelve months. Base case terminal multiple (30x) assumes reversion to the historical regime; if the market permanently pays 40x+ for the EUV monopoly (bull logic), today's price is defensible - the model's biggest input is a market-psychology variable, not an operating one.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Low",
+    "regulatory": "High",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "the multiple, not the business: at $1,855 (~57x annualized EPS for ~13% growth) the price embeds either a permanent multiple re-rating or a growth acceleration the EUR 36-40B guide does not support; our base case honors the monopoly with a 30x terminal and still lands 40% below the quote",
+
+  "top_5_bull_arguments": [
+    "The only EUV supplier on Earth: competitive risk is rated Low - unique on this watchlist",
+    "EUR 38.8B backlog plus record EUR 13.2B quarterly bookings give multi-year revenue insurance",
+    "FY2026 guidance already raised (EUR 36-40B) on TSMC/Intel/Samsung fab acceleration",
+    "53% gross margin at the top of guidance shows pricing power intact",
+    "High-NA EUV is an uncontested second act: every leading-edge roadmap through the 2030s requires ASML"
+  ],
+  "top_5_bear_arguments": [
+    "~57x annualized earnings for 13% growth - roughly double the historical multiple after a +121% year; the re-rating is the entire bear case",
+    "Expected IV ($1,172.50) is ~37% below the price; even our bull case ($1,833) fails to reach today's quote",
+    "US China-export legislation could sever the remaining China channel (regulatory risk High)",
+    "Bookings disclosure pulled exactly when the order cycle is most scrutinized - July 15 is now a binary transparency event",
+    "Semicap orders are cyclical even for monopolies: 2027 delivery-target doubts and slow immersion sales are early wobbles"
+  ],
+  "thesis_breakers": [
+    "July 15 bookings materially below the EUR 13.2B Q4-2025 record run-rate (normalization confirmed)",
+    "FY2026 guidance cut back below EUR 36B",
+    "US legislation enacted severing China DUV sales",
+    "Gross margin below 50% for two consecutive quarters",
+    "TSMC/Intel/Samsung fab construction delays announced"
+  ],
+
+  "position_size_recommendation": "0% at current price; this is the highest-quality business on the watchlist at the wrong price - accumulation zone begins near expected IV (~$1,170)",
+  "probability_of_success": 35,
+  "probability_of_permanent_loss": 10,
+
+  "overall_score": 48,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/backlog/bookings all reported (ASML releases) - strong data foundation; FCF path approximates net income (ASML's customer-prepayment model historically supports this) - confidence_level medium. EUR figures converted implicitly via the USD market snapshot; mixed-currency precision noted.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +121% over 12 months, -5.05% past week, trailing P/E 63.14 (pass1); historical-multiple comparison ('roughly double') is inferred from the trailing P/E vs the low-30s implied by FY2025 EPS at early-2025 prices - directional, not precise."
+}

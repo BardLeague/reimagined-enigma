@@ -80,3 +80,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | AVGO | claude_pass1 | 2026-07-08T22:21:24Z | VALIDATED | 8 | research pass complete |
 | AVGO | pass2 | 2026-07-08T22:21:24Z | VALIDATED | 8 | expected IV 334.8 vs price 373.90; hold |
 | AVGO | pass3 | 2026-07-08T22:21:24Z | VALIDATED | 8 | memo written; verdict hold |
+| ASML | claude_pass1 | 2026-07-08T22:23:13Z | VALIDATED | 8 | research pass complete |
+| ASML | pass2 | 2026-07-08T22:23:13Z | VALIDATED | 8 | expected IV 1172.5 vs price 1855.35; avoid |
+| ASML | pass3 | 2026-07-08T22:23:13Z | VALIDATED | 8 | memo written; verdict avoid |

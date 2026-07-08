@@ -1,0 +1,28 @@
+{
+  "ticker": "ASML",
+  "thesis": "ASML is the only company on Earth that makes EUV lithography machines, and the AI fab build-out is pulling orders forward: Q1 2026 sales of EUR 8.77B (+13% y/y) at 53% gross margin, FY2026 guidance raised to EUR 36-40B, a EUR 38.8B backlog, and record EUR 13.2B Q4-2025 bookings. The problem is the price of perfection: after a +121% twelve-month run to ~$1,855 (~57x annualized earnings for low-teens revenue growth), the stock has re-rated far above its historical multiple while China export legislation threatens its last remaining China sales channel. July 15 earnings are the next catalyst - and the first look at bookings since ASML stopped disclosing them quarterly.",
+  "catalysts": [
+    "Q2 2026 results July 15, 2026: guidance EUR 8.4-9.0B sales, GM 51-52%; first bookings update since disclosure was pulled",
+    "FY2026 guidance raise to EUR 36-40B already in hand; further raises if TSMC/Intel/Samsung fab acceleration continues",
+    "High-NA EUV adoption milestones toward 2027 delivery targets",
+    "EUV order wave: EUR 7.4B of EUV orders in the record Q4-2025 bookings",
+    "Any resolution (either way) of US legislation on China DUV sales - removes an overhang or crystallizes it"
+  ],
+  "risk_factors": [
+    "Valuation: ~57x annualized EPS for ~13% revenue growth is roughly double the historical multiple; the re-rating IS the risk",
+    "US legislative threat could sever remaining China sales; regulatory risk is structural and outside management control",
+    "ASML stopped disclosing quarterly order figures - reduced transparency into the leading indicator right at the cycle's most-watched moment",
+    "Slow immersion sales start and doubts about 2027 delivery targets flagged in coverage",
+    "AI capex pullback would compress orders and the elevated multiple simultaneously (5d -5.05% shows sensitivity)"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_net_sales": {"value": 8767000000, "unit": "EUR", "note": "+13% y/y; GM 53.0%; net income 2,757M; EPS 7.15", "source": "ASML Q1 2026 results (asml.com / earnings call transcript)", "date": "2026-04-15"},
+    "fy2026_guidance_net_sales": {"value": [36000000000, 40000000000], "unit": "EUR", "note": "raised from 34-39B", "source": "ASML Q1 2026 results", "date": "2026-04-15"},
+    "q2_2026_guidance": {"value": [8400000000, 9000000000], "unit": "EUR", "note": "GM 51-52% guided", "source": "ASML Q1 2026 results", "date": "2026-04-15"},
+    "backlog_end_2025": {"value": 38800000000, "unit": "EUR", "source": "ASML Q4 2025 press release (asml.com)", "date": "2026-01-28"},
+    "q4_2025_bookings": {"value": 13200000000, "unit": "EUR", "note": "record; 7.4B EUV", "source": "ASML Q4 2025 press release", "date": "2026-01-28"},
+    "fy2025_net_sales": {"value": 32700000000, "unit": "EUR", "note": "net income 9.6B", "source": "ASML Q4 2025 press release", "date": "2026-01-28"},
+    "market_cap": {"value": 714724000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}
