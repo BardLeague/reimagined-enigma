@@ -1,0 +1,28 @@
+{
+  "ticker": "KLAC",
+  "thesis": "KLA is the process-control monopoly-adjacent franchise of semicap: 58% market share, Q3 FY2026 revenue $3.415B (+11% y/y) with $4.01B of trailing FCF (actually reported, unlike most of this group), advanced packaging revenue doubling toward $1.0B in 2026, and a raised >$140B WFE outlook. Its 2030 targets (13-17% revenue CAGR, 40-50% incremental operating leverage) are credible. The issue is the group-wide one: the market cap (~$308B, ~77x trailing FCF) prices those 2030 targets as already delivered, while quantified headwinds (China export controls -$300-350M revenue, -100bps margin from DRAM costs/tariffs) chip at the near term.",
+  "catalysts": [
+    "Q4 FY2026 results (~late July 2026): guidance $3.575B +/- 200M, non-GAAP EPS 9.87 +/- 1.00",
+    "Advanced packaging revenue path from $635M (2025) to ~$1.0B (2026) - the fastest-growing line",
+    "CY2026 WFE outlook above $140B; 2026 revenue growth raised to high teens",
+    "Service revenue compounding (+16% y/y to $775M/quarter) - the recurring floor",
+    "2030 investor-day targets (13-17% CAGR) providing a multi-year narrative"
+  ],
+  "risk_factors": [
+    "Valuation: ~77x trailing FCF / 66x trailing earnings for a cyclical - the group-wide re-rating applies here too",
+    "China export controls: management quantifies a $300-350M revenue reduction in calendar 2026 - the only semicap name with the hit already sized",
+    "Margin headwinds: elevated DRAM prices and tariffs depressing gross margin ~100bps through at least 2026",
+    "Snapshot data inconsistency: quoted price 235.55 vs prior close 266.19 and a market cap (307.69B) implying a very different per-share scale - the tape data is unreliable this week; market-cap-anchored math used",
+    "Process-control intensity could plateau if customers shift mix toward trailing-edge capacity"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 3415000000, "unit": "USD", "note": "+11% y/y, +4% q/q; GAAP EPS 9.12, non-GAAP 9.40", "source": "KLA Q3 FY2026 press release (ir.kla.com / 8-K)", "date": "2026-04-30"},
+    "ttm_fcf": {"value": 4010000000, "unit": "USD", "note": "quarterly FCF 622.3M; TTM OCF 4.40B - reported figures", "source": "KLA Q3 FY2026 press release", "date": "2026-04-30"},
+    "q4_fy2026_guidance_revenue": {"value": 3575000000, "unit": "USD", "note": "+/- 200M; non-GAAP EPS 9.87 +/- 1.00", "source": "KLA Q3 FY2026 press release", "date": "2026-04-30"},
+    "advanced_packaging_revenue_path": {"value": [635000000, 1000000000], "unit": "USD", "note": "2025 to 2026 expected", "source": "KLA commentary (Seeking Alpha / investor day)", "date": "2026-04-30"},
+    "china_export_impact_cy2026": {"value": [-350000000, -300000000], "unit": "USD", "note": "management-quantified revenue reduction", "source": "KLA guidance commentary", "date": "2026-04-30"},
+    "market_share_process_control": {"value": 0.58, "unit": "ratio", "source": "KLA Q3 FY2026 investor slides (Investing.com)", "date": "2026-04-30"},
+    "market_cap": {"value": 307690000000, "unit": "USD", "note": "price/cap/share-count inconsistent across quote sources this week; cap-anchored math with snapshot-implied shares used throughout", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

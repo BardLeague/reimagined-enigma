@@ -1,0 +1,82 @@
+{
+  "ticker": "KLAC",
+  "company": "KLA Corporation",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 7,
+
+  "business_type": "cyclical grower (process control leader with services annuity)",
+  "moat_rating": "Wide",
+  "moat_source": "58% process-control market share with decades of yield-learning data customers cannot replicate; evidence: reported $4.01B TTM FCF, +16% services growth, and pricing power through a tariff/DRAM cost squeeze",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 45.0, "terminal_multiple": 16},
+    "base": {"probability": 50, "intrinsic_value": 89.6, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 136.0, "terminal_multiple": 26},
+    "expected_intrinsic_value": 90.3
+  },
+
+  "current_price": 235.55,
+  "margin_of_safety_percent": -160.8,
+
+  "returns": {
+    "three_year": {"bear": -19.9, "base": -14.3, "bull": -9.3, "expected": -14.5},
+    "five_year": {"bear": -28.2, "base": -17.6, "bull": -10.4, "expected": -18.5},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Per-share figures use snapshot-implied shares (market cap / quoted price) for internal consistency; margin-of-safety and return math are scale-invariant to the share-count ambiguity flagged in claude_pass1."
+  },
+
+  "sensitivity_key_driver": "terminal multiple on trailing FCF (the ~77x current-cap multiple vs any defensible exit)",
+  "primary_model_risk": "Multiple compression: KLA's cap is ~77x its own reported TTM FCF ($4.01B). Even crediting high-teens growth and 2030 targets in full (bull case, 26x terminal), intrinsic value reaches barely 58% of the current cap. No operating scenario closes the gap - only the market's willingness to keep paying today's multiple does, and that is not an input a DCF can honor.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "Low",
+    "regulatory": "High",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "the FCF multiple: at ~77x trailing FCF the market pays 2030's targeted cash flows at 2026 prices; our base case delivers the growth (high teens near-term, digestion mid-horizon) and still lands ~62% below the current cap",
+
+  "top_5_bull_arguments": [
+    "The only semicap name with reported TTM FCF in our data ($4.01B) - highest earnings quality in the group",
+    "58% process-control share is as close to a monopoly as semicap gets outside ASML (competitive risk: Low)",
+    "Advanced packaging revenue nearly doubling to ~$1.0B in 2026 - directly levered to AI/HBM inspection intensity",
+    "Services annuity (+16% y/y) cushions the cycle in a way pure tool vendors lack",
+    "2030 model (13-17% CAGR, 40-50% incremental margins) raised at investor day - management is signing up for more"
+  ],
+  "top_5_bear_arguments": [
+    "~77x trailing FCF; expected IV sits ~62% below the current market cap - the widest quality-adjusted gap in the semicap group",
+    "China export controls: the only company here with the hit quantified (-$300-350M CY2026 revenue) - regulatory risk High and already landing",
+    "Gross margin compressing ~100bps from DRAM costs/tariffs even at the cycle's peak",
+    "This week's quote data (235.55 vs 266.19 prior close, inconsistent cap) shows a disorderly tape in the name",
+    "WFE cycles turn; process-control intensity delays but does not repeal the downturn for KLA"
+  ],
+  "thesis_breakers": [
+    "Q4 FY2026 actuals below $3.375B (bottom of guide)",
+    "Advanced packaging 2026 revenue target cut below $850M",
+    "Expanded China restrictions beyond the quantified $300-350M impact",
+    "Services revenue growth decelerating below 8% y/y",
+    "CY2027 WFE forecast contraction (digestion year confirmed)"
+  ],
+
+  "position_size_recommendation": "0% at current price; premier franchise, group-wide multiple problem - accumulation only near expected IV (roughly 40% of the current quote) in a semicap downcycle",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 45,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Reliability scored 7 (not 8) for this name specifically: the price/market-cap/share-count triplet in this week's quote data is internally inconsistent, so all per-share figures carry scale ambiguity even though the market-cap-level conclusion is robust. Revenue/EPS/FCF/guidance are reported (press release) - the cash-flow foundation is the best in the semicap group.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +2.86% past week, trailing P/E 66.06 per quote aggregate, 52-week range 83.22-307.37 (pass1). No verified historical multiple range captured."
+}
