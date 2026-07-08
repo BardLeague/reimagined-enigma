@@ -1,0 +1,82 @@
+{
+  "ticker": "SOUN",
+  "company": "SoundHound AI, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "speculative growth (pre-profitability roll-up in conversational AI)",
+  "moat_rating": "None",
+  "moat_source": "no durable moat demonstrated: 31.1% gross margin, no profitability at any scale to date, and big-tech competitors own the underlying model layer; the Fortune-100 customer list is an asset but not yet a moat",
+  "management_grade": "C",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 0.8, "terminal_multiple": 15},
+    "base": {"probability": 45, "intrinsic_value": 2.3, "terminal_multiple": 25},
+    "bull": {"probability": 25, "intrinsic_value": 8.7, "terminal_multiple": 30},
+    "expected_intrinsic_value": 3.45
+  },
+
+  "current_price": 6.96,
+  "margin_of_safety_percent": -101.7,
+
+  "returns": {
+    "three_year": {"bear": -22.3, "base": -15.7, "bull": 4.7, "expected": -12.6},
+    "five_year": {"bear": -35.2, "base": -19.9, "bull": 4.6, "expected": -18.4},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "gross-margin transformation (31% today vs the 60%+ the scale thesis requires)",
+  "primary_model_risk": "Margin structure: every scenario hinges on whether combined SoundHound-LivePerson gross margin can migrate from ~31% toward software economics. If it cannot, no revenue level produces meaningful FCF and even the bear case is generous. Revenue guidance is reaffirmed and sourced; the margin path is entirely assumption.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "profitability arrival: at ~12x forward sales the market pays for the $500M combined-revenue story as if it comes with software margins; the reported 31.1% gross margin and -$26.7M quarterly EBITDA say the economics are unproven at any scale reached so far",
+
+  "top_5_bull_arguments": [
+    "+52% y/y organic revenue growth with FY2026 guidance reaffirmed at $225-260M",
+    "LivePerson merger adds 25-of-Fortune-100 enterprise distribution and pushes combined revenue toward $500M",
+    "$216M cash, no debt, and the all-stock structure preserves the balance sheet",
+    "Agentic/voice AI is a real secular market and SoundHound is one of few independent pure plays",
+    "If margins transform with scale (bull case), IV ~$8.70 exceeds the current price - genuine optionality exists"
+  ],
+  "top_5_bear_arguments": [
+    "Two lossmaking companies do not arithmetically make a profitable one; integration costs land before synergies",
+    "31.1% gross margin is the tell: this is compute-heavy AI services, not high-margin software, so far",
+    "~$26.7M/quarter EBITDA burn against $216M cash gives roughly two years before dilution returns",
+    "Expected IV ($3.45) is half the price; probability-weighted returns are deeply negative",
+    "Big-tech voice/agentic stacks (Google, Amazon, Microsoft, OpenAI) can bundle at zero marginal price"
+  ],
+  "thesis_breakers": [
+    "LivePerson merger failing to close or closing on materially worse terms",
+    "FY2026 revenue guidance cut below $225M",
+    "Gross margin failing to exceed 40% by mid-2027 (transformation thesis stalling)",
+    "Cash below $120M without EBITDA-breakeven visibility (dilution imminent)",
+    "A Fortune-100 flagship customer churning to a big-tech stack"
+  ],
+
+  "position_size_recommendation": "0%; lottery-ticket risk profile - if desired at all, only as a sub-0.5% option position, and only after the merger closes cleanly",
+  "probability_of_success": 20,
+  "probability_of_permanent_loss": 45,
+
+  "overall_score": 28,
+  "verdict": "avoid",
+  "confidence_level": "low",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: lossmaking company, no meaningful ratios exist. DCF explicitly degraded: revenue guidance and cash are sourced; the margin path (the decisive variable) is entirely constructed - confidence_level low.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +2.26% past week, +5.79% on the merger announcement day, 52-week range 5.83-22.17 (pass1/search) - the stock is 69% below its 52-week high. No verified historical multiple range captured."
+}

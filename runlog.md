@@ -92,3 +92,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | KLAC | claude_pass1 | 2026-07-08T22:28:47Z | VALIDATED | 7 | research pass complete; quote data inconsistent |
 | KLAC | pass2 | 2026-07-08T22:28:47Z | VALIDATED | 7 | expected IV 90.3 vs price 235.55; avoid |
 | KLAC | pass3 | 2026-07-08T22:28:47Z | VALIDATED | 7 | memo written; verdict avoid |
+| SOUN | claude_pass1 | 2026-07-08T22:30:33Z | VALIDATED | 8 | research pass complete |
+| SOUN | pass2 | 2026-07-08T22:30:33Z | VALIDATED | 8 | expected IV 3.45 vs price 6.96; avoid |
+| SOUN | pass3 | 2026-07-08T22:30:33Z | VALIDATED | 8 | memo written; verdict avoid |

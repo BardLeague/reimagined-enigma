@@ -1,0 +1,27 @@
+{
+  "ticker": "SOUN",
+  "thesis": "SoundHound is doubling down on scale-by-acquisition: record Q1 2026 revenue of $44.2M (+52% y/y) but a $25.0M GAAP net loss at just 31.1% gross margin, now merging all-stock with LivePerson (itself lossmaking) to target a combined $500M revenue run-rate with 25 of the Fortune 100 as customers. FY2026 guidance is $225-260M and 2027 $350-400M including LivePerson. With $216M cash, no debt, and adjusted EBITDA of -$26.7M per quarter, the equity at ~$2.8B (~12x forward sales) is a bet that two unprofitable conversational-AI companies become one profitable one before the cash and patience run out.",
+  "catalysts": [
+    "LivePerson merger close expected 2H 2026; integration milestones and combined guidance",
+    "FY2026 guidance $225-260M reaffirmed; 2027 guided $350-400M including LivePerson",
+    "OASYS agentic-AI platform launch traction",
+    "Path-to-EBITDA-breakeven commentary (scale thesis) at upcoming quarters",
+    "Fortune 100 penetration (25 of 100 post-merger) converting to expansion revenue"
+  ],
+  "risk_factors": [
+    "Two lossmakers merging: SoundHound has never been profitable and is acquiring a company that also loses money - integration cost and noncash volatility flagged in coverage",
+    "Gross margin 31.1% is software-in-name-only economics (voice compute costs); the scale thesis requires margin structure to transform, not just revenue to add",
+    "Cash runway: $216M against ~$26.7M/quarter adjusted-EBITDA burn plus acquisition expenses - roughly two years before dilution risk returns",
+    "Beta 4.16 - the most volatile name on the watchlist; +2.26% week masks violent daily swings (+5.79% on merger day)",
+    "Big-tech competition (Google, Amazon, Microsoft, OpenAI voice/agentic stacks) with infinite balance sheets"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 44200000, "unit": "USD", "note": "+52% y/y, record; GAAP net loss 25.0M; GM 31.1%; adj EBITDA -26.7M", "source": "SoundHound Q1 2026 8-K / press release (investors.soundhound.com)", "date": "2026-05-07"},
+    "fy2026_revenue_guidance": {"value": [225000000, 260000000], "unit": "USD", "note": "reaffirmed", "source": "SoundHound Q1 2026 press release", "date": "2026-05-07"},
+    "fy2027_revenue_guidance": {"value": [350000000, 400000000], "unit": "USD", "note": "including LivePerson contribution", "source": "SoundHound guidance (Form 425 / coverage)", "date": "2026-06-30"},
+    "cash": {"value": 216000000, "unit": "USD", "note": "no debt, end Q1 2026", "source": "SoundHound Q1 2026 press release", "date": "2026-05-07"},
+    "liveperson_deal": {"value": 100000000, "unit": "USD", "note": "all-stock; LivePerson debt eliminated; combined $500M revenue target; close 2H 2026", "source": "merger coverage (Yahoo Finance / Form 425)", "date": "2026-06-30"},
+    "market_cap": {"value": 2830000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}
