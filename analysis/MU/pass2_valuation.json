@@ -1,0 +1,82 @@
+{
+  "ticker": "MU",
+  "company": "Micron Technology, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical (commodity memory in an unprecedented HBM supercycle)",
+  "moat_rating": "Narrow",
+  "moat_source": "three-player HBM oligopoly with sold-out capacity; evidence: record ~85% gross margin and 4x y/y revenue - but memory pricing power has always been cyclical, never permanent; the moat is the cycle, not the company",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 155.0, "terminal_multiple": 8},
+    "base": {"probability": 45, "intrinsic_value": 486.0, "terminal_multiple": 12},
+    "bull": {"probability": 25, "intrinsic_value": 917.0, "terminal_multiple": 15},
+    "expected_intrinsic_value": 494.5
+  },
+
+  "current_price": 912.77,
+  "margin_of_safety_percent": -84.6,
+
+  "returns": {
+    "three_year": {"bear": -20.5, "base": -10.4, "bull": 0.1, "expected": -10.8},
+    "five_year": {"bear": -29.9, "base": -11.8, "bull": 0.1, "expected": -14.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "2027-2028 memory pricing (cycle normalization timing and depth)",
+  "primary_model_risk": "Normalization assumption: base case assumes FCF roughly halves in the 2028 downcycle then recovers - the standard memory pattern. If HBM contracts have genuinely broken the cycle (bull case), IV approaches the current price; if the cycle is merely delayed and deeper (bear case), 85% gross margins mean the supply response now building is enormous.",
+
+  "risks": {
+    "value_trap": "High",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "cycle permanence: at ~8x annualized forward EPS the market is NOT paying peak multiples - it is explicitly pricing normalization, as are we; the disagreement is only about depth, which is why the -22% drawdown from the high coexists with quadrupling revenue",
+
+  "top_5_bull_arguments": [
+    "FQ4 guide of ~$50B revenue / ~$31 EPS means earnings are still accelerating - the peak is not yet visible in the data",
+    "HBM is a three-player oligopoly, sold out, with AI demand structurally growing - this cycle may genuinely differ",
+    "~8x annualized forward EPS and 22.3x trailing is not euphoric pricing",
+    "Record ~85% gross margin generates cash fast enough to bulletproof the balance sheet before any downturn (grade A)",
+    "Reported AI-lab demand (Anthropic-related) suggests contracted, not spot, revenue mix"
+  ],
+  "top_5_bear_arguments": [
+    "85% gross margin in a commodity industry is the strongest mean-reversion signal that exists in semiconductors",
+    "Expected IV ($494.50) sits ~46% below the price even weighting the bull case at 25%",
+    "Peak-EPS multiples are the classic memory value trap - cheap on the wrong E (value_trap rated High)",
+    "Industry supply response to these margins is inevitable and arrives 2027-2028 regardless of demand",
+    "-14.9% week on sector sentiment alone shows how fast the multiple goes when the tape turns (beta 2.14)"
+  ],
+  "thesis_breakers": [
+    "First sequential DRAM/HBM price decline reported or guided",
+    "FQ1 2027 guidance below FQ4 2026 actuals (sequential revenue decline)",
+    "Samsung or SK hynix announcing major greenfield capacity beyond current plans",
+    "HBM contract renegotiations or cancellations by AI labs/hyperscalers",
+    "Gross margin below 70% (the normalization signal)"
+  ],
+
+  "position_size_recommendation": "0% new money at $912.77; existing holders should recognize these as peak-cycle economics - the DCF-based accumulation zone is below ~$495",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 20,
+
+  "overall_score": 40,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance are reported (8-K); FCF path is constructed (no sourced FCF figure) using typical memory capex intensity against record margins - confidence_level medium. Week-of price conflict ($912.77 vs $984.75 across sources) noted; the lower figure used - at the higher print the overvaluation widens.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: down 22% from its high while revenue quadrupled y/y (Motley Fool 2026-07-06), +250% YTD gain reported earlier in the week, -14.94% past week (pass1). No verified 5-year multiple range captured; terminal multiples anchored to memory-cycle convention (8-15x), not company history."
+}
