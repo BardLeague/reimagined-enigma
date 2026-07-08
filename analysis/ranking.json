@@ -1,10 +1,32 @@
 {
-  "generated": "2026-07-07 17:38 UTC",
+  "generated": "2026-07-08 22:32 UTC",
   "filters": {
     "min_data_reliability_score": 6,
     "exclude_value_trap": "High"
   },
   "ranked": [
+    {
+      "ticker": "NVDA",
+      "current_price": 192.53,
+      "expected_intrinsic_value": 225.5,
+      "margin_of_safety_percent": 14.6,
+      "five_year_expected_return": 1.6,
+      "overall_score": 68,
+      "verdict": "buy",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "AVGO",
+      "current_price": 373.9,
+      "expected_intrinsic_value": 334.8,
+      "margin_of_safety_percent": -11.7,
+      "five_year_expected_return": -3.3,
+      "overall_score": 58,
+      "verdict": "hold",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
     {
       "ticker": "PLTR",
       "current_price": 133.36,
@@ -17,12 +39,111 @@
       "value_trap": "Low"
     },
     {
+      "ticker": "PENG",
+      "current_price": 67.71,
+      "expected_intrinsic_value": 55.2,
+      "margin_of_safety_percent": -22.7,
+      "five_year_expected_return": -6.0,
+      "overall_score": 52,
+      "verdict": "hold",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "ASML",
+      "current_price": 1855.35,
+      "expected_intrinsic_value": 1172.5,
+      "margin_of_safety_percent": -58.2,
+      "five_year_expected_return": -9.8,
+      "overall_score": 48,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "LITE",
+      "current_price": 728.32,
+      "expected_intrinsic_value": 427.5,
+      "margin_of_safety_percent": -70.4,
+      "five_year_expected_return": -13.3,
+      "overall_score": 44,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "COHR",
+      "current_price": 327.59,
+      "expected_intrinsic_value": 189.0,
+      "margin_of_safety_percent": -73.3,
+      "five_year_expected_return": -13.1,
+      "overall_score": 42,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "SOUN",
+      "current_price": 6.96,
+      "expected_intrinsic_value": 3.45,
+      "margin_of_safety_percent": -101.7,
+      "five_year_expected_return": -18.4,
+      "overall_score": 28,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
       "ticker": "ASTS",
       "current_price": 85.13,
       "expected_intrinsic_value": 42.0,
       "margin_of_safety_percent": -102.7,
       "five_year_expected_return": -20.5,
       "overall_score": 32,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "AMAT",
+      "current_price": 622.59,
+      "expected_intrinsic_value": 252.3,
+      "margin_of_safety_percent": -146.8,
+      "five_year_expected_return": -17.1,
+      "overall_score": 42,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Medium"
+    },
+    {
+      "ticker": "LRCX",
+      "current_price": 349.64,
+      "expected_intrinsic_value": 139.8,
+      "margin_of_safety_percent": -150.1,
+      "five_year_expected_return": -18.4,
+      "overall_score": 40,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Medium"
+    },
+    {
+      "ticker": "KLAC",
+      "current_price": 235.55,
+      "expected_intrinsic_value": 90.3,
+      "margin_of_safety_percent": -160.8,
+      "five_year_expected_return": -18.5,
+      "overall_score": 45,
+      "verdict": "avoid",
+      "data_reliability_score": 7,
+      "value_trap": "Medium"
+    },
+    {
+      "ticker": "AAOI",
+      "current_price": 121.26,
+      "expected_intrinsic_value": 30.1,
+      "margin_of_safety_percent": -302.9,
+      "five_year_expected_return": -29.8,
+      "overall_score": 25,
       "verdict": "avoid",
       "data_reliability_score": 8,
       "value_trap": "Low"
@@ -39,6 +160,21 @@
       "value_trap": "Low"
     }
   ],
-  "excluded": [],
+  "excluded": [
+    {
+      "ticker": "MU",
+      "current_price": 912.77,
+      "expected_intrinsic_value": 494.5,
+      "margin_of_safety_percent": -84.6,
+      "five_year_expected_return": -14.3,
+      "overall_score": 40,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "High",
+      "excluded_reasons": [
+        "risks.value_trap == \"High\""
+      ]
+    }
+  ],
   "unreadable": []
 }

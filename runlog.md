@@ -95,3 +95,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | SOUN | claude_pass1 | 2026-07-08T22:30:33Z | VALIDATED | 8 | research pass complete |
 | SOUN | pass2 | 2026-07-08T22:30:33Z | VALIDATED | 8 | expected IV 3.45 vs price 6.96; avoid |
 | SOUN | pass3 | 2026-07-08T22:30:33Z | VALIDATED | 8 | memo written; verdict avoid |
+| PENG | claude_pass1 | 2026-07-08T22:32:17Z | VALIDATED | 8 | research pass complete |
+| PENG | pass2 | 2026-07-08T22:32:17Z | VALIDATED | 8 | expected IV 55.2 vs price 67.71; hold |
+| PENG | pass3 | 2026-07-08T22:32:17Z | VALIDATED | 8 | memo written; verdict hold |

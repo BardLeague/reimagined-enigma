@@ -1,0 +1,27 @@
+{
+  "ticker": "PENG",
+  "thesis": "Penguin Solutions is the small-cap sleeper of this watchlist: record Q3 FY2026 revenue of $478.7M (+48% y/y, big beat), AI-driven businesses now 74% of sales growing 104% y/y, backlog building, and FY2026 guidance raised hard (net sales +22% and non-GAAP EPS ~$2.60, up from +12% and $2.15) with management framing ~30% growth again in FY2027. At ~$3.1B (~26x FY26 EPS, ~20x the FY27 frame) it is the only richly-growing name on the list not trading at bubble multiples - though margin mix (gross margin -3.6pp y/y), the Penguin Edge wind-down, and the transition away from hyperscale customer Meta are live drags.",
+  "catalysts": [
+    "Q4 FY2026 results (~October 2026) against raised guidance (+22% sales, ~$2.60 EPS)",
+    "FY2027 outlook formalization: management contemplates ~30% growth in sales and EPS",
+    "Non-hyperscale AI infrastructure demand outpacing reported sales - growing backlog converts",
+    "Integrated memory attach to AI systems (74% of sales, +104% y/y momentum)",
+    "Analyst target catch-up: the stock trades above street targets (Rosenblatt raised to $75)"
+  ],
+  "risk_factors": [
+    "Customer/segment transition: Advanced Computing declining 15-20% for the year on the Penguin Edge wind-down and the move away from Meta as a hyperscale customer",
+    "Margin mix: non-GAAP gross margin down 3.6pp y/y; the AI-infrastructure mix is lower-margin than legacy",
+    "Competitive: Dell, Supermicro, HPE and white-box vendors all chase the same non-hyperscale AI infrastructure budgets",
+    "Small-cap volatility: beta 2.83; same-day quote conflicts this week (-10.67% and +10.15% prints across sources) show a thin, fast tape",
+    "Memory-price exposure: integrated-memory economics ride the same DRAM cycle that will eventually turn"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 478700000, "unit": "USD", "note": "+48% y/y, consensus 435M; non-GAAP EPS 0.84 vs 0.63 expected; non-GAAP OI record 64.4M, OM 13.4%", "source": "Penguin Solutions Q3 FY2026 8-K (SEC EDGAR) / earnings call coverage", "date": "2026-07-01"},
+    "ai_share_of_sales": {"value": 0.74, "unit": "ratio", "note": "+104% y/y", "source": "Penguin Solutions Q3 FY2026 earnings call", "date": "2026-07-01"},
+    "fy2026_guidance": {"value": 2.60, "unit": "USD/share non-GAAP EPS", "note": "+/-0.05; net sales +22% +/-2% (raised from +12% and 2.15)", "source": "Penguin Solutions Q3 FY2026 8-K", "date": "2026-07-01"},
+    "fy2027_frame": {"value": 0.30, "unit": "ratio", "note": "~30% growth contemplated in both net sales and non-GAAP EPS from FY26 midpoint", "source": "Penguin Solutions Q3 FY2026 earnings call", "date": "2026-07-01"},
+    "advanced_computing_decline": {"value": [-0.20, -0.15], "unit": "ratio", "note": "FY2026 segment decline from Penguin Edge wind-down and Meta transition", "source": "Penguin Solutions Q3 FY2026 earnings call", "date": "2026-07-01"},
+    "market_cap": {"value": 3120000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}

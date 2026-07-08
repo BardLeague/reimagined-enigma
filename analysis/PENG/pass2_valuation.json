@@ -1,0 +1,82 @@
+{
+  "ticker": "PENG",
+  "company": "Penguin Solutions, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical grower (non-hyperscale AI infrastructure and integrated memory)",
+  "moat_rating": "Narrow",
+  "moat_source": "systems-integration expertise and memory-attach relationships in non-hyperscale AI deployments; evidence: +104% AI revenue growth and beat-and-raise cadence, but hardware integration is a competitive, thin-moat trade (OM 13.4%)",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 21.0, "terminal_multiple": 11},
+    "base": {"probability": 50, "intrinsic_value": 51.6, "terminal_multiple": 16},
+    "bull": {"probability": 25, "intrinsic_value": 96.7, "terminal_multiple": 20},
+    "expected_intrinsic_value": 55.2
+  },
+
+  "current_price": 67.71,
+  "margin_of_safety_percent": -22.7,
+
+  "returns": {
+    "three_year": {"bear": -16.3, "base": -5.0, "bull": 7.9, "expected": -4.6},
+    "five_year": {"bear": -20.9, "base": -5.3, "bull": 7.4, "expected": -6.0},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "FY2027 growth delivery (the ~30% frame) against the Meta-transition drag",
+  "primary_model_risk": "Growth mix transition: the raised guidance rides AI-infrastructure momentum while Advanced Computing shrinks 15-20% on the Penguin Edge wind-down and Meta exit. If the AI backlog converts slower than the legacy drag lands, FY2027's ~30% frame slips and the multiple (26x FY26 EPS) compresses toward hardware-peer levels.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "FY2027 execution: at ~20x the FY2027 EPS frame the market modestly front-runs delivery; our base case applies a haircut for the Meta/Edge drag and lands ~19% below the price - a disagreement of degree, not kind",
+
+  "top_5_bull_arguments": [
+    "Beat-and-raise quarter of the highest quality on this list relative to expectations (+48% revenue vs +12% originally guided for the year)",
+    "AI businesses at 74% of sales growing 104% y/y with backlog still building",
+    "~26x FY26 / ~20x FY27-frame EPS is the only sane growth multiple on this watchlist outside NVDA",
+    "Operating leverage visible: non-GAAP OM 13.4% from 11.9% despite gross-margin mix pressure",
+    "Small enough ($3.1B) that non-hyperscale AI infrastructure growth moves the needle for years"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($55.20) is ~19% below the price - the raise is already paid for",
+    "Gross margin fell 3.6pp y/y; AI-infrastructure mix is structurally lower-margin",
+    "Advanced Computing declining 15-20% (Penguin Edge wind-down, Meta exit) drags through FY2026-27",
+    "Dell/Supermicro/HPE competition caps pricing in every deal PENG wins",
+    "Beta 2.83 with same-day conflicting prints (-10.67%/+10.15%) - a thin tape that gaps on any guidance wobble"
+  ],
+  "thesis_breakers": [
+    "FY2026 EPS guidance cut below $2.40",
+    "FY2027 growth frame walked back below 20%",
+    "AI-driven revenue growth decelerating below 50% y/y",
+    "Non-GAAP operating margin falling back below 11%",
+    "Backlog declining sequentially (demand-outpacing-sales claim failing)"
+  ],
+
+  "position_size_recommendation": "0-1%; the most interesting watch candidate outside NVDA - a pullback toward expected IV (~$55) makes it actionable",
+  "probability_of_success": 40,
+  "probability_of_permanent_loss": 20,
+
+  "overall_score": 52,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance are reported (8-K/call); FCF path assumes ~80% conversion of non-GAAP net income (hardware working-capital intensity) - confidence_level medium. Share count implied from snapshot cap/price (~46M); modest inconsistency with public float figures noted but immaterial to the verdict.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +3.06% past week (cap basis) with conflicting same-day prints, Rosenblatt target raised to $75 (pass1), stock described as trading above analyst targets (Yahoo coverage). No verified historical multiple range captured."
+}
