@@ -1,0 +1,26 @@
+{
+  "ticker": "MU",
+  "thesis": "Micron is printing the greatest memory supercycle in history: FQ3 2026 (ended May 28) revenue $41.5B - more than 4x year-over-year and +74% sequentially - at a record ~85% gross margin, with FQ4 guided to ~$50B revenue and ~$31 adjusted EPS. HBM demand from AI servers far exceeds supply and only three companies make it at scale. The stock trades at just ~8x annualized forward EPS yet is down 22% from its high (-14.9% this week on sector sentiment, not company news): the market is pricing the only question that matters - whether these are peak-cycle earnings about to normalize or a structural re-rating of memory economics.",
+  "catalysts": [
+    "FQ4 2026 results (~September 2026): guidance ~$50B revenue, ~$31 adjusted EPS - 20%+ sequential growth on a record base",
+    "HBM supply agreements (incl. reported Anthropic-related demand); HBM sold out with demand far outpacing three-supplier industry capacity",
+    "Memory pricing momentum: the current crunch has quadrupled revenue in a year",
+    "$50B quarterly revenue milestone confirming the structural (not cyclical) thesis if hit",
+    "Any capacity-discipline signals from Samsung/SK hynix extending the price cycle"
+  ],
+  "risk_factors": [
+    "Memory is cyclical: 85% gross margin is unprecedented for DRAM and mean-reverts when supply catches demand; every prior cycle ended with margin collapse",
+    "Peak-multiple trap: ~8x forward EPS looks cheap precisely because the E is at a cycle peak - the classic memory value trap",
+    "Supply response underway industry-wide; 2027-2028 capacity additions could crack pricing simultaneously with any AI-capex digestion",
+    "July 2 sector-wide selloff on cautious AI-demand commentary shows the multiple compresses on sentiment alone (beta 2.14)",
+    "Price data conflicted this week ($912.77 vs $984.75 across sources) - tape is fast and disorderly"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "fq3_2026_revenue": {"value": 41500000000, "unit": "USD", "note": "vs 9.3B a year ago, 23.9B prior quarter; record ~85% gross margin", "source": "Micron FQ3 2026 8-K press release (SEC EDGAR) / CNBC 2026-06-24", "date": "2026-06-24"},
+    "fq3_2026_adj_eps": {"value": 25.11, "unit": "USD/share", "source": "Micron FQ3 2026 8-K press release", "date": "2026-06-24"},
+    "fq4_2026_guidance_revenue": {"value": 50000000000, "unit": "USD", "note": "approximately; adjusted EPS guided ~31", "source": "Micron FQ3 2026 8-K press release", "date": "2026-06-24"},
+    "market_cap": {"value": 1112000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"},
+    "trailing_pe": {"value": 22.28, "unit": "x", "source": "market snapshot (pass1_data.json)", "date": "2026-07-07"}
+  }
+}

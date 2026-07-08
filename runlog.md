@@ -74,3 +74,4 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | NVDA | claude_pass1 | 2026-07-07T17:51:01Z | VALIDATED | 8 | research pass complete |
 | NVDA | pass2 | 2026-07-07T17:51:01Z | VALIDATED | 8 | expected IV 225.5 vs price 192.53; buy |
 | NVDA | pass3 | 2026-07-07T17:51:01Z | VALIDATED | 8 | memo written; verdict buy |
+| MU | claude_pass1 | 2026-07-08T22:18:23Z | VALIDATED | 8 | research pass complete; pass2/pass3 pending |
