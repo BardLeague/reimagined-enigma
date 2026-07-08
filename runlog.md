@@ -83,3 +83,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | ASML | claude_pass1 | 2026-07-08T22:23:13Z | VALIDATED | 8 | research pass complete |
 | ASML | pass2 | 2026-07-08T22:23:13Z | VALIDATED | 8 | expected IV 1172.5 vs price 1855.35; avoid |
 | ASML | pass3 | 2026-07-08T22:23:13Z | VALIDATED | 8 | memo written; verdict avoid |
+| AMAT | claude_pass1 | 2026-07-08T22:25:01Z | VALIDATED | 8 | research pass complete |
+| AMAT | pass2 | 2026-07-08T22:25:01Z | VALIDATED | 8 | expected IV 252.3 vs price 622.59; avoid |
+| AMAT | pass3 | 2026-07-08T22:25:01Z | VALIDATED | 8 | memo written; verdict avoid |

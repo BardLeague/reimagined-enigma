@@ -1,0 +1,82 @@
+{
+  "ticker": "AMAT",
+  "company": "Applied Materials, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-07",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical (broad-line semiconductor equipment)",
+  "moat_rating": "Narrow",
+  "moat_source": "process IP breadth and installed-base services across deposition/etch/implant plus DRAM and packaging leadership; evidence: ~50% gross margin and record revenue, but AMAT shares its markets with Lam/TEL/KLA - unlike ASML there is no monopoly position",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 127.0, "terminal_multiple": 14},
+    "base": {"probability": 50, "intrinsic_value": 239.0, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 404.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 252.3
+  },
+
+  "current_price": 622.59,
+  "margin_of_safety_percent": -146.8,
+
+  "returns": {
+    "three_year": {"bear": -19.5, "base": -13.7, "bull": -7.6, "expected": -13.6},
+    "five_year": {"bear": -27.2, "base": -16.5, "bull": -8.3, "expected": -17.1},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes dividend (~0.5-1%/yr)."
+  },
+
+  "sensitivity_key_driver": "terminal multiple (semicap re-rating durability)",
+  "primary_model_risk": "Multiple regime: at ~56x forward EPS the market has re-rated a cyclical equipment maker to compounder multiples. Base case reverts the terminal to 20x (still generous vs the 15-25x historical band); if the >30% CY2026 growth year is followed by the historically typical digestion year, both the E and the multiple compress together - the bear case is the historical base rate.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "High",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "cycle vs secular: at $622.59 the market prices calendar-2026's >30% equipment growth as the new permanent trend; our base case treats it as a strong cycle year in a cyclical industry - the ~$370 gap between price and expected IV is almost entirely this one disagreement",
+
+  "top_5_bull_arguments": [
+    "Record revenue with FY2026 forecasts RAISED to $31.3B / $11.09 EPS - momentum is real and accelerating",
+    "Broadest semicap portfolio: leading-edge logic, DRAM/HBM, and advanced packaging all growing simultaneously",
+    "~50% gross margin with GAAP EPS +33% y/y shows operating leverage working",
+    "Nine consecutive years of dividend raises (latest +15%) on a fortress balance sheet",
+    "New AI-focused 3D logic/memory systems open incremental served market"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($252.30) is ~59% below the price - the largest quality-adjusted gap among the semicap names analyzed",
+    "~56x forward EPS for a cyclical that historically traded 15-25x; the re-rating IS the position",
+    "85% Asia-Pacific revenue concentration with an export-controls settlement already on the books (regulatory High)",
+    ">30% equipment-growth years are historically followed by digestion years - the cycle has not been repealed",
+    "Peer valuations (KLAC 66x, LRCX 61x trailing) show the whole group is priced for permanence simultaneously"
+  ],
+  "thesis_breakers": [
+    "Q3 FY2026 actuals below $8.45B (bottom of guide)",
+    "CY2026 semicap growth forecast walked back below 20%",
+    "New China export restrictions materially expanding the entity-list scope",
+    "Gross margin below 47% for two consecutive quarters",
+    "First sequential decline in semiconductor systems orders (digestion signal)"
+  ],
+
+  "position_size_recommendation": "0% at current price; a superb frachise to own at semicap-cycle troughs - accumulation zone near expected IV (~$252), which history suggests the next digestion year can deliver",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 42,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance are reported (8-K); FCF path approximates net income (AMAT's historical FCF conversion is near 100%) - confidence_level medium. Market cap conflicted across sources (508.5B vs 470.65B); the higher figure used - at the lower one the overvaluation narrows slightly but the conclusion holds.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -2.56% past week, FY2026 EPS estimate raised from 9.32 to 11.09 (coverage). The 15-25x historical multiple band is industry convention, not a company-specific sourced range - treated as directional."
+}

@@ -1,0 +1,27 @@
+{
+  "ticker": "AMAT",
+  "thesis": "Applied Materials is the broadest semicap franchise riding the AI fab build-out: record Q2 FY2026 revenue of $7.91B (+11% y/y) at ~50% gross margin, Q3 guided to $8.95B, management seeing its semiconductor equipment business growing more than 30% in calendar 2026, and full-year forecasts raised to $31.3B revenue / $11.09 EPS. The stock has re-rated to ~56x forward EPS - multiples the semicap group has never sustained - while 85% of revenue comes from Asia-Pacific with live China trade risk (including a $253M export-controls settlement just paid).",
+  "catalysts": [
+    "Q3 FY2026 results (~August 2026): guidance $8.95B +/- $0.5B",
+    "Calendar-2026 semicap growth >30% per management - confirmation via peer reports and TSMC/Samsung capex",
+    "Two new AI-focused chipmaking systems (advanced 3D logic and memory architectures) ramping",
+    "Advanced packaging and HBM-related tool demand (DRAM leadership position)",
+    "15% dividend raise extending a nine-year streak - capital-return support"
+  ],
+  "risk_factors": [
+    "Valuation: ~56x forward EPS (FY26 estimate 11.09) for ~11% revenue growth - semicap has historically traded at 15-25x; the re-rating dwarfs the fundamental acceleration",
+    "Geographic concentration: Asia-Pacific 85% of six-month revenue (China, Taiwan, Korea) - maximal exposure to trade policy and regional demand shocks",
+    "Export-controls overhang: $253M settlement paid with ongoing audit/training obligations; further restrictions would bite directly",
+    "Semicap is cyclical: equipment orders swing harder than the chip cycle itself; >30% growth years are historically followed by digestion years",
+    "Sector volatility: -2.56% week amid the broader semi pullback (beta 1.35)"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q2_fy2026_revenue": {"value": 7910000000, "unit": "USD", "note": "record, +11% y/y; GAAP EPS 3.51 (+33%), non-GAAP EPS 2.86 (+20%), GM ~50%", "source": "Applied Materials Q2 FY2026 8-K (SEC EDGAR / ir.appliedmaterials.com)", "date": "2026-05-14"},
+    "q3_fy2026_guidance_revenue": {"value": 8950000000, "unit": "USD", "note": "+/- 500M", "source": "Applied Materials Q2 FY2026 8-K", "date": "2026-05-14"},
+    "fy2026_revenue_forecast": {"value": 31300000000, "unit": "USD", "note": "raised from 29.2B; EPS estimate raised from 9.32 to 11.09", "source": "Q2 FY2026 coverage (Simply Wall St aggregate of guidance/consensus)", "date": "2026-05-14"},
+    "export_settlement": {"value": 253000000, "unit": "USD", "note": "US export-controls matter; ongoing audit and training obligations", "source": "Q2 FY2026 10-Q coverage (StockTitan)", "date": "2026-05-14"},
+    "apac_revenue_share": {"value": 0.85, "unit": "ratio", "note": "six-month revenue; China/Taiwan/Korea key", "source": "Q2 FY2026 10-Q coverage", "date": "2026-05-14"},
+    "market_cap": {"value": 508500000000, "unit": "USD", "note": "second source quoted 470.65B the same week; ~817M shares consistent", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-07"}
+  }
+}
