@@ -1,0 +1,82 @@
+{
+  "ticker": "VRT",
+  "company": "Vertiv Holdings Co",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 7,
+
+  "business_type": "cyclical grower (datacenter electrical/thermal infrastructure)",
+  "moat_rating": "Narrow",
+  "moat_source": "installed-base services and hyperscaler qualification cycles in power/cooling; evidence: 252% order growth and pricing power (+170bps margin) - but Schneider/Eaton compete for every large award and the product is ultimately engineered equipment, not a standard",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 90.0, "terminal_multiple": 13},
+    "base": {"probability": 50, "intrinsic_value": 218.0, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 392.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 229.5
+  },
+
+  "current_price": 333.05,
+  "margin_of_safety_percent": -45.1,
+
+  "returns": {
+    "three_year": {"bear": -17.5, "base": -7.4, "bull": 3.4, "expected": -7.2},
+    "five_year": {"bear": -23.0, "base": -8.1, "bull": 3.3, "expected": -9.0},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% closed by year 3."
+  },
+
+  "sensitivity_key_driver": "order normalization slope (when 252% growth mean-reverts and to what level)",
+  "primary_model_risk": "Bullwhip: 252% order growth during capacity shortages includes double-ordering and safety-stock building. The $15B backlog de-risks 2026-27 revenue but says nothing about 2028 orders. Base case assumes orders normalize to trend without contraction; the bear case (orders contract as hyperscaler capex digests) is the standard outcome after order booms of this magnitude in electrical equipment.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "order-book permanence: at ~44x forward earnings the market extrapolates the 252% order surge; our base case converts the backlog fully and still lands ~31% below the price because the terminal year cannot sustain boom-era order rates",
+
+  "top_5_bull_arguments": [
+    "$15B backlog is contracted revenue - 2026-27 numbers are essentially locked",
+    "252% order growth with margin expansion shows pricing power, not just volume",
+    "Liquid cooling is a genuine new product cycle layered on the power franchise",
+    "AMZN ($200B) and MSFT (~$190B) capex plans flow directly into Vertiv's addressable spend",
+    "Bull case ($392) exceeds the price if the build-out runs uninterrupted through 2030"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($229.50) is ~31% below the price; ~44x forward for cyclical equipment is a cycle-peak multiple",
+    "Order booms of this scale in electrical equipment have always included double-ordering that unwinds",
+    "Schneider and Eaton have larger service networks and balance sheets for the retrofit war",
+    "Same single-factor exposure (hyperscaler capex) as the entire AI complex - no diversification benefit",
+    "Sourced order/backlog data is from February; a July analysis on February order data in a fast cycle deserves a reliability haircut (scored 7)"
+  ],
+  "thesis_breakers": [
+    "Book-to-bill below 1.0 in any quarter (normalization arriving)",
+    "Backlog declining sequentially",
+    "A major hyperscaler standardizing on Schneider/Eaton for liquid cooling",
+    "Adjusted operating margin contracting y/y (pricing power gone)",
+    "Hyperscaler capex cuts announced"
+  ],
+
+  "position_size_recommendation": "0% at current price; the backlog makes it safer than its multiple suggests near-term, but entry only makes sense near expected IV (~$230) after the first order-normalization scare",
+  "probability_of_success": 35,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 45,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Reliability 7 (not 8): the order/backlog/margin data is February-2026 vintage - the freshest quarter was not captured in research; forward EPS implied from the quoted forward P/E. FCF path constructed from forward earnings - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +145.25% over 52 weeks, -4.8% over two weeks vs SPY +2.7% (barchart/chartmill via search), trailing P/E 75.53 / forward 44.02, analyst target 376.96 (pass1). No verified historical multiple range captured."
+}
