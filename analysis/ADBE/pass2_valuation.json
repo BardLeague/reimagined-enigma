@@ -1,0 +1,82 @@
+{
+  "ticker": "ADBE",
+  "company": "Adobe Inc.",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (subscription software under a disruption narrative)",
+  "moat_rating": "Wide",
+  "moat_source": "professional-workflow switching costs, file-format/ecosystem standards (PSD, PDF), and enterprise contract embedding; evidence: +12.7% revenue growth with raised guidance DURING peak disruption fear - customers are not leaving while the market prices as if they already have",
+  "management_grade": "B",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 160.0, "terminal_multiple": 9},
+    "base": {"probability": 50, "intrinsic_value": 362.0, "terminal_multiple": 14},
+    "bull": {"probability": 20, "intrinsic_value": 521.0, "terminal_multiple": 16},
+    "expected_intrinsic_value": 333.2
+  },
+
+  "current_price": 221.54,
+  "margin_of_safety_percent": 33.5,
+
+  "returns": {
+    "three_year": {"bear": -5.9, "base": 11.3, "bull": 21.9, "expected": 8.3},
+    "five_year": {"bear": -6.3, "base": 10.3, "bull": 18.6, "expected": 7.0},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. All scenario cash flows are SBC-adjusted (full 1.94B annual haircut) and equity values net of the 1.02B net debt - the audit fixes applied. Buyback accretion at a 13% FCF yield is NOT modeled and would add materially to base/bull outcomes."
+  },
+
+  "sensitivity_key_driver": "terminal multiple (what a slower-growth but cash-gushing Adobe is worth in 2031)",
+  "primary_model_risk": "Disruption slope: the bear case assumes generative AI (Claude Design, Midjourney, Sora, Canva) erodes ARR growth to zero by 2028 and compresses FCF ~35% by 2030. That is a genuine possibility, not a strawman - the entire margin of safety depends on the erosion being slower or shallower than the market's already-priced assumption. The reported evidence to date (beats, raised guidance, ARR +10.2%) sides with the base case; narratives can outrun evidence for years.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market too pessimistic",
+  "expectations_gap_key_variable": "ARR trajectory: at $221.54 (~9x forward earnings, ~10x FCF) the price implies revenue and cash flow DECLINE beginning within two years; reported ARR is growing 10.2% with guidance just raised - the market and the filings currently describe two different companies, and our base case simply believes the filings with a decelerating haircut",
+
+  "top_5_bull_arguments": [
+    "First 'market too pessimistic' verdict in 23 analyses: a 13.15% FCF yield on a wide-moat franchise that just RAISED guidance",
+    "Every reported number contradicts the decline narrative: revenue +12.7% (beat), EPS beat, ARR +10.2%, FY guide raised ~600M",
+    "At ~10x FCF, buybacks retire ~10% of shares annually - the do-nothing scenario compounds per-share value double-digits",
+    "Third-party fair values (314-328) and consensus targets (272) all sit far above the price - even skeptics cannot model it this low",
+    "Enterprise creative/document workflows are contractual and compliance-embedded; disruption of professional seats moves slower than prosumer headlines"
+  ],
+  "top_5_bear_arguments": [
+    "Technological risk is High and real: generative tools attack the low end first, then move up - the classic disruption path, and Claude Design/Canva are moving fast",
+    "ARR deceleration (10.2% and drifting down) is the crack the bears are watching; pricing power erosion shows up there first",
+    "CEO transition during a narrative crisis raises execution risk",
+    "SBC data conflict: if the 1.94B figure is genuinely quarterly (~7.8B/yr), SBC-adjusted FCF collapses to ~4B and the value case fails - resolution against the 10-K is mandatory before deployment",
+    "Cheap software with a secular question is exactly how Citrix/Teradata traded on the way down - value_trap Medium, not Low"
+  ],
+  "thesis_breakers": [
+    "Ending ARR growth below 7% y/y (erosion accelerating)",
+    "First y/y decline in Creative Cloud net new ARR",
+    "FY2026 revenue guidance cut (reversing the raise)",
+    "SBC verified above $4B/yr (per-share economics materially worse than modeled)",
+    "Enterprise seat churn disclosures or a flagship enterprise loss to a generative-AI competitor"
+  ],
+
+  "position_size_recommendation": "3-4% starter with room to add - the first name analyzed that offers a positive margin of safety WITH positive expected returns across base and bull; size reflects the genuinely live disruption tail (bear 30%)",
+  "probability_of_success": 60,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 74,
+  "verdict": "strong_buy",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Audit fixes from the 2026-07-08 methodology review are applied here: SBC fully deducted (1.94B, conflict-flagged), net debt (1.02B, sourced) netted from equity value, and the returns note quantifies what buybacks would add. Revenue/EPS/guidance/FCF-yield/balance-sheet inputs are all reported or aggregator-sourced - confidence_level medium pending SBC verification against the 10-K.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: stock down 30-37% in 2026 across coverage, forward P/E ~9 with PEG 0.6 (Yahoo/247wallst), FCF yield 13.15% vs its own 12-month average of 8.30% (financecharts - a sourced historical comparison, rare in this run), 52-week decline ~41%. The FCF-yield-vs-own-average gap is the single most concrete historical-valuation datapoint captured in any of the 23 analyses."
+}

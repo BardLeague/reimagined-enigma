@@ -1,0 +1,28 @@
+{
+  "ticker": "ADBE",
+  "thesis": "Adobe is the inverse of everything else we have analyzed this week: a wide-moat software franchise whose stock fell 30-37% in 2026 on an AI-disruption narrative (intensified by Anthropic's Claude Design launch in April and generative rivals like Midjourney/Sora/Canva) while its actual results accelerated - Q2 FY2026 revenue $6.62B (+12.7%, a beat), FY2026 guidance RAISED to $26.5-26.6B, ARR +10.2%, and a 13.15% FCF yield (P/FCF ~10, forward P/E ~9). The market is pricing terminal decline; the reported numbers show a growing business. That gap - if the disruption is slower or shallower than feared - is the largest positive margin of safety we have found.",
+  "catalysts": [
+    "Q3 FY2026 results (~September 2026): guidance $6.67-6.72B - a third consecutive beat-and-raise would crack the decline narrative",
+    "Firefly/AI monetization metrics (AI-influenced ARR disclosures) - the direct rebuttal to the disruption thesis",
+    "Buyback math: at a 13% FCF yield, repurchases retire ~10%+ of shares annually at these prices",
+    "CEO transition resolution (uncertainty currently priced in)",
+    "Analyst fair-value anchors well above market: consensus target ~272, third-party fair values ~314-328"
+  ],
+  "risk_factors": [
+    "The disruption might be real: Claude Design (Anthropic), Midjourney, Sora, and Canva attack casual/prosumer creative workflows with free or cheap generative tools - technological risk is High, not theoretical",
+    "ARR growth 10.2% is healthy but decelerating; pricing power erosion would show up here first",
+    "CEO transition adds execution uncertainty at the worst possible narrative moment",
+    "SBC data conflicted: one aggregator prints 1.94B as quarterly (implausible at ~30% of revenue vs Adobe's ~7% historical norm); treated as annual-scale and fully haircut from FCF - if SBC is genuinely ~7.8B/yr the value case collapses",
+    "Value-trap possibility: cheap software with a secular question mark is how ex-growth franchises (Teradata, Citrix) traded on the way down"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q2_fy2026_revenue": {"value": 6620000000, "unit": "USD", "note": "+12.7% y/y vs 6.45B consensus; non-GAAP EPS 5.96 vs 5.82 expected", "source": "Adobe Q2 FY2026 8-K (SEC EDGAR) / Futurum coverage", "date": "2026-06-12"},
+    "fy2026_revenue_guidance": {"value": [26500000000, 26600000000], "unit": "USD", "note": "RAISED from 25.9-26.1B; ending ARR growth guided +10.2% y/y", "source": "Adobe Q2 FY2026 8-K (SEC EDGAR)", "date": "2026-06-12"},
+    "q3_fy2026_guidance_revenue": {"value": [6670000000, 6720000000], "unit": "USD", "source": "Adobe Q2 FY2026 8-K", "date": "2026-06-12"},
+    "ttm_fcf_yield": {"value": 0.1315, "unit": "ratio", "note": "implies ~11.6B TTM FCF on the 88.06B cap; FY2025 FCF was 9.9B (+25.1% y/y)", "source": "financecharts.com FCF yield (2026-06-24) / stockanalysis FY25", "date": "2026-06-24"},
+    "net_debt": {"value": 1020000000, "unit": "USD", "note": "6.15B senior notes + 0.5B commercial paper less 5.63B cash and short-term investments (Q2 FY2026)", "source": "Adobe 10-Q balance-sheet coverage (StockTitan/simplywall.st)", "date": "2026-06-12"},
+    "sbc": {"value": 1940000000, "unit": "USD", "note": "aggregator labels this quarterly (fiscal quarter ending 2025-11-30) which would be ~30% of revenue - implausible vs ~7% historical norm; treated as annual-scale, conflict flagged, and fully deducted from FCF in Pass 2", "source": "alphaquery SBC series", "date": "2026-07-09"},
+    "market_cap": {"value": 88060000000, "unit": "USD", "note": "~397M shares at 221.54; +9.08% cap change over the past week (bounce underway)", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-09"}
+  }
+}

@@ -126,3 +126,7 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | GS | claude_pass1 | 2026-07-09T05:23:58Z | VALIDATED | 8 | research pass complete |
 | GS | pass2 | 2026-07-09T05:23:58Z | VALIDATED | 8 | expected IV 787.0 vs price 1026.29; avoid |
 | GS | pass3 | 2026-07-09T05:23:58Z | VALIDATED | 8 | memo written; verdict avoid |
+| ADBE | pass1 | 2026-07-09T05:37:00Z | VALIDATED | 8 | signal_score=4; queued for claude |
+| ADBE | claude_pass1 | 2026-07-09T05:39:10Z | VALIDATED | 8 | research pass complete |
+| ADBE | pass2 | 2026-07-09T05:39:10Z | VALIDATED | 8 | expected IV 333.2 vs price 221.54; strong_buy |
+| ADBE | pass3 | 2026-07-09T05:39:10Z | VALIDATED | 8 | memo written; verdict strong_buy |

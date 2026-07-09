@@ -1,10 +1,21 @@
 {
-  "generated": "2026-07-09 05:23 UTC",
+  "generated": "2026-07-09 05:39 UTC",
   "filters": {
     "min_data_reliability_score": 6,
     "exclude_value_trap": "High"
   },
   "ranked": [
+    {
+      "ticker": "ADBE",
+      "current_price": 221.54,
+      "expected_intrinsic_value": 333.2,
+      "margin_of_safety_percent": 33.5,
+      "five_year_expected_return": 7.0,
+      "overall_score": 74,
+      "verdict": "strong_buy",
+      "data_reliability_score": 8,
+      "value_trap": "Medium"
+    },
     {
       "ticker": "NVDA",
       "current_price": 192.53,
