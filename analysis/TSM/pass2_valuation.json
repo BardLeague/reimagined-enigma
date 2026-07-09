@@ -1,0 +1,82 @@
+{
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor Manufacturing Company Limited",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (leading-edge foundry monopoly with geopolitical overlay)",
+  "moat_rating": "Wide",
+  "moat_source": "process leadership no competitor has matched for a decade plus customer co-design lock-in; evidence: 66.2% gross margin as a manufacturer, every major AI designer forced onto its 2nm roadmap, wafer prices RISING into 2027",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 123.0, "terminal_multiple": 13},
+    "base": {"probability": 50, "intrinsic_value": 264.0, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 402.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 263.3
+  },
+
+  "current_price": 436.59,
+  "margin_of_safety_percent": -65.8,
+
+  "returns": {
+    "three_year": {"bear": -17.1, "base": -8.6, "bull": -1.6, "expected": -9.0},
+    "five_year": {"bear": -22.4, "base": -9.6, "bull": -1.6, "expected": -10.8},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes dividend (~1.3%/yr)."
+  },
+
+  "sensitivity_key_driver": "terminal multiple (how much geopolitical discount the market applies in 2031)",
+  "primary_model_risk": "Geopolitical multiple: TSM's fundamentals support the bull case operationally, but the terminal multiple is hostage to cross-strait risk perception. The +91% twelve-month run compressed the historical Taiwan discount to near zero at exactly the moment concentration in AI revenue (61% HPC) peaked. A sentiment reversion alone - no operational miss required - produces the bear case.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Low",
+    "regulatory": "High",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "the vanished Taiwan discount: at ~33x trailing (vs a forward 22.8x that itself assumes the >30% growth lands), the market prices TSM like a US megacap without the geopolitical tail; our base case restores a 20x terminal and lands ~40% below the quote",
+
+  "top_5_bull_arguments": [
+    "The only company on Earth that can manufacture leading-edge AI silicon at scale - competitive risk Low, pricing power proven (wafer prices rising in 2027)",
+    "FY2026 guidance raised to >30% USD growth with 66% gross margins - monopoly economics in their prime",
+    "2nm migration is compulsory for the entire AI chip complex in 2027 - revenue visibility few companies ever achieve",
+    "HPC/AI at 61% of revenue means TSM taxes every AI winner regardless of which one prevails",
+    "Fortress balance sheet and dividends through the largest capex cycle in its history"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($263.30) is ~40% below the price; even the bull case ($402) falls short of today's quote",
+    "The Taiwan discount has evaporated after +91% in 12 months - the tail risk has not",
+    "$52-56B capex plus overseas-fab cost premiums pressure both FCF and the famous margins",
+    "61% HPC concentration makes TSM the single largest casualty of any AI-capex digestion",
+    "Middle East supply-chain exposure (helium, hydrogen, energy) flagged by management itself"
+  ],
+  "thesis_breakers": [
+    "Cross-strait escalation (blockade, gray-zone interference with shipping/fabs)",
+    "FY2026 growth guidance cut below 25%",
+    "Gross margin below 60% for two consecutive quarters (2nm/overseas dilution exceeding plan)",
+    "A major customer (Nvidia/Apple) dual-sourcing leading-edge to Samsung/Intel at volume",
+    "2nm high-volume ramp slipping beyond 2027"
+  ],
+
+  "position_size_recommendation": "0-1% at current price; the franchise deserves a permanent watchlist slot - accumulation zone near expected IV (~$263), which geopolitical scares have historically delivered",
+  "probability_of_success": 35,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 50,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/margin/guidance/capex are reported (results and guidance); the FCF path nets guided capex against margin-implied operating cash flow - confidence_level medium. ADR-share math implied from cap/price.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +91.08% over 52 weeks, all-time-high close 477.57 on June 30, 2026, -3.99% past week, trailing P/E 33.33 vs forward 22.77 (pass1/search). No verified historical multiple range beyond this captured."
+}

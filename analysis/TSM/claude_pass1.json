@@ -1,0 +1,27 @@
+{
+  "ticker": "TSM",
+  "thesis": "TSMC is the indispensable node of the entire AI economy: Q1 2026 revenue $35.9B at a 66.2% gross margin with profit +58% y/y, HPC/AI now 61% of revenue, 2026 guidance raised to >30% USD growth, and every major AI chip designer (Nvidia, AMD, Apple, Broadcom, Marvell) required to migrate to its 2nm node in 2027 - with wafer prices rising. After a +91% twelve-month run to ~$437 (~33x trailing), the market has substantially priced this in, while the two structural discounts - Taiwan geopolitics and a $52-56B capex cycle with mounting overseas-fab costs - have not gone away. Q2 earnings land July 16.",
+  "catalysts": [
+    "Q2 2026 results July 16, 2026: guidance $39-40.2B revenue, GM 65.5-67.5%",
+    "2nm (N2) risk production 2H 2026, high-volume 2027 - with all top customers migrating and wafer prices rising in 2027",
+    "FY2026 guidance already raised to >30% USD revenue growth on 'extremely robust' AI demand",
+    "CoWoS/advanced packaging capacity expansions serving AI accelerator backlog",
+    "Any pricing announcements confirming 2027 wafer-price increases"
+  ],
+  "risk_factors": [
+    "Taiwan geopolitical risk: unhedgeable, structural, and the reason the multiple has always carried a discount - a discount the +91% run has largely erased",
+    "Margin sustainability: 2nm ramp depreciation, overseas-fab cost premiums (Arizona/Japan/Germany), and customer order timing all pressure the 66% GM",
+    "Capex $52-56B (upper end) suppresses near-term FCF like the rest of the AI complex",
+    "Supply-chain exposure flagged to Middle East disruptions (energy, helium, hydrogen)",
+    "AI-capex digestion would hit the 61%-of-revenue HPC segment directly"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 35900000000, "unit": "USD", "note": "+6.4% q/q; GM 66.2%; profit +58% y/y; HPC 61% of revenue; advanced nodes 74% of wafer revenue", "source": "TSMC Q1 2026 results (CNBC 2026-04-16 / mlq.ai)", "date": "2026-04-16"},
+    "q2_2026_guidance_revenue": {"value": [39000000000, 40200000000], "unit": "USD", "note": "GM guided 65.5-67.5%", "source": "TSMC Q1 2026 guidance", "date": "2026-04-16"},
+    "fy2026_revenue_growth_guide": {"value": 0.30, "unit": "ratio", "note": "raised to 'above 30%' USD growth", "source": "TSMC guidance (Citi/TipRanks coverage)", "date": "2026-06-30"},
+    "fy2026_capex": {"value": [52000000000, 56000000000], "unit": "USD", "note": "approaching upper end of range", "source": "TSMC Q1 2026 guidance", "date": "2026-04-16"},
+    "market_cap": {"value": 2280000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 33.33, "unit": "x", "note": "forward P/E 22.77 per stockanalysis aggregate", "source": "market snapshot (pass1_data.json)", "date": "2026-07-08"}
+  }
+}

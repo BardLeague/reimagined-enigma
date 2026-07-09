@@ -114,3 +114,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | USAR | claude_pass1 | 2026-07-09T05:16:23Z | VALIDATED | 8 | research pass complete |
 | USAR | pass2 | 2026-07-09T05:16:23Z | VALIDATED | 8 | expected IV 9.6 vs price 18.59; avoid |
 | USAR | pass3 | 2026-07-09T05:16:23Z | VALIDATED | 8 | memo written; verdict avoid |
+| TSM | claude_pass1 | 2026-07-09T05:18:18Z | VALIDATED | 8 | research pass complete |
+| TSM | pass2 | 2026-07-09T05:18:18Z | VALIDATED | 8 | expected IV 263.3 vs price 436.59; avoid |
+| TSM | pass3 | 2026-07-09T05:18:18Z | VALIDATED | 8 | memo written; verdict avoid |
