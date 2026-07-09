@@ -1,16 +1,52 @@
 {
-  "generated": "2026-07-09T05:37:00Z",
+  "generated": "2026-07-09T05:44:21Z",
   "cost": {
-    "deterministic_units": 1,
-    "claude_units": 5,
-    "total_units": 6
+    "deterministic_units": 7,
+    "claude_units": 35,
+    "total_units": 42
   },
   "claude_queue": [
-    "ADBE"
+    "NOW",
+    "CRM",
+    "CEG",
+    "VRT",
+    "KO",
+    "MNST",
+    "ELF"
   ],
   "tickers": [
     {
-      "ticker": "ADBE",
+      "ticker": "NOW",
+      "status": "claude_queued",
+      "signal_score": 4
+    },
+    {
+      "ticker": "CRM",
+      "status": "claude_queued",
+      "signal_score": 4
+    },
+    {
+      "ticker": "CEG",
+      "status": "claude_queued",
+      "signal_score": 2
+    },
+    {
+      "ticker": "VRT",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "KO",
+      "status": "claude_queued",
+      "signal_score": 2
+    },
+    {
+      "ticker": "MNST",
+      "status": "claude_queued",
+      "signal_score": 2
+    },
+    {
+      "ticker": "ELF",
       "status": "claude_queued",
       "signal_score": 4
     }

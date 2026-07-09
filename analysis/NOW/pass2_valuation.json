@@ -1,0 +1,82 @@
+{
+  "ticker": "NOW",
+  "company": "ServiceNow, Inc.",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (enterprise workflow SaaS repositioning for agentic AI)",
+  "moat_rating": "Narrow",
+  "moat_source": "workflow-of-record switching costs across IT/HR/CSM; evidence: raised guidance through a macro shock - but agentic AI puts the seat-based model itself in question, capping the rating",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 47.0, "terminal_multiple": 15},
+    "base": {"probability": 50, "intrinsic_value": 89.0, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 154.0, "terminal_multiple": 28},
+    "expected_intrinsic_value": 94.8
+  },
+
+  "current_price": 107.44,
+  "margin_of_safety_percent": -13.4,
+
+  "returns": {
+    "three_year": {"bear": -12.8, "base": -3.5, "bull": 8.0, "expected": -3.0},
+    "five_year": {"bear": -15.2, "base": -3.7, "bull": 7.5, "expected": -3.8},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% closed by year 3. All scenario FCF is SBC-adjusted (~40% haircut off reported FCF, reflecting ServiceNow's historically heavy issuance) - the audit fix applied."
+  },
+
+  "sensitivity_key_driver": "whether agentic AI expands or cannibalizes seat-based ACV",
+  "primary_model_risk": "Agentic transition: the same technology behind the Control Tower bull case (agents doing work) undermines per-seat pricing (fewer human seats). The base case assumes ACV grows through the transition; the bear case assumes seats shrink faster than platform/agent pricing replaces them. Q2 (July 22) is the first evidence either way.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "the agentic verdict: after the crash-and-rebound, the price (~13% above our expected IV) fairly reflects a coin-flip-weighted transition; the disagreement with the market is small",
+
+  "top_5_bull_arguments": [
+    "Guidance RAISED through a geopolitical revenue shock - demand durability demonstrated",
+    "Now Assist $1M+ ACV customers +130% y/y: AI is currently expanding, not shrinking, contract value",
+    "Jensen Huang's 'OS for enterprise AI agents' endorsement positions NOW at the governance layer every agent deployment needs",
+    "~7x forward subscription revenue is the cheapest in the company's modern history",
+    "Bull case ($154) is 43% above the price if Control Tower becomes the standard"
+  ],
+  "top_5_bear_arguments": [
+    "Agents reduce human seats - the pricing model's foundation - and no one knows the net effect yet",
+    "SBC-adjusted, the cash economics are ~40% worse than headline FCF",
+    "A 14% single-day crash on one soft quarter shows zero multiple cushion",
+    "Expected IV ($94.80) sits ~12% below even the post-crash price",
+    "Conflicting weekly tape data (+15.5% vs +6.2%) reflects a market that cannot decide what this company is worth"
+  ],
+  "thesis_breakers": [
+    "Subscription revenue growth below 15% y/y",
+    "FY2026 subscription guidance cut below $15.7B",
+    "Now Assist ACV cohort growth decelerating below 50% y/y",
+    "Net-new ACV declining while agent products ramp (cannibalization confirmed)",
+    "Renewal rate below 97% (churn appearing)"
+  ],
+
+  "position_size_recommendation": "0-1%; watch July 22 - a strong agentic-ACV print near expected IV (~$95) would make this actionable",
+  "probability_of_success": 45,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 55,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Subscription guidance and cohort metrics are reported; total-revenue/FCF path constructed from guidance plus historical FCF margin, with a 40% SBC haircut (SBC magnitude itself estimated from historical norms, not this year's filing) - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -14% on Q1 print (CNBC), -9.24% June, Guggenheim upgrade to Buy with $125 target July 1 (TIKR), trailing P/E 65.87 (pass1). No verified multiple range beyond this."
+}

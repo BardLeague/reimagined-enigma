@@ -1,0 +1,15 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "NOW",
+    "last_price": 107.44,
+    "change_5d_pct": 15.47,
+    "volume": 23090000,
+    "market_cap": 110800000000,
+    "pe_ratio": 65.87,
+    "beta": 0.94
+  },
+  "signal_score": 4,
+  "data_reliability_score": 8
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "MNST",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "MNST",
+    "last_price": 96.87,
+    "change_5d_pct": 0.26,
+    "volume": 8490000,
+    "market_cap": 94790000000,
+    "pe_ratio": 47.25,
+    "beta": 0.53
+  },
+  "signal_score": 2,
+  "data_reliability_score": 8
+}

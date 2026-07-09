@@ -1,0 +1,15 @@
+{
+  "ticker": "VRT",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "VRT",
+    "last_price": 333.05,
+    "change_5d_pct": -4.8,
+    "volume": 8370000,
+    "market_cap": 127930000000,
+    "pe_ratio": 75.53,
+    "beta": 2.04
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

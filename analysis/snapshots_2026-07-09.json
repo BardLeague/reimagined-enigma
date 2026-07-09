@@ -1,0 +1,9 @@
+[
+  {"ticker": "NOW", "last_price": 107.44, "change_5d_pct": 15.47, "volume": 23090000, "market_cap": 110800000000, "pe_ratio": 65.87, "beta": 0.94},
+  {"ticker": "CRM", "last_price": 165.84, "change_5d_pct": 9.41, "volume": 14110000, "market_cap": 138840000000, "pe_ratio": 19.28, "beta": 1.18},
+  {"ticker": "CEG", "last_price": 244.03, "change_5d_pct": -6.66, "volume": 4160000, "market_cap": 87800000000, "pe_ratio": 20.82, "beta": 1.13},
+  {"ticker": "VRT", "last_price": 333.05, "change_5d_pct": -4.80, "volume": 8370000, "market_cap": 127930000000, "pe_ratio": 75.53, "beta": 2.04},
+  {"ticker": "KO", "last_price": 83.78, "change_5d_pct": 1.08, "volume": 17823964, "market_cap": 361624000000, "pe_ratio": 26.10, "beta": 0.35},
+  {"ticker": "MNST", "last_price": 96.87, "change_5d_pct": 0.26, "volume": 8490000, "market_cap": 94790000000, "pe_ratio": 47.25, "beta": 0.53},
+  {"ticker": "ELF", "last_price": 73.49, "change_5d_pct": 20.99, "volume": 3588136, "market_cap": 4392000000, "pe_ratio": 167.92, "beta": 2.39}
+]

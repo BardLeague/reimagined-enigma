@@ -1,0 +1,15 @@
+{
+  "ticker": "KO",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "KO",
+    "last_price": 83.78,
+    "change_5d_pct": 1.08,
+    "volume": 17823964,
+    "market_cap": 361624000000,
+    "pe_ratio": 26.1,
+    "beta": 0.35
+  },
+  "signal_score": 2,
+  "data_reliability_score": 8
+}

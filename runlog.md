@@ -130,3 +130,13 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | ADBE | claude_pass1 | 2026-07-09T05:39:10Z | VALIDATED | 8 | research pass complete |
 | ADBE | pass2 | 2026-07-09T05:39:10Z | VALIDATED | 8 | expected IV 333.2 vs price 221.54; strong_buy |
 | ADBE | pass3 | 2026-07-09T05:39:10Z | VALIDATED | 8 | memo written; verdict strong_buy |
+| NOW | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=4; queued for claude |
+| CRM | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=4; queued for claude |
+| CEG | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| VRT | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| KO | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| MNST | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| ELF | pass1 | 2026-07-09T05:44:21Z | VALIDATED | 8 | signal_score=4; queued for claude |
+| NOW | claude_pass1 | 2026-07-09T05:46:18Z | VALIDATED | 8 | research pass complete |
+| NOW | pass2 | 2026-07-09T05:46:18Z | VALIDATED | 8 | expected IV 94.8 vs price 107.44; hold |
+| NOW | pass3 | 2026-07-09T05:46:18Z | VALIDATED | 8 | memo written; verdict hold |

@@ -1,0 +1,15 @@
+{
+  "ticker": "ELF",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "ELF",
+    "last_price": 73.49,
+    "change_5d_pct": 20.99,
+    "volume": 3588136,
+    "market_cap": 4392000000,
+    "pe_ratio": 167.92,
+    "beta": 2.39
+  },
+  "signal_score": 4,
+  "data_reliability_score": 8
+}

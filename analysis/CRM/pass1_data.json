@@ -1,0 +1,15 @@
+{
+  "ticker": "CRM",
+  "as_of": "2026-07-09T05:44:21Z",
+  "market_data": {
+    "ticker": "CRM",
+    "last_price": 165.84,
+    "change_5d_pct": 9.41,
+    "volume": 14110000,
+    "market_cap": 138840000000,
+    "pe_ratio": 19.28,
+    "beta": 1.18
+  },
+  "signal_score": 4,
+  "data_reliability_score": 8
+}

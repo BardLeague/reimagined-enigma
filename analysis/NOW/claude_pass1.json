@@ -1,0 +1,25 @@
+{
+  "ticker": "NOW",
+  "thesis": "ServiceNow is fighting to be the winner rather than the victim of agentic AI: after a 14% single-day crash on Q1 2026 results (subscription revenue hit tied to the Iran war disruption) and a -9.2% June, the stock rallied on a Guggenheim upgrade ($125 target) and its 'AI Control Tower' narrative - governance/orchestration for enterprise AI agents, endorsed by Jensen Huang as 'the operating system for enterprise AI agents.' FY2026 subscription revenue guidance was still RAISED to $15.735-15.775B and Now Assist customers with $1M+ ACV are up 130% y/y. At ~$110.8B (~7x forward subscription revenue, ~66x trailing GAAP), it is the cheapest ServiceNow has been in years on sales - but SBC-heavy economics temper the cash story. Q2 results July 22 are the referendum.",
+  "catalysts": [
+    "Q2 2026 results July 22, 2026 - first data point since the AI-partnership wave and the licensing reset",
+    "AI Control Tower adoption metrics; Now Assist $1M+ ACV cohort (+130% y/y)",
+    "FY2026 subscription revenue guidance $15.735-15.775B (raised) - delivery against it",
+    "Nvidia partnership/endorsement deepening ('OS for enterprise AI agents')",
+    "Guggenheim upgrade momentum (rare upgrade, $125 target July 1)"
+  ],
+  "risk_factors": [
+    "Agentic AI cuts both ways: if agents commoditize workflow software, ServiceNow's seat-based economics erode faster than Control Tower revenue arrives",
+    "Q1's 14% single-day crash shows how fragile the multiple is to any subscription-revenue wobble",
+    "SBC-heavy model (~15-20% of revenue historically) - per-share economics are far worse than reported FCF suggests",
+    "Weekly performance data conflicted (+15.47% snapshot vs +6.24% in coverage) - volatile, headline-driven tape",
+    "Macro/geopolitical sensitivity now demonstrated (Iran-war revenue impact management itself cited)"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "fy2026_subscription_guidance": {"value": [15735000000, 15775000000], "unit": "USD", "note": "raised despite Q1 miss", "source": "ServiceNow Q1 2026 press release (newsroom.servicenow.com)", "date": "2026-04-22"},
+    "now_assist_momentum": {"value": 1.30, "unit": "y/y growth ratio of $1M+ ACV customers", "source": "ServiceNow Q1 2026 results", "date": "2026-04-22"},
+    "q1_crash": {"value": -0.14, "unit": "single-day return", "note": "subscription revenue hit tied to Iran war; stock sank 14% on the print", "source": "CNBC 2026-04-22", "date": "2026-04-22"},
+    "market_cap": {"value": 110800000000, "unit": "USD", "note": "~1.03B shares at 107.44; trailing P/E 65.87", "source": "market snapshot (pass1_data.json)", "date": "2026-07-09"}
+  }
+}
