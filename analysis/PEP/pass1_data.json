@@ -1,0 +1,15 @@
+{
+  "ticker": "PEP",
+  "as_of": "2026-07-09T05:10:56Z",
+  "market_data": {
+    "ticker": "PEP",
+    "last_price": 145.0,
+    "change_5d_pct": null,
+    "volume": 9260000,
+    "market_cap": 198130000000,
+    "pe_ratio": 22.5,
+    "beta": 0.31
+  },
+  "signal_score": 2,
+  "data_reliability_score": 8
+}

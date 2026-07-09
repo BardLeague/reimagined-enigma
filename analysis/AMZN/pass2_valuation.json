@@ -1,0 +1,82 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon.com, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower (cloud/AI infrastructure + retail/ads ecosystem)",
+  "moat_rating": "Wide",
+  "moat_source": "AWS switching costs and scale, Prime ecosystem lock-in, logistics network no competitor can replicate; evidence: AWS accelerating to +28% at a $150B run-rate fifteen years into the franchise",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 101.0, "terminal_multiple": 20},
+    "base": {"probability": 50, "intrinsic_value": 219.0, "terminal_multiple": 25},
+    "bull": {"probability": 25, "intrinsic_value": 313.0, "terminal_multiple": 28},
+    "expected_intrinsic_value": 213.0
+  },
+
+  "current_price": 250.56,
+  "margin_of_safety_percent": -17.6,
+
+  "returns": {
+    "three_year": {"bear": -13.7, "base": -2.6, "bull": 4.8, "expected": -3.5},
+    "five_year": {"bear": -16.6, "base": -2.7, "bull": 4.6, "expected": -4.4},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "capex normalization timing (when the $200B investment year converts to FCF)",
+  "primary_model_risk": "FCF trough depth and duration: 2026 FCF is deliberately crushed by the $200B capex plan. Base case assumes capex peaks in 2026 and FCF ramps to ~$135B by 2030; if AI infrastructure demand disappoints, the same spend becomes stranded depreciation and the bear case's shallower FCF recovery governs. The whole valuation is a bet on the conversion timeline.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "capex conversion: at 31x trailing earnings with FCF suppressed, the market prices a successful conversion of the $200B into durable AWS/AI cash flows; our base case agrees directionally but discounts a slower ramp - the ~18% gap is timing, not thesis",
+
+  "top_5_bull_arguments": [
+    "AWS at +28% and accelerating on a $150B run-rate - reacceleration at this scale is extraordinary",
+    "Q2 guided above consensus on both revenue and operating income",
+    "In-house silicon (Trainium) improves AWS unit economics as AI workloads scale",
+    "Advertising keeps mixing earnings toward high margin regardless of the capex cycle",
+    "If conversion lands (bull case), ~$175B of 2030 FCF at 28x supports ~$313 - meaningful upside from $250"
+  ],
+  "top_5_bear_arguments": [
+    "$200B capex is the largest corporate bet ever made; overbuild risk is real and 2026 FCF is already sacrificed",
+    "Expected IV ($213) sits ~15% below the price - the AWS acceleration is already paid for",
+    "Microsoft and Google are spending comparably; trench warfare in AI cloud compresses everyone's returns",
+    "Antitrust attention on retail and cloud is persistent and unpriced",
+    "A consumer downturn hits retail margins exactly when capex needs funding"
+  ],
+  "thesis_breakers": [
+    "AWS growth decelerating below 20% y/y",
+    "2027 capex guided above 2026's $200B (no normalization in sight)",
+    "Q2 2026 actuals below $190B revenue or $19B operating income",
+    "AI-capacity utilization disclosures suggesting overbuild (price cuts, delayed data-center openings)",
+    "Structural retail operating-margin decline below 5%"
+  ],
+
+  "position_size_recommendation": "0-2%; fair-value zone - accumulate on capex-fear drawdowns toward expected IV (~$213)",
+  "probability_of_success": 45,
+  "probability_of_permanent_loss": 10,
+
+  "overall_score": 55,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/AWS/guidance/capex are reported or management-stated; the FCF path (the decisive input) is constructed around the disclosed $200B capex plan - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +6.47% past week, trailing P/E 31.21, analyst average target $312.91 (pass1). No verified historical multiple range captured."
+}

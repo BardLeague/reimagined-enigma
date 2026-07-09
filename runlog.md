@@ -98,3 +98,13 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | PENG | claude_pass1 | 2026-07-08T22:32:17Z | VALIDATED | 8 | research pass complete |
 | PENG | pass2 | 2026-07-08T22:32:17Z | VALIDATED | 8 | expected IV 55.2 vs price 67.71; hold |
 | PENG | pass3 | 2026-07-08T22:32:17Z | VALIDATED | 8 | memo written; verdict hold |
+| AMZN | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=5; queued for claude |
+| MSFT | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| USAR | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| TSM | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| MRVL | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| PEP | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=2; queued for claude |
+| GS | pass1 | 2026-07-09T05:10:56Z | VALIDATED | 8 | signal_score=3; queued for claude |
+| AMZN | claude_pass1 | 2026-07-09T05:12:40Z | VALIDATED | 8 | research pass complete |
+| AMZN | pass2 | 2026-07-09T05:12:40Z | VALIDATED | 8 | expected IV 213.0 vs price 250.56; hold |
+| AMZN | pass3 | 2026-07-09T05:12:40Z | VALIDATED | 8 | memo written; verdict hold |

@@ -1,0 +1,15 @@
+{
+  "ticker": "MSFT",
+  "as_of": "2026-07-09T05:10:56Z",
+  "market_data": {
+    "ticker": "MSFT",
+    "last_price": 388.84,
+    "change_5d_pct": 0.45,
+    "volume": 40372877,
+    "market_cap": 2848000000000,
+    "pe_ratio": 22.82,
+    "beta": 1.13
+  },
+  "signal_score": 2,
+  "data_reliability_score": 8
+}

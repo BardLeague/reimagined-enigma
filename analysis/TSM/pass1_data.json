@@ -1,0 +1,15 @@
+{
+  "ticker": "TSM",
+  "as_of": "2026-07-09T05:10:56Z",
+  "market_data": {
+    "ticker": "TSM",
+    "last_price": 436.59,
+    "change_5d_pct": -3.99,
+    "volume": 15650000,
+    "market_cap": 2280000000000,
+    "pe_ratio": 33.33,
+    "beta": 1.25
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}

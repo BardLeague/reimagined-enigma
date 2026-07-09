@@ -1,66 +1,54 @@
 {
-  "generated": "2026-07-07T17:49:03Z",
+  "generated": "2026-07-09T05:10:56Z",
   "cost": {
-    "deterministic_units": 9,
-    "claude_units": 45,
-    "total_units": 54
+    "deterministic_units": 7,
+    "claude_units": 35,
+    "total_units": 42
   },
   "claude_queue": [
-    "NVDA",
-    "MU",
-    "AVGO",
-    "ASML",
-    "AMAT",
-    "LRCX",
-    "KLAC",
-    "SOUN",
-    "PENG"
+    "AMZN",
+    "MSFT",
+    "USAR",
+    "TSM",
+    "MRVL",
+    "PEP",
+    "GS"
   ],
   "tickers": [
     {
-      "ticker": "NVDA",
+      "ticker": "AMZN",
       "status": "claude_queued",
-      "signal_score": 3
+      "signal_score": 5
     },
     {
-      "ticker": "MU",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "AVGO",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "ASML",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "AMAT",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "LRCX",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "KLAC",
-      "status": "claude_queued",
-      "signal_score": 3
-    },
-    {
-      "ticker": "SOUN",
+      "ticker": "MSFT",
       "status": "claude_queued",
       "signal_score": 2
     },
     {
-      "ticker": "PENG",
+      "ticker": "USAR",
       "status": "claude_queued",
       "signal_score": 2
+    },
+    {
+      "ticker": "TSM",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "MRVL",
+      "status": "claude_queued",
+      "signal_score": 3
+    },
+    {
+      "ticker": "PEP",
+      "status": "claude_queued",
+      "signal_score": 2
+    },
+    {
+      "ticker": "GS",
+      "status": "claude_queued",
+      "signal_score": 3
     }
   ]
 }

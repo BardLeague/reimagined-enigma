@@ -1,0 +1,28 @@
+{
+  "ticker": "AMZN",
+  "thesis": "Amazon is in maximum-investment mode: Q1 2026 revenue $181.5B (+17% y/y) with AWS accelerating to +28% - its fastest growth in 15 quarters at a $150B run-rate - and Q2 guided above consensus at $194-199B with $20-24B operating income. The catch is the $200B 2026 capex commitment (the largest corporate capex plan ever), which crushes near-term free cash flow to fund AI infrastructure including its in-house chip line. The +6.5% week reflects AWS-acceleration optimism; the valuation question is when the capex wave converts back into FCF.",
+  "catalysts": [
+    "Q2 2026 results July 31, 2026: guidance $194-199B revenue, $20-24B operating income (both above consensus)",
+    "AWS growth trajectory (+28% and accelerating; $150B annualized run-rate)",
+    "In-house silicon (Trainium) attach within AWS - the 'chip business inside AWS' narrative",
+    "Capex-to-FCF inflection signals: any sign the $200B peak-investment year normalizes in 2027",
+    "Advertising growth (high-margin earnings mix shift)"
+  ],
+  "risk_factors": [
+    "$200B capex in 2026 - FCF is deliberately sacrificed; if AI demand disappoints, the overbuild becomes writedowns and stranded depreciation",
+    "AWS competition (Microsoft, Google) in AI workloads; share shifts move the whole thesis",
+    "Antitrust/regulatory attention across retail and cloud",
+    "Retail margin cyclicality if the consumer weakens",
+    "At 31.2x trailing earnings the market already pays for the AWS acceleration continuing"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 181500000000, "unit": "USD", "note": "+17% y/y", "source": "Amazon Q1 2026 results (CNBC 2026-04-29 / earnings coverage)", "date": "2026-04-29"},
+    "aws_q1_2026_revenue": {"value": 37590000000, "unit": "USD", "note": "+28% y/y, fastest in 15 quarters; ~$150B annualized run-rate", "source": "Amazon Q1 2026 results (CNBC)", "date": "2026-04-29"},
+    "q2_2026_guidance_revenue": {"value": [194000000000, 199000000000], "unit": "USD", "note": "operating income guided 20-24B; consensus was 188.9B", "source": "Amazon Q1 2026 guidance", "date": "2026-04-29"},
+    "fy2026_capex_plan": {"value": 200000000000, "unit": "USD", "note": "largest single-year corporate capex plan on record; near-term FCF challenged", "source": "Amazon Q1 2026 commentary (phemex/TIKR coverage)", "date": "2026-04-29"},
+    "shares_outstanding": {"value": 10760000000, "unit": "shares", "source": "TipRanks aggregate (pass1 search)", "date": "2026-07-08"},
+    "market_cap": {"value": 2621000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 31.21, "unit": "x", "source": "market snapshot (pass1_data.json)", "date": "2026-07-08"}
+  }
+}

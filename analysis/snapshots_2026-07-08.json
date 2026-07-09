@@ -1,0 +1,9 @@
+[
+  {"ticker": "AMZN", "last_price": 250.56, "change_5d_pct": 6.47, "volume": 51364122, "market_cap": 2621000000000, "pe_ratio": 31.21, "beta": 1.46},
+  {"ticker": "MSFT", "last_price": 388.84, "change_5d_pct": 0.45, "volume": 40372877, "market_cap": 2848000000000, "pe_ratio": 22.82, "beta": 1.13},
+  {"ticker": "USAR", "last_price": 18.59, "change_5d_pct": -15.37, "volume": 9330000, "market_cap": 4210000000, "pe_ratio": null, "beta": 2.36},
+  {"ticker": "TSM", "last_price": 436.59, "change_5d_pct": -3.99, "volume": 15650000, "market_cap": 2280000000000, "pe_ratio": 33.33, "beta": 1.25},
+  {"ticker": "MRVL", "last_price": 232.79, "change_5d_pct": -8.49, "volume": 25460000, "market_cap": 202660000000, "pe_ratio": 78.83, "beta": 2.20},
+  {"ticker": "PEP", "last_price": 145.00, "change_5d_pct": null, "volume": 9260000, "market_cap": 198130000000, "pe_ratio": 22.50, "beta": 0.31},
+  {"ticker": "GS", "last_price": 1026.29, "change_5d_pct": 2.32, "volume": 2190000, "market_cap": 307690000000, "pe_ratio": 19.06, "beta": 1.30}
+]

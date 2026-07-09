@@ -1,0 +1,15 @@
+{
+  "ticker": "MRVL",
+  "as_of": "2026-07-09T05:10:56Z",
+  "market_data": {
+    "ticker": "MRVL",
+    "last_price": 232.79,
+    "change_5d_pct": -8.49,
+    "volume": 25460000,
+    "market_cap": 202660000000,
+    "pe_ratio": 78.83,
+    "beta": 2.2
+  },
+  "signal_score": 3,
+  "data_reliability_score": 8
+}
