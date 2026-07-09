@@ -1,0 +1,82 @@
+{
+  "ticker": "CEG",
+  "company": "Constellation Energy Corporation",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (regulated-adjacent nuclear generation with AI-demand optionality)",
+  "moat_rating": "Wide",
+  "moat_source": "the largest US nuclear fleet - unreplicable carbon-free baseload in a power-short grid; evidence: hyperscalers (Microsoft) signing decade-scale PPAs and a 20% growth target no other utility can credibly claim",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 146.0, "terminal_multiple": 12},
+    "base": {"probability": 50, "intrinsic_value": 224.0, "terminal_multiple": 16},
+    "bull": {"probability": 25, "intrinsic_value": 359.0, "terminal_multiple": 20},
+    "expected_intrinsic_value": 238.3
+  },
+
+  "current_price": 244.03,
+  "margin_of_safety_percent": -2.4,
+
+  "returns": {
+    "three_year": {"bear": -8.8, "base": -1.7, "bull": 8.7, "expected": -0.9},
+    "five_year": {"bear": -9.7, "base": -1.7, "bull": 8.0, "expected": -1.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% closed by year 3. Adjusted operating earnings used as cash-flow proxy (utility convention; true FCF runs below EPS on nuclear capex) - documented deviation. Small dividend (~0.6%) excluded."
+  },
+
+  "sensitivity_key_driver": "hyperscaler PPA volume signed after PJM rules land (late 2026)",
+  "primary_model_risk": "Regulatory timing: the bull case is not operational - it is a queue. PJM interconnection rules (late 2026), Crane's possible slip to 2031, and DOJ divestitures all sit outside management control. The base case assumes moderate PPA flow from 2027; if the queue stalls, CEG is a well-run 21x utility with 4% growth - the bear case.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "High",
+    "technological": "Low"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "PPA timing: after a 41% derating the price (-2.4% vs our expected IV) now fairly discounts the delay; this is the closest-to-fair-value name of the 27 analyzed - the AI premium is out, the option is nearly free",
+
+  "top_5_bull_arguments": [
+    "The 41% drawdown removed the AI premium while the AI power-demand thesis remains intact - the option is now nearly free",
+    "Q1 beat with revenue doubling on Calpine; FY26 guidance affirmed - operations are not the problem",
+    "Largest US nuclear fleet = the scarcest asset in the power-hungry AI build-out; Microsoft already signed",
+    "PJM clarity in late 2026 is a dated, identifiable catalyst - rare in this market",
+    "20% management growth target; even half-delivery re-rates the stock toward the bull case ($359)"
+  ],
+  "top_5_bear_arguments": [
+    "Every catalyst is regulatory and none arrives before late 2026 - dead money at best until then",
+    "Crane slipping to 2031 would impair $1.6B and the flagship Microsoft PPA narrative",
+    "DOJ divestitures already removed high-earning assets from the 2026-27 model",
+    "Nuclear capex means true FCF runs well below the EPS the multiple is quoted on",
+    "If AI datacenter demand forecasts deflate, nuclear scarcity pricing deflates with them"
+  ],
+  "thesis_breakers": [
+    "Crane restart officially delayed beyond 2029 or Microsoft PPA renegotiated",
+    "PJM rules landing adverse to co-located data-center deals",
+    "FY2026 EPS guidance cut below $11.00",
+    "No new hyperscaler PPA signed within 12 months of PJM clarity",
+    "Further forced divestitures beyond York 2"
+  ],
+
+  "position_size_recommendation": "1-2%; fair price for a wide-moat asset with a dated catalyst - the most defensible new-money entry among the non-software names analyzed",
+  "probability_of_success": 50,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 58,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. EPS/guidance/revenue reported; earnings used as cash-flow proxy (utility convention, documented); PPA-driven growth path is constructed - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: 52-week range 228.63-412.70 (41% off the high), -6.66% past week, trailing P/E 20.82, 8% single-day selloff on the guidance midpoint miss (pass1/coverage). Third-party fair-value anchors cited at ~$401 (TIKR) - far above ours; the difference is our regulatory-delay weighting."
+}

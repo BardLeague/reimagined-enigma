@@ -143,3 +143,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | CRM | claude_pass1 | 2026-07-09T05:48:16Z | VALIDATED | 8 | research pass complete |
 | CRM | pass2 | 2026-07-09T05:48:16Z | VALIDATED | 8 | expected IV 194.0 vs price 165.84; buy |
 | CRM | pass3 | 2026-07-09T05:48:16Z | VALIDATED | 8 | memo written; verdict buy |
+| CEG | claude_pass1 | 2026-07-09T05:50:14Z | VALIDATED | 8 | research pass complete |
+| CEG | pass2 | 2026-07-09T05:50:14Z | VALIDATED | 8 | expected IV 238.3 vs price 244.03; hold |
+| CEG | pass3 | 2026-07-09T05:50:14Z | VALIDATED | 8 | memo written; verdict hold |

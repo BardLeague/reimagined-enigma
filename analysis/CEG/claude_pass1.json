@@ -1,0 +1,26 @@
+{
+  "ticker": "CEG",
+  "thesis": "Constellation is the nuclear-AI power thesis in timeout: the stock has fallen ~41% from its $412.70 high to $244 as the 'AI premium' deflated - PJM interconnection rules for data centers are unresolved until late 2026, the Crane restart (Microsoft PPA, $1.6B investment) faces potential delay to 2031, and DOJ-required divestitures punched a hole in 2026-27 earnings. Meanwhile the operating business is fine: Q1 2026 adjusted EPS of $2.74 beat consensus, revenue doubled to $11.1B on Calpine, and FY26 guidance of $11.00-12.00 EPS was affirmed (midpoint just below consensus - the original selloff trigger). At ~21x affirmed EPS with a 20% growth target and the largest US nuclear fleet, the stock is now roughly fairly priced with a free option on the hyperscaler PPA wave arriving once PJM clarity lands.",
+  "catalysts": [
+    "PJM data-center interconnection rules expected late 2026 - the gating item for hyperscaler PPA announcements",
+    "New data-center PPA signings (the delayed re-rating catalyst; Seeking Alpha's 'buy the pullback before deals arrive' case)",
+    "Crane Clean Energy Center restart milestones (Microsoft PPA; interconnection-delay resolution)",
+    "Q2 2026 results (~August); Calpine integration synergies",
+    "FY2026 guidance delivery ($11.00-12.00 adjusted operating EPS, affirmed)"
+  ],
+  "risk_factors": [
+    "Regulatory gauntlet is the whole story: PJM interconnection timing, DOJ divestitures (York 2 and other stations already removed from the model), and nuclear licensing all outside management control",
+    "Crane delay to 2031 would impair the $1.6B restart investment and the flagship Microsoft relationship",
+    "Guidance midpoint below consensus started the derating - and no PPA announcements can land until late 2026 to reverse it",
+    "Utilities carry structural capex; earnings-to-FCF conversion is weaker than the EPS suggests",
+    "If AI power demand forecasts prove overbuilt, the scarcity premium on nuclear evaporates entirely"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_results": {"value": 2.74, "unit": "USD adjusted EPS", "note": "beat 2.53 consensus; revenue 11.1B vs 8.6B expected (Calpine acquisition)", "source": "Constellation Q1 2026 results (Investing.com/TIKR)", "date": "2026-05-14"},
+    "fy2026_guidance_eps": {"value": [11.00, 12.00], "unit": "USD adjusted operating EPS", "note": "affirmed; midpoint 11.50 vs 11.73 consensus - the selloff trigger", "source": "Constellation Q1 2026 guidance", "date": "2026-05-14"},
+    "growth_target": {"value": 0.20, "unit": "ratio", "note": "management 20% growth target per Q1 slides", "source": "Constellation Q1 2026 investor slides", "date": "2026-05-14"},
+    "crane_investment": {"value": 1600000000, "unit": "USD", "note": "restart investment at risk if PJM interconnection slips to 2031", "source": "PJM/Crane coverage (TIKR)", "date": "2026-06-30"},
+    "market_cap": {"value": 87800000000, "unit": "USD", "note": "~360M shares at 244.03; 52-week range 228.63-412.70", "source": "market snapshot (pass1_data.json)", "date": "2026-07-09"}
+  }
+}
