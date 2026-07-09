@@ -1,0 +1,26 @@
+{
+  "ticker": "MRVL",
+  "thesis": "Marvell is the number-two custom AI silicon franchise chasing Broadcom's jackpot: record Q1 FY2027 revenue of $2.418B (+28% y/y), Q2 guided to $2.7B, fiscal-2027 growth projected ~40% on 'exceptional' AI bookings across custom XPU, 800G/1.6T optics, and 51.2T switching, with custom chip revenue of $1.5B in FY2026 growing 20%+. The stock ran +130% into late June (aided by S&P 500 inclusion), then fell ~8% on July 7 as the index-buying wave ended and a Samsung-triggered sector selloff hit - leaving it at ~79x trailing earnings, priced roughly double what a disciplined DCF supports even after the drop.",
+  "catalysts": [
+    "Q2 FY2027 results (~late August 2026): guidance $2.70B +/- 5%",
+    "New custom XPU design-win announcements (the Broadcom-jackpot narrative)",
+    "FY2027 ~40% revenue growth delivery; FY2028 outlook already raised",
+    "1.6T optics and 51.2T Ethernet switch ramps",
+    "Post-S&P-500-inclusion technical stabilization"
+  ],
+  "risk_factors": [
+    "Valuation: ~79x trailing earnings; the July 7 selloff (-7.5 to -8.75%) still leaves the price ~2x a disciplined DCF value",
+    "Broadcom competition: the custom-silicon market leader has deeper hyperscaler relationships and better economics; Marvell wins the deals Broadcom passes on",
+    "Custom-program concentration and cancellation opacity - same structural risk as AVGO with less diversification",
+    "AI-capex digestion hits every segment simultaneously (optics + switching + XPU)",
+    "Post-index-inclusion flows cut both ways; beta 2.20 with -8.49% weekly move (one source printed -22.11%)"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_fy2027_revenue": {"value": 2418000000, "unit": "USD", "note": "record, +28% y/y", "source": "Marvell Q1 FY2027 press release (investor.marvell.com)", "date": "2026-05-27"},
+    "q2_fy2027_guidance_revenue": {"value": 2700000000, "unit": "USD", "note": "+/- 5%; FY2027 growth projected ~40%", "source": "Marvell Q1 FY2027 press release", "date": "2026-05-27"},
+    "fy2026_custom_chip_revenue": {"value": 1500000000, "unit": "USD", "note": "expected to grow 20%+ in FY2027", "source": "Marvell coverage (Money Morning / 24-7 Wall St)", "date": "2026-05-27"},
+    "market_cap": {"value": 202660000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 78.83, "unit": "x", "source": "market snapshot (pass1_data.json)", "date": "2026-07-08"}
+  }
+}

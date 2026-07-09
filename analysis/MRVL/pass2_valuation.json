@@ -1,0 +1,82 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical grower (custom AI silicon and data-center connectivity)",
+  "moat_rating": "Narrow",
+  "moat_source": "custom-ASIC design relationships and SerDes/optics IP; evidence: $1.5B custom revenue growing 20%+ and 28% total growth - but Marvell is structurally the second source in a market Broadcom leads",
+  "management_grade": "B",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 50.0, "terminal_multiple": 15},
+    "base": {"probability": 50, "intrinsic_value": 110.0, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 234.0, "terminal_multiple": 28},
+    "expected_intrinsic_value": 126.0
+  },
+
+  "current_price": 232.79,
+  "margin_of_safety_percent": -84.8,
+
+  "returns": {
+    "three_year": {"bear": -19.1, "base": -11.9, "bull": 0.1, "expected": -10.7},
+    "five_year": {"bear": -26.5, "base": -13.9, "bull": 0.1, "expected": -13.6},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "custom XPU design-win trajectory (share of the non-Broadcom custom market)",
+  "primary_model_risk": "Second-source economics: the bull case requires Marvell to win Broadcom-scale custom programs at Broadcom-like margins; historically the number-two custom vendor wins smaller programs at thinner margins. If FY2027's ~40% growth proves to be the cycle peak rather than the ramp's beginning, the base case's deceleration is optimistic.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "the Broadcom-jackpot probability: at ~79x trailing (and ~2x our expected IV even after the July 7 drop) the market prices Marvell as the next AVGO; our base case prices it as a strong second source - the entire gap is that one word",
+
+  "top_5_bull_arguments": [
+    "Record revenue +28% y/y with FY2027 guided to ~40% growth on exceptional AI bookings",
+    "Custom XPU pipeline is real: $1.5B FY2026 custom revenue growing 20%+, with hyperscalers wanting a second source to check Broadcom",
+    "Full-stack connectivity portfolio (optics + switching + XPU-attach) rides every AI data-center build regardless of whose accelerator wins",
+    "S&P 500 inclusion completed - a permanent widening of the shareholder base",
+    "Bull case (~$234) roughly equals today's price - if the jackpot narrative is right, the downside is time, not capital"
+  ],
+  "top_5_bear_arguments": [
+    "Expected IV ($126) is ~46% below the price; ~79x trailing earnings for the market's SECOND custom-silicon source",
+    "Broadcom takes the biggest programs first; Marvell's custom wins are structurally smaller and thinner-margin",
+    "The July 7 unwind (-8%) showed how much of the +130% run was index mechanics and momentum, not fundamentals",
+    "Weekly price prints conflict (-8.49% vs -22.11%) - a disorderly, crowded tape",
+    "AI-capex digestion hits all three product lines at once; there is no defensive segment"
+  ],
+  "thesis_breakers": [
+    "A flagship custom XPU program cancellation or loss to Broadcom",
+    "Q2 FY2027 actuals below $2.57B (bottom of guide)",
+    "FY2027 growth outlook cut below 30%",
+    "Custom chip revenue growth stalling below 10% y/y",
+    "Optics share loss to Coherent/Lumentum in 1.6T qualifications"
+  ],
+
+  "position_size_recommendation": "0% at current price; revisit near expected IV (~$126) or on a confirmed multi-billion-dollar custom win that rebases the revenue trajectory",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 20,
+
+  "overall_score": 40,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/guidance/custom-revenue figures are reported or management-stated; FCF path is calibrated from non-GAAP margin structure - confidence_level medium. Weekly change conflicted across sources (-8.49% used in pass1; -22.11% printed elsewhere).",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: +130% year-to-late-June run, -7.5 to -8.75% July 7 drop tied to S&P-inclusion unwind and Samsung sell-the-news (Benzinga/tradingkey), trailing P/E 78.83, one aggregate's GF Value of 110.14 (gurufocus). No verified 5-year multiple range captured."
+}
