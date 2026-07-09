@@ -1,0 +1,28 @@
+{
+  "ticker": "PEP",
+  "thesis": "PepsiCo is the watchlist's defensive outlier: Q1 2026 beat on both lines (revenue $19.44B, core EPS $1.61, organic +2.6%) with North American food volumes back to growth, an Elliott Management settlement ($4B stake) driving a margin-and-focus turnaround plan, and a ~4% dividend yield at 22.5x earnings. The uncomfortable arithmetic underneath: last year the dividend consumed 105% of earnings and 111% of free cash flow, leverage sits at ~2.45x debt-to-equity, and GLP-1-era consumption shifts pressure the snacks core. Q2 2026 earnings land July 9 - tomorrow - with analysts cutting targets into the print.",
+  "catalysts": [
+    "Q2 2026 earnings July 9, 2026 - analysts have trimmed targets; the $144 level is being watched",
+    "Elliott turnaround execution: margin expansion, portfolio focus (bottling-light strategy), accelerated organic growth",
+    "FY2026 guidance affirmed: organic +2-4%, core cc EPS +4-6%, $8.9B total cash returns",
+    "Protein/health-forward snack innovation (GLP-1 response strategy)",
+    "Any dividend-coverage improvement (FCF growth vs the $7.9B dividend)"
+  ],
+  "risk_factors": [
+    "Dividend coverage: payout was 105% of earnings and 111% of FCF last year - the 4% yield is borrowed, not earned, until FCF grows",
+    "GLP-1 and health-driven consumption shifts are a structural headwind to the salty-snack core",
+    "Leverage: debt-to-equity ~2.45 constrains flexibility if cash returns must be defended",
+    "Elliott-driven restructuring carries execution risk (plant changes, cost cuts, leadership turnover)",
+    "Low growth: organic +2.6% means the equity case depends almost entirely on margin expansion and the multiple"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 19440000000, "unit": "USD", "note": "beat by ~500M; core EPS 1.61 vs 1.55 expected, +9% y/y; organic growth +2.6%", "source": "PepsiCo Q1 2026 8-K / press release (SEC, CNBC 2026-04-16)", "date": "2026-04-16"},
+    "fy2026_guidance": {"value": [0.02, 0.04], "unit": "organic revenue growth ratio", "note": "core cc EPS +4-6%; cash returns ~8.9B (7.9B dividends + 1.0B buybacks)", "source": "PepsiCo Q1 2026 press release", "date": "2026-04-16"},
+    "dividend_payout_ratios": {"value": [1.05, 1.11], "unit": "ratio of earnings and FCF respectively", "note": "prior-year payout exceeded both earnings and FCF", "source": "dividend coverage analysis (247wallst/dripinvesting)", "date": "2026-07-01"},
+    "debt_to_equity": {"value": 2.45, "unit": "ratio", "source": "leverage analysis (simplywall.st aggregate)", "date": "2026-07-01"},
+    "elliott_stake": {"value": 4000000000, "unit": "USD", "note": "settled with board agreement; turnaround plan in execution", "source": "Elliott/PepsiCo coverage (kavout/fooddive)", "date": "2025-09-11"},
+    "market_cap": {"value": 198130000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 22.50, "unit": "x", "note": "dividend yield ~4.0%", "source": "market snapshot (pass1_data.json)", "date": "2026-07-08"}
+  }
+}

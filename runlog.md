@@ -120,3 +120,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | MRVL | claude_pass1 | 2026-07-09T05:20:09Z | VALIDATED | 8 | research pass complete |
 | MRVL | pass2 | 2026-07-09T05:20:09Z | VALIDATED | 8 | expected IV 126.0 vs price 232.79; avoid |
 | MRVL | pass3 | 2026-07-09T05:20:09Z | VALIDATED | 8 | memo written; verdict avoid |
+| PEP | claude_pass1 | 2026-07-09T05:22:09Z | VALIDATED | 8 | research pass complete |
+| PEP | pass2 | 2026-07-09T05:22:09Z | VALIDATED | 8 | expected IV 79.2 vs price 145.00; avoid (value_trap High) |
+| PEP | pass3 | 2026-07-09T05:22:09Z | VALIDATED | 8 | memo written; verdict avoid |

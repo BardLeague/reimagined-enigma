@@ -1,0 +1,82 @@
+{
+  "ticker": "PEP",
+  "company": "PepsiCo, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (consumer staples, currently a turnaround under activist pressure)",
+  "moat_rating": "Wide",
+  "moat_source": "brand portfolio and DSD distribution scale across snacks and beverages; evidence: pricing power held organic growth positive through volume pressure - but GLP-1-era consumption is testing the moat's demand side for the first time",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "C",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 37.6, "terminal_multiple": 14},
+    "base": {"probability": 50, "intrinsic_value": 80.8, "terminal_multiple": 18},
+    "bull": {"probability": 25, "intrinsic_value": 117.5, "terminal_multiple": 20},
+    "expected_intrinsic_value": 79.2
+  },
+
+  "current_price": 145.00,
+  "margin_of_safety_percent": -83.1,
+
+  "returns": {
+    "three_year": {"bear": -17.8, "base": -9.8, "bull": -3.9, "expected": -10.2},
+    "five_year": {"bear": -23.6, "base": -11.0, "bull": -4.1, "expected": -12.4},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes the ~4% dividend yield, which offsets roughly a third of the expected price decline if maintained - and its maintenance is precisely what is in question."
+  },
+
+  "sensitivity_key_driver": "free-cash-flow growth vs the fixed $7.9B dividend (coverage restoration)",
+  "primary_model_risk": "Dividend arithmetic: with payout at 111% of FCF and leverage at ~2.45x, the model's base case requires the Elliott margin plan to lift FCF ~40% by 2030 while volumes fight GLP-1 headwinds. If FCF stagnates instead, the dividend is either debt-funded (compounding the leverage) or cut (cracking the income-investor shareholder base) - both paths lead to the bear case.",
+
+  "risks": {
+    "value_trap": "High",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Low"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "the safety premium: at 22.5x earnings with a 4% yield, the market prices PEP as a safe dividend compounder; the coverage math (105% of earnings, 111% of FCF) says the safety is currently an accounting appearance - the classic staples value trap",
+
+  "top_5_bull_arguments": [
+    "Q1 beat on both lines with North American food volumes returning to growth - the operational floor is holding",
+    "Elliott's $4B stake and settled board agreement create real pressure for margin expansion and portfolio focus",
+    "Wide-moat brand/distribution assets remain intact; international food volumes grew 9%",
+    "Beta 0.31 - genuine portfolio diversification against everything else on this list",
+    "If the turnaround delivers (bull case ~$117.50), the total return with the yield approaches acceptability"
+  ],
+  "top_5_bear_arguments": [
+    "The dividend consumed 111% of FCF last year - the 4% yield that anchors the valuation is not currently earned",
+    "Expected IV ($79.20) is ~45% below the price; even the bull case ($117.50) sits under the quote",
+    "GLP-1 consumption shifts are a structural, not cyclical, headwind to salty snacks",
+    "Debt-to-equity ~2.45 leaves no leverage room to buy time",
+    "2.6% organic growth cannot outrun a 22.5x multiple built for better days (value_trap rated High)"
+  ],
+  "thesis_breakers": [
+    "Dividend growth pause or cut (the income shareholder base cracks)",
+    "FY2026 organic growth revised below 2%",
+    "North American snack volumes resuming decline for two consecutive quarters",
+    "Leverage rising above 2.7x debt-to-equity to fund cash returns",
+    "Elliott exiting the position (turnaround pressure evaporates)"
+  ],
+
+  "position_size_recommendation": "0%; the yield is not a margin of safety when it is debt-financed - revisit if the dividend is rebased or FCF coverage is restored",
+  "probability_of_success": 30,
+  "probability_of_permanent_loss": 20,
+
+  "overall_score": 38,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance/payout ratios/leverage are reported or sourced from coverage; the FCF recovery slope is constructed around the Elliott plan - confidence_level medium. Net debt (~mid-30s $B) estimated from the sourced 2.45 D/E for equity-value bridging; flagged as derived.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: dividend yield ~4.0-4.08%, trailing P/E 22.50, Q2 earnings July 9 2026 with analyst targets being cut into the print (tradingkey), day range 144.45-149.04 on July 7 (pass1). No verified historical multiple range captured."
+}
