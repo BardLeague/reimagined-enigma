@@ -1,0 +1,25 @@
+{
+  "ticker": "GS",
+  "thesis": "Goldman Sachs is earning peak-cycle numbers: Q1 2026 net revenues $17.23B (+14% y/y), EPS $17.55, annualized ROE 19.8%, record Global Banking & Markets revenue of $12.7B with advisory up 89% in an M&A boom. At $1,026 the stock trades at ~19x trailing - roughly double the 10-12x banks historically command - meaning the market is capitalizing a capital-markets supercycle as if it were a permanent earnings level. Even the street agrees the price is ahead of itself: consensus rating Hold with an average target (~$978) below the market. Q2 earnings land July 14.",
+  "catalysts": [
+    "Q2 2026 earnings July 14, 2026 - the immediate test of whether the advisory/trading boom extends",
+    "M&A and IPO pipeline conversion (advisory +89% y/y momentum)",
+    "Capital returns: buybacks and dividend growth funded by 19.8% ROE",
+    "Asset & Wealth Management growth as a durability offset to trading cyclicality",
+    "Any capital-requirement relief (regulatory easing tailwind)"
+  ],
+  "risk_factors": [
+    "Peak-cycle earnings: advisory +89% and record trading revenue are the definition of a top - normalizing either resets EPS hard",
+    "Valuation: ~19x trailing vs the ~10-12x historical bank band; the multiple assumes the cycle is structural",
+    "Capital-markets revenue is the most macro-sensitive earnings stream in finance (rates, credit spreads, equity volatility all cut both ways)",
+    "Analyst consensus is Hold with the average target below the current price - unusual for a stock this liquid",
+    "Regulatory capital regime changes can constrain buybacks with little warning"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_net_revenues": {"value": 17230000000, "unit": "USD", "note": "+14% y/y; net earnings 5.63B; diluted EPS 17.55 (vs 14.12); annualized ROE 19.8%", "source": "Goldman Sachs Q1 2026 8-K (SEC EDGAR) / CNBC 2026-04-13", "date": "2026-04-13"},
+    "gbm_record_revenue": {"value": 12700000000, "unit": "USD", "note": "record quarter; advisory +89% to 1.5B, equities +27% to 5.33B, equity underwriting +45%", "source": "Goldman Sachs Q1 2026 results", "date": "2026-04-13"},
+    "market_cap": {"value": 307690000000, "unit": "USD", "note": "~300M shares at 1,026.29 - internally consistent", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 19.06, "unit": "x", "note": "analyst average target ~978 (below market), consensus Hold", "source": "market snapshot (pass1_data.json / search aggregates)", "date": "2026-07-08"}
+  }
+}

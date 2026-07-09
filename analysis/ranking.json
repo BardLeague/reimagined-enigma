@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08 22:32 UTC",
+  "generated": "2026-07-09 05:23 UTC",
   "filters": {
     "min_data_reliability_score": 6,
     "exclude_value_trap": "High"
@@ -39,6 +39,28 @@
       "value_trap": "Low"
     },
     {
+      "ticker": "AMZN",
+      "current_price": 250.56,
+      "expected_intrinsic_value": 213.0,
+      "margin_of_safety_percent": -17.6,
+      "five_year_expected_return": -4.4,
+      "overall_score": 55,
+      "verdict": "hold",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "MSFT",
+      "current_price": 388.84,
+      "expected_intrinsic_value": 325.3,
+      "margin_of_safety_percent": -19.6,
+      "five_year_expected_return": -4.3,
+      "overall_score": 56,
+      "verdict": "hold",
+      "data_reliability_score": 8,
+      "value_trap": "Medium"
+    },
+    {
       "ticker": "PENG",
       "current_price": 67.71,
       "expected_intrinsic_value": 55.2,
@@ -50,12 +72,34 @@
       "value_trap": "Low"
     },
     {
+      "ticker": "GS",
+      "current_price": 1026.29,
+      "expected_intrinsic_value": 787.0,
+      "margin_of_safety_percent": -30.4,
+      "five_year_expected_return": -5.7,
+      "overall_score": 44,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Medium"
+    },
+    {
       "ticker": "ASML",
       "current_price": 1855.35,
       "expected_intrinsic_value": 1172.5,
       "margin_of_safety_percent": -58.2,
       "five_year_expected_return": -9.8,
       "overall_score": 48,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "TSM",
+      "current_price": 436.59,
+      "expected_intrinsic_value": 263.3,
+      "margin_of_safety_percent": -65.8,
+      "five_year_expected_return": -10.8,
+      "overall_score": 50,
       "verdict": "avoid",
       "data_reliability_score": 8,
       "value_trap": "Low"
@@ -78,6 +122,28 @@
       "margin_of_safety_percent": -73.3,
       "five_year_expected_return": -13.1,
       "overall_score": 42,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "MRVL",
+      "current_price": 232.79,
+      "expected_intrinsic_value": 126.0,
+      "margin_of_safety_percent": -84.8,
+      "five_year_expected_return": -13.6,
+      "overall_score": 40,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "Low"
+    },
+    {
+      "ticker": "USAR",
+      "current_price": 18.59,
+      "expected_intrinsic_value": 9.6,
+      "margin_of_safety_percent": -93.6,
+      "five_year_expected_return": -18.1,
+      "overall_score": 27,
       "verdict": "avoid",
       "data_reliability_score": 8,
       "value_trap": "Low"
@@ -168,6 +234,20 @@
       "margin_of_safety_percent": -84.6,
       "five_year_expected_return": -14.3,
       "overall_score": 40,
+      "verdict": "avoid",
+      "data_reliability_score": 8,
+      "value_trap": "High",
+      "excluded_reasons": [
+        "risks.value_trap == \"High\""
+      ]
+    },
+    {
+      "ticker": "PEP",
+      "current_price": 145.0,
+      "expected_intrinsic_value": 79.2,
+      "margin_of_safety_percent": -83.1,
+      "five_year_expected_return": -12.4,
+      "overall_score": 38,
       "verdict": "avoid",
       "data_reliability_score": 8,
       "value_trap": "High",

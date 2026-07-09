@@ -1,0 +1,82 @@
+{
+  "ticker": "GS",
+  "company": "The Goldman Sachs Group, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "cyclical (capital-markets franchise at a cycle peak)",
+  "moat_rating": "Narrow",
+  "moat_source": "franchise position and talent network in advisory/trading (top of league tables for decades); evidence: 19.8% ROE and record GBM revenue - but the earnings stream itself is the most cyclical in large-cap finance",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": 19.8,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 498.0, "terminal_multiple": 9},
+    "base": {"probability": 50, "intrinsic_value": 777.0, "terminal_multiple": 12},
+    "bull": {"probability": 25, "intrinsic_value": 1096.0, "terminal_multiple": 14},
+    "expected_intrinsic_value": 787.0
+  },
+
+  "current_price": 1026.29,
+  "margin_of_safety_percent": -30.4,
+
+  "returns": {
+    "three_year": {"bear": -11.6, "base": -5.1, "bull": 1.3, "expected": -5.1},
+    "five_year": {"bear": -13.5, "base": -5.4, "bull": 1.3, "expected": -5.7},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes the ~2% dividend yield. Earnings used as the cash-flow proxy (bank convention); noted as a framework deviation."
+  },
+
+  "sensitivity_key_driver": "capital-markets cycle normalization (advisory/trading revenue reversion)",
+  "primary_model_risk": "Peak-earnings capitalization: Q1's $17.55 EPS annualizes to ~$70, but that includes advisory +89% and record trading - textbook cycle-peak conditions. Base case normalizes earnings ~10% below the current run-rate; if the M&A/trading boom mean-reverts to 2023-24 levels instead, the bear case's ~30% earnings decline is the historical norm, not the tail.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Low"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "cycle permanence: at ~19x trailing (vs the ~10-12x historical bank band) the market caps peak advisory/trading earnings as if structural; our base case pays 12x normalized earnings and lands ~24% below the quote - even the sell side's average target (~978) sits under the market",
+
+  "top_5_bull_arguments": [
+    "19.8% ROE with record GBM revenue - execution at the top of the franchise's game",
+    "Advisory +89% suggests the M&A cycle is early, not late (bull case logic)",
+    "EPS run-rate ~$70 puts the forward multiple near 14.6x - not absurd if earnings hold",
+    "Asset & Wealth Management mix shift slowly de-cyclicalizes the earnings base",
+    "Capital returns are large and consistent; ~2% yield plus buybacks at high ROE"
+  ],
+  "top_5_bear_arguments": [
+    "19x trailing for the most cyclical earnings stream in large-cap finance, at what advisory +89% suggests is the boom quarter",
+    "Expected IV ($787) is ~23% below the price; consensus itself is Hold with targets below market",
+    "Capital-markets revenue mean-reverts violently - the historical norm after quarters like Q1 is a 25-35% earnings decline",
+    "Regulatory capital changes can throttle the buyback with little notice",
+    "Nothing in the mix is defensive: banking, trading, and underwriting all peak together"
+  ],
+  "thesis_breakers": [
+    "Q2 2026 (July 14) advisory or trading revenue down sequentially by >15%",
+    "ROE falling below 14% for two consecutive quarters",
+    "M&A announced-volume data rolling over (the leading indicator)",
+    "Capital-requirement increases forcing buyback suspension",
+    "Credit-cycle deterioration hitting the financing book"
+  ],
+
+  "position_size_recommendation": "0% at current price; a franchise to buy at 10x mid-cycle earnings during the next capital-markets winter - not at 19x during the summer",
+  "probability_of_success": 35,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 44,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROA null (not meaningful/sourced for a bank); ROE 19.8 is the reported annualized figure. Earnings are used as the FCF proxy per bank convention - a documented deviation from the framework's FCF DCF, since bank 'FCF' is not a meaningful construct. Revenue/EPS/ROE are reported (8-K) - strong data foundation; the normalization path is judgment.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: trailing P/E 19.06, +2.32% past week, consensus Hold with average target ~978 below market (pass1/search). The 10-12x historical bank multiple band is industry convention, not a company-specific sourced range."
+}
