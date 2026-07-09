@@ -1,0 +1,26 @@
+{
+  "ticker": "KO",
+  "thesis": "Coca-Cola is executing better than any staple in the market - Q1 2026 organic revenue +10%, comparable EPS +18%, operating margin up to 35%, guidance RAISED to +8-9% EPS growth, Coke Zero volumes +13% neutralizing the GLP-1 headwind, and a 64th consecutive dividend increase funded by $12.2B of guided FCF at a covered ~72% payout (the anti-PEP). The problem is arithmetic, not quality: at $83.78 (~30x FCF, 26x earnings, beta 0.35) the market discounts KO at roughly 6-7%; this framework's non-negotiable 10% hurdle prices the same cash flows far lower. KO is fully-valued excellence - the mirror-image lesson to PEP's uncovered-dividend trap.",
+  "catalysts": [
+    "Q2 2026 results (~July 22, 2026); a fourth consecutive beat is the street's expectation",
+    "FY2026 comparable EPS growth guidance raised to +8-9% (off the $3.00 2025 base) - delivery",
+    "Coke Zero Sugar momentum (+13% volume) and protein/zero portfolio expansion into GLP-1-era demand",
+    "$5.2B remaining buyback authorization",
+    "Emerging-market volume growth on affordability packs"
+  ],
+  "risk_factors": [
+    "Valuation vs hurdle: ~30x FCF for mid-single-digit terminal growth fails a 10% discount rate by construction - the position only works if the market's ~6.5% required return persists",
+    "GLP-1 structural headwind: semaglutide patent expiries and oral forms in 2026 massively expand usage; full-sugar volumes are the exposed base",
+    "Net debt (~$25B order of magnitude) modestly levers the balance sheet",
+    "Currency and EM volatility on a majority-international revenue base",
+    "Any organic-growth normalization from 10% toward the historical 4-6% compresses the premium multiple"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_results": {"value": 12500000000, "unit": "USD net revenue", "note": "+12% reported, +10% organic; EPS 0.91 +18%, comparable 0.86 +18%; operating margin 35.0% vs 32.9%", "source": "Coca-Cola Q1 2026 press release (investors.coca-colacompany.com)", "date": "2026-04-28"},
+    "fy2026_guidance": {"value": [0.08, 0.09], "unit": "comparable EPS growth ratio", "note": "raised; off $3.00 2025 base (~$3.26 implied)", "source": "Coca-Cola Q1 2026 press release", "date": "2026-04-28"},
+    "fy2026_fcf_guidance": {"value": 12200000000, "unit": "USD", "note": "funds 64th consecutive dividend increase (~72% payout - covered); $5.2B buyback remaining", "source": "Coca-Cola guidance / 247wallst coverage", "date": "2026-07-03"},
+    "coke_zero_volume": {"value": 0.13, "unit": "y/y volume growth", "source": "foodnavigator GLP-1 coverage", "date": "2025-10-21"},
+    "market_cap": {"value": 361624000000, "unit": "USD", "note": "~4.32B shares at 83.78; trailing P/E 26.10; beta 0.35", "source": "market snapshot (pass1_data.json)", "date": "2026-07-09"}
+  }
+}

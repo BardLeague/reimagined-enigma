@@ -149,3 +149,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | VRT | claude_pass1 | 2026-07-09T05:51:54Z | VALIDATED | 7 | research pass complete; Feb-vintage order data |
 | VRT | pass2 | 2026-07-09T05:51:54Z | VALIDATED | 7 | expected IV 229.5 vs price 333.05; avoid |
 | VRT | pass3 | 2026-07-09T05:51:54Z | VALIDATED | 7 | memo written; verdict avoid |
+| KO | claude_pass1 | 2026-07-09T05:54:08Z | VALIDATED | 8 | research pass complete |
+| KO | pass2 | 2026-07-09T05:54:08Z | VALIDATED | 8 | expected IV 51.1 vs price 83.78; avoid (hurdle-rate driven) |
+| KO | pass3 | 2026-07-09T05:54:08Z | VALIDATED | 8 | memo written; verdict avoid |

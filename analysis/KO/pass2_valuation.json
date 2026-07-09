@@ -1,0 +1,82 @@
+{
+  "ticker": "KO",
+  "company": "The Coca-Cola Company",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (the reference-class consumer staple)",
+  "moat_rating": "Wide",
+  "moat_source": "brand and global distribution system without peer; evidence: +10% organic growth with 35% operating margins and pricing power straight through a GLP-1 demand shock",
+  "management_grade": "A",
+  "capital_allocation_grade": "A",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 34.5, "terminal_multiple": 16},
+    "base": {"probability": 50, "intrinsic_value": 50.7, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 68.3, "terminal_multiple": 24},
+    "expected_intrinsic_value": 51.1
+  },
+
+  "current_price": 83.78,
+  "margin_of_safety_percent": -63.9,
+
+  "returns": {
+    "three_year": {"bear": -13.5, "base": -8.6, "bull": -3.8, "expected": -8.6},
+    "five_year": {"bear": -16.2, "base": -9.6, "bull": -4.0, "expected": -9.9},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% closed by year 3. Excludes the ~2.4% covered dividend, which offsets roughly a quarter of the expected decline. Net debt (~$25B, order-of-magnitude from public balance-sheet convention, not freshly sourced) netted from equity values."
+  },
+
+  "sensitivity_key_driver": "the discount-rate regime (framework artifact - see primary model risk)",
+  "primary_model_risk": "Hurdle-rate mismatch, disclosed openly: KO's cash flows are among the most predictable on Earth, and the market prices them at a ~6-7% required return (beta 0.35). This framework pins 10% for cross-name comparability, which mechanically renders every low-beta defensive 'overvalued.' The avoid verdict means 'KO cannot clear a 10% return hurdle from $83.78' - a true statement - not 'KO is a broken business.' At an 8% discount rate the base case would roughly double.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Low",
+    "regulatory": "Medium",
+    "technological": "Low"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "required return: the market and this framework agree on KO's cash flows and disagree only on the discount rate; within the framework's 10% constraint the stock cannot offer an adequate expected return from this price",
+
+  "top_5_bull_arguments": [
+    "Best-in-class execution: +10% organic, +18% EPS, margin expansion, raised guidance - the strongest operating print among all staples analyzed",
+    "The dividend is COVERED (~72% of guided $12.2B FCF) - the exact test PEP failed",
+    "Coke Zero +13% volumes shows the portfolio is navigating GLP-1 rather than denying it",
+    "64 consecutive dividend increases with a $5.2B buyback on top",
+    "Beta 0.35 - genuine ballast against the AI-concentrated remainder of this list"
+  ],
+  "top_5_bear_arguments": [
+    "~30x FCF for mid-single-digit terminal growth cannot clear a 10% hurdle under any scenario modeled - even the bull case ($68.30) sits below the price",
+    "GLP-1 usage inflects upward in 2026 (patent expiries, oral forms) - the exposed full-sugar base erodes structurally",
+    "Organic growth of 10% is above KO's own trend and will normalize toward 4-6%, compressing the premium multiple",
+    "~$25B net debt narrows flexibility versus its history",
+    "Defensive scarcity premium evaporates if rates fall and growth rotates back"
+  ],
+  "thesis_breakers": [
+    "Organic revenue growth below 4% for two consecutive quarters",
+    "FCF guidance cut below $11B (dividend coverage narrowing)",
+    "Global unit-case volume declining y/y (GLP-1 winning)",
+    "Operating margin back below 31%",
+    "Dividend growth pause (unthinkable until it happens)"
+  ],
+
+  "position_size_recommendation": "0% under this framework's hurdle; investors running a lower required return for defensive ballast may reasonably disagree - that disagreement is the entire question, and it is disclosed rather than smoothed over",
+  "probability_of_success": 35,
+  "probability_of_permanent_loss": 8,
+
+  "overall_score": 45,
+  "verdict": "avoid",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/guidance/FCF-guide reported (press release); net debt is an order-of-magnitude convention figure, flagged. The verdict is hurdle-rate-driven (see primary_model_risk) - the lowest probability_of_permanent_loss (8%) on any name analyzed coexists with an avoid, which is the framework working as designed, not a contradiction.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: fourth consecutive earnings beat expected (247wallst July 3), all-time-high territory per coverage, +1.08% past week, trailing P/E 26.10 (pass1). No verified historical multiple range captured."
+}
