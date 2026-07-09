@@ -1,0 +1,82 @@
+{
+  "ticker": "USAR",
+  "company": "USA Rare Earth, Inc.",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "pre-scale infrastructure build-out (strategic-resource theme)",
+  "moat_rating": "Narrow",
+  "moat_source": "policy moat, not economic moat: domestic mine-to-magnet positioning (Round Top, Stillwater, Carester IP) in a sector Washington actively subsidizes; evidence: $1.5B PIPE raised on the theme - but 1.9% gross margin shows no demonstrated unit economics",
+  "management_grade": "C",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "B",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 2.0, "terminal_multiple": 12},
+    "base": {"probability": 45, "intrinsic_value": 6.4, "terminal_multiple": 20},
+    "bull": {"probability": 25, "intrinsic_value": 24.3, "terminal_multiple": 28},
+    "expected_intrinsic_value": 9.6
+  },
+
+  "current_price": 18.59,
+  "margin_of_safety_percent": -93.6,
+
+  "returns": {
+    "three_year": {"bear": -22.7, "base": -15.3, "bull": 5.8, "expected": -12.3},
+    "five_year": {"bear": -36.0, "base": -19.2, "bull": 5.5, "expected": -18.1},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3."
+  },
+
+  "sensitivity_key_driver": "2030 revenue scale (magnet ramp + Serra Verde integration)",
+  "primary_model_risk": "Everything is pre-revenue: Q1 revenue of $5.7M at 1.9% gross margin means no DCF input past 2026 is anchored to demonstrated economics. The base case assumes ~$500M of 2030 revenue at 20% FCF margin - both numbers are constructed from project targets, not financials. Policy support (the real thesis) is not a cash flow until contracts are signed.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Medium",
+    "competitive": "Medium",
+    "regulatory": "Low",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "strategic premium vs cash flows: at ~$4.2B (~180x annualized revenue) the market prices USAR as a national-security asset; a 10%-discount DCF can only price cash flows, and even a generous ramp gets ~$9.60 expected - the gap IS the strategic premium, which this framework deliberately does not pay for",
+
+  "top_5_bull_arguments": [
+    "The only integrated US mine-to-magnet chain in construction: Stillwater producing commercial magnets since March, Round Top wholly owned, Carester heavy-RE processing IP",
+    "$1.75B cash post-PIPE removes near-term financing risk for the current plan",
+    "Serra Verde acquisition would add producing-asset scale a US peer cannot match",
+    "Policy tailwind is real and bipartisan (price floors, DoD offtakes, stockpiling) - regulatory risk is rated Low for a reason",
+    "If the bull case lands (~$24 IV), the strategic option pays from today's $18.59 - it is the one scenario that justifies the price"
+  ],
+  "top_5_bear_arguments": [
+    "$5.7M quarterly revenue at 1.9% gross margin against a $4.2B valuation - the widest fundamentals gap on any list we have run",
+    "Net loss $67M in one quarter with capex accelerating; the $2.8B Serra Verde deal is 2/3 of the company's own market cap",
+    "China can crash rare-earth prices at will to strangle Western entrants - it has done so before",
+    "Processing at scale is the graveyard of Western rare-earth ventures (technological risk High)",
+    "Same-week price prints of +9.26% and -15.37% show a purely headline-driven tape"
+  ],
+  "thesis_breakers": [
+    "Stillwater failing to reach the 600 tonnes/year run-rate by mid-2027",
+    "Serra Verde deal collapsing or repriced materially against USAR",
+    "Gross margin still below 15% once magnet sales ramp (economics failing)",
+    "A China rare-earth price offensive without offsetting US price-floor policy",
+    "Cash below $800M with the acquisition unfunded (dilution spiral)"
+  ],
+
+  "position_size_recommendation": "0%; this is a policy trade, not an investment, at current prices - if strategic exposure is desired, size it as a sub-1% option and expect violent drawdowns",
+  "probability_of_success": 20,
+  "probability_of_permanent_loss": 50,
+
+  "overall_score": 27,
+  "verdict": "avoid",
+  "confidence_level": "low",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: lossmaking pre-scale company. DCF maximally degraded: only cash, burn, and the $5.7M revenue quarter are reported; every post-2026 input is constructed from project targets - confidence_level low. The 5-day change is conflicted across sources (+9.26%/-15.37%); the negative print was used in pass1 (signal unaffected).",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -15.37% past week per one aggregate (+9.26% per another), Q1 2026 EPS beat with stock dip on the print (Investing.com). No verified historical multiple range exists for this recently-public company."
+}

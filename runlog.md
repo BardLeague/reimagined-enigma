@@ -111,3 +111,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | MSFT | claude_pass1 | 2026-07-09T05:14:35Z | VALIDATED | 8 | research pass complete |
 | MSFT | pass2 | 2026-07-09T05:14:35Z | VALIDATED | 8 | expected IV 325.3 vs price 388.84; hold |
 | MSFT | pass3 | 2026-07-09T05:14:35Z | VALIDATED | 8 | memo written; verdict hold |
+| USAR | claude_pass1 | 2026-07-09T05:16:23Z | VALIDATED | 8 | research pass complete |
+| USAR | pass2 | 2026-07-09T05:16:23Z | VALIDATED | 8 | expected IV 9.6 vs price 18.59; avoid |
+| USAR | pass3 | 2026-07-09T05:16:23Z | VALIDATED | 8 | memo written; verdict avoid |

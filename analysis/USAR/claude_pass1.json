@@ -1,0 +1,28 @@
+{
+  "ticker": "USAR",
+  "thesis": "USA Rare Earth is a strategic-theme vehicle racing to build a domestic mine-to-magnet supply chain: Stillwater magnet plant Phase 1a commissioned in March 2026 (targeting 600 tonnes/year by year-end), 100% ownership of the Round Top heavy-rare-earth deposit, a Carester processing-IP investment, $1.75B cash after a $1.5B PIPE, and a pending $2.8B Serra Verde acquisition. Against that: Q1 2026 revenue was just $5.7M at a 1.9% gross margin with a $67M net loss, while the market cap (~$4.2B) is ~180x annualized revenue. The -15.4% week (after a +9% print earlier) shows the tape trading policy headlines, not fundamentals.",
+  "catalysts": [
+    "Stillwater ramp to 600 tonnes/year magnet run-rate by end of 2026",
+    "Serra Verde acquisition close (~$2.8B) - transforms the resource base",
+    "Carester heavy-rare-earth processing facility ramp late 2026 into 2027",
+    "US government/DoD rare-earth policy support (price floors, offtakes, stockpiling)",
+    "Round Top project milestones at 100% economic ownership"
+  ],
+  "risk_factors": [
+    "Economics unproven: $5.7M quarterly revenue at 1.9% gross margin - the business model has not yet demonstrated it can make money at any scale",
+    "The $2.8B Serra Verde deal is 2/3 the size of the company's own market cap - integration and funding risk dominate",
+    "Rare-earth pricing volatility and China's ability to crash prices on strategic competitors",
+    "Processing at scale is technologically hard (the reason the West exited the industry); execution risk is High",
+    "Cash burn: $18.6M operating + $38.6M capex in Q1 alone, accelerating with construction; the $1.75B buffer shrinks fast alongside a $2.8B acquisition"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q1_2026_revenue": {"value": 5700000, "unit": "USD", "note": "beat 4.2M estimate; entirely LCM metal-making; gross profit 0.1M (GM 1.9%)", "source": "USA Rare Earth Q1 2026 8-K / press release (StockTitan/SEC)", "date": "2026-05-14"},
+    "q1_2026_net_loss": {"value": -67000000, "unit": "USD", "note": "adjusted net loss -24.1M (-0.12/sh) ex warrant/earn-out fair-value adjustment of 43.6M; loss from operations -36.7M", "source": "USA Rare Earth Q1 2026 press release", "date": "2026-05-14"},
+    "cash": {"value": 1750000000, "unit": "USD", "note": "after $1.5B PIPE", "source": "USA Rare Earth Q1 2026 press release", "date": "2026-05-14"},
+    "serra_verde_deal": {"value": 2800000000, "unit": "USD", "note": "acquisition agreement pending", "source": "USA Rare Earth 8-K (StockTitan)", "date": "2026-05-14"},
+    "q1_2026_cash_use": {"value": [-18600000, -38600000], "unit": "USD", "note": "operating cash use; capex + equipment deposits respectively", "source": "USA Rare Earth Q1 2026 press release", "date": "2026-05-14"},
+    "stillwater_target": {"value": 600, "unit": "tonnes/year magnets", "note": "Phase 1a commissioned March 2026; run-rate target by end 2026", "source": "USA Rare Earth Q1 2026 earnings call", "date": "2026-05-14"},
+    "market_cap": {"value": 4210000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"}
+  }
+}
