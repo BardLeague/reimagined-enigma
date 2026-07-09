@@ -1,0 +1,82 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce, Inc.",
+  "analysis_date": "2026-07-09",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (system-of-record SaaS under an agentic-disruption narrative)",
+  "moat_rating": "Wide",
+  "moat_source": "CRM system-of-record status, data gravity (Data 360), and enterprise process embedding; evidence: +52% EPS growth and $6.6B quarterly FCF while the market prices decline - customer data does not migrate on a narrative",
+  "management_grade": "B",
+  "capital_allocation_grade": "C",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 30, "intrinsic_value": 105.0, "terminal_multiple": 9},
+    "base": {"probability": 50, "intrinsic_value": 205.5, "terminal_multiple": 14},
+    "bull": {"probability": 20, "intrinsic_value": 298.0, "terminal_multiple": 17},
+    "expected_intrinsic_value": 194.0
+  },
+
+  "current_price": 165.84,
+  "margin_of_safety_percent": 14.5,
+
+  "returns": {
+    "three_year": {"bear": -8.0, "base": 4.6, "bull": 13.9, "expected": 2.7},
+    "five_year": {"bear": -8.7, "base": 4.4, "bull": 12.4, "expected": 2.1},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% closed by year 3. Scenario FCF is SBC-adjusted (~3.3B/yr haircut from historical norms). The $25B buyback (retiring ~4-5%/yr at this price) is NOT modeled and adds materially to all scenarios."
+  },
+
+  "sensitivity_key_driver": "seat retention through the agentic transition (net revenue retention)",
+  "primary_model_risk": "Same as ADBE: the bear case (agents shrink seats faster than Agentforce/Data 360 revenue replaces them, FCF eroding from 2028) is genuinely live and carries 30% weight. Salesforce's five-acquisitions-a-year habit adds a second, self-inflicted risk ADBE lacks: capital allocation could burn the discount before the narrative resolves.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "High",
+    "regulatory": "Low",
+    "technological": "High"
+  },
+
+  "expectations_gap_verdict": "market too pessimistic",
+  "expectations_gap_key_variable": "seat economics: at ~12-14x forward earnings the price implies stagnation-to-decline; reported growth is +10-11% guided with Agentforce compounding at +205% - the market is paying for the bear case while the filings print the base case",
+
+  "top_5_bull_arguments": [
+    "Second 'market too pessimistic' verdict of the run: ~10x FCF for the CRM system of record with +52% EPS growth",
+    "Agentforce $1.2B ARR at +205% is the fastest new-product ramp in company history - the disruptor revenue is landing INSIDE Salesforce",
+    "$25B buyback at a three-year-low price is exactly when buybacks create value",
+    "FY27 guide (+10-11%) with H2 re-acceleration gives a near-term falsifiable bull checkpoint",
+    "Data gravity: agents need the customer data Salesforce already hosts - the moat may transfer to the agent era rather than dissolve"
+  ],
+  "top_5_bear_arguments": [
+    "Seat cannibalization is unfalsified: if agents cut human seats 20-30%, per-seat pricing cannot be replaced fast enough",
+    "Five acquisitions in 2026 - every one dropped the stock; capital-allocation grade C is earned",
+    "Agentforce's +205% is off a base that is ~2.6% of total revenue - it cannot carry the P&L for years",
+    "Analyst fair values still being cut (Simply Wall St 317 to 255; RBC/BofA cautious) - the falling-knife phase may not be over",
+    "SBC (~3.3B/yr) consumes a third of the buyback before any share-count reduction happens"
+  ],
+  "thesis_breakers": [
+    "FY2027 revenue guidance cut below $45.5B",
+    "Net revenue retention below 100% (seat erosion confirmed)",
+    "Agentforce ARR growth below 80% y/y (the replacement engine stalling)",
+    "A sixth major acquisition in 2026 (capital discipline broken)",
+    "Operating cash flow growth turning negative y/y"
+  ],
+
+  "position_size_recommendation": "2-3%; second-best risk/reward found after ADBE - the same disruption-fear discount on a wide moat, with the acquisition habit as the differentiating (and sizing-limiting) flaw",
+  "probability_of_success": 55,
+  "probability_of_permanent_loss": 15,
+
+  "overall_score": 65,
+  "verdict": "buy",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. EPS/FCF/guidance/Agentforce ARR are reported; the FY27 FCF level is inferred from guided OCF growth (Q1's 6.6B is seasonally front-loaded) and SBC is estimated from historical norms - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: stock -30% YTD 2026, -45% from highs, three-year low (coverage); trailing P/E 19.28 vs forward 11.92-14.2; +9.41% past week (pass1). MacroTrends historical P/E series exists but no specific range was captured."
+}

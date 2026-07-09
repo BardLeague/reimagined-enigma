@@ -1,0 +1,26 @@
+{
+  "ticker": "CRM",
+  "thesis": "Salesforce is the second software franchise 2026 has priced for agentic disruption while its numbers say otherwise: the stock is down ~30% YTD (-45% from highs, a three-year low) on the fear that AI agents retire the seats it has sold since 1999 - yet Q1 FY2027 delivered GAAP EPS +52%, $6.6B quarterly FCF (+4%), Agentforce ARR of $1.2B growing +205% y/y, and initiated FY27 guidance of $45.8-46.2B (+10-11%) with re-acceleration expected in H2. At ~$138.8B (~12-14x forward earnings, ~10x FCF) with a $25B buyback running, it is the cheapest large-cap software has traded in the modern era. Offsets: five acquisitions this year (deal-fatigue is real), layoffs, and the seat-cannibalization question is legitimate.",
+  "catalysts": [
+    "Q2 FY2027 results (~late August 2026); H2 organic re-acceleration is management's stated checkpoint",
+    "Agentforce ARR trajectory ($1.2B, +205% y/y) - the direct rebuttal to the seat-erosion thesis",
+    "$25B buyback executing at ~10x FCF (retires ~4-5%/yr at these prices)",
+    "Acquisition digestion pause (a stated de-risking signal the market wants)",
+    "FY27 guidance delivery: 10-11% growth against a price implying decline"
+  ],
+  "risk_factors": [
+    "Seat cannibalization: agents replacing human CRM users attacks per-seat pricing - the identical structural fear as ADBE, and equally unresolved",
+    "Serial acquisitions (five in 2026 incl. Fin and a pricing platform) - capital-allocation trust is damaged; each deal drops the stock",
+    "Agentforce contribution called 'modest' against a weak outlook in earlier prints - the +205% is off a small base",
+    "SBC (~3B+/yr historically) flatters headline FCF; per-share economics require the buyback just to stand still on dilution",
+    "Fair-value cuts and cautious notes (RBC, BofA, June 2026) show the analyst floor is still descending"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_fy2027_results": {"value": 2.42, "unit": "USD GAAP diluted EPS", "note": "+52% y/y; OCF 6.7B +3%; FCF 6.6B +4%", "source": "Salesforce Q1 FY2027 8-K (SEC EDGAR) / CNBC 2026-05-27", "date": "2026-05-27"},
+    "agentforce_arr": {"value": 1200000000, "unit": "USD", "note": "+205% y/y", "source": "Salesforce Q1 FY2027 press release", "date": "2026-05-27"},
+    "fy2027_revenue_guidance": {"value": [45800000000, 46200000000], "unit": "USD", "note": "+10-11% y/y; OCF growth guided +9-10%; H2 re-acceleration expected", "source": "Salesforce Q1 FY2027 press release", "date": "2026-05-27"},
+    "buyback": {"value": 25000000000, "unit": "USD", "source": "TIKR coverage of buyback program", "date": "2026-06-30"},
+    "market_cap": {"value": 138840000000, "unit": "USD", "note": "trailing P/E 19.28, forward 11.92-14.2 across sources; stock at a three-year low, -45% from highs", "source": "market snapshot (pass1_data.json) / stockanalysis", "date": "2026-07-09"}
+  }
+}
