@@ -1,0 +1,82 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft Corporation",
+  "analysis_date": "2026-07-08",
+  "data_as_of_date": "2026-07-08",
+  "data_reliability_score": 8,
+
+  "business_type": "mature compounder (enterprise software + cloud, currently in an investment supercycle)",
+  "moat_rating": "Wide",
+  "moat_source": "enterprise switching costs across Office/Windows/Azure identity stack plus Azure scale; evidence: 18% revenue growth at $330B+ annual scale with Azure +40% - but gross margin at its narrowest since 2022 shows the moat funding an arms race",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 183.0, "terminal_multiple": 18},
+    "base": {"probability": 50, "intrinsic_value": 333.0, "terminal_multiple": 22},
+    "bull": {"probability": 25, "intrinsic_value": 452.0, "terminal_multiple": 25},
+    "expected_intrinsic_value": 325.3
+  },
+
+  "current_price": 388.84,
+  "margin_of_safety_percent": -19.6,
+
+  "returns": {
+    "three_year": {"bear": -12.0, "base": -3.0, "bull": 3.1, "expected": -3.7},
+    "five_year": {"bear": -14.0, "base": -3.1, "bull": 3.1, "expected": -4.3},
+    "assumption_note": "Convergence to scenario IV by year 5, ~60% of the gap closed by year 3. Excludes dividend (~0.9%/yr)."
+  },
+
+  "sensitivity_key_driver": "capex peak timing and the FCF-margin recovery slope",
+  "primary_model_risk": "Twin concentration: the FCF recovery assumes the ~$190B capex cycle peaks in calendar 2026 AND that the ~45% of backlog tied to OpenAI converts to revenue as contracted. Either failing - capex extending or OpenAI faltering - pushes the bear case ($183) to the center. No megacap has ever carried this much single-customer exposure.",
+
+  "risks": {
+    "value_trap": "Medium",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Medium"
+  },
+
+  "expectations_gap_verdict": "market roughly correct",
+  "expectations_gap_key_variable": "OpenAI counterparty risk: the -30% drawdown has already repriced the capex fear; the residual ~16% premium to our expected IV is the market granting more benefit of the doubt on the OpenAI-linked backlog than we do",
+
+  "top_5_bull_arguments": [
+    "Cheapest megacap AI spender: 22.8x trailing after a -30% drawdown, with Azure still growing 40%",
+    "AI run-rate $37B growing +123% - the monetization is real even if Copilot lags",
+    "Record $46.7B quarterly operating cash flow; the FCF squeeze is a capex choice, not a demand problem",
+    "$625B of contracted backlog provides multi-year revenue visibility unmatched in software",
+    "If capex peaks on schedule (bull case), FCF rebuilds to ~$185B by 2030 and the stock re-rates toward $452"
+  ],
+  "top_5_bear_arguments": [
+    "~$281B of backlog rides on OpenAI's survival and solvency - a single-counterparty risk with no precedent at this scale",
+    "FCF -22% y/y and gross margin at a four-year low while capex guidance keeps climbing",
+    "Expected IV ($325) is ~16% below the price even after the worst month in 25 years",
+    "Copilot enterprise adoption is the monetization bridge and it is reportedly wobbling",
+    "Depreciation from the build-out compounds for years regardless of AI demand outcomes"
+  ],
+  "thesis_breakers": [
+    "OpenAI distress, renegotiation, or material cancellation within the $281B RPO exposure",
+    "CY2027 capex guided above CY2026's ~$190B (no peak)",
+    "Azure growth below 30% cc for two consecutive quarters",
+    "FCF margin failing to improve sequentially by mid-FY2027",
+    "Microsoft 365 Copilot seat growth stalling in enterprise disclosures"
+  ],
+
+  "position_size_recommendation": "0-2%; the most defensible megacap entry of the AI complex on further weakness - accumulation zone near expected IV (~$325)",
+  "probability_of_success": 45,
+  "probability_of_permanent_loss": 12,
+
+  "overall_score": 56,
+  "verdict": "hold",
+  "confidence_level": "medium",
+
+  "notes_on_nulls": "ROIC/ROE/ROA null: not captured as sourced ratios. Revenue/EPS/Azure/capex/FCF/backlog are reported or management-stated - a strong data foundation; the post-2026 FCF slope is constructed - confidence_level medium.",
+  "historical_context": "Directional context only - low confidence. Verified datapoints: -30% from the 52-week high of 555.45, worst month in more than 25 years (June 2026, Motley Fool), +0.45% past week, trailing P/E 22.82 (pass1/search). No verified historical multiple range beyond this captured."
+}

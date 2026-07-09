@@ -108,3 +108,6 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | AMZN | claude_pass1 | 2026-07-09T05:12:40Z | VALIDATED | 8 | research pass complete |
 | AMZN | pass2 | 2026-07-09T05:12:40Z | VALIDATED | 8 | expected IV 213.0 vs price 250.56; hold |
 | AMZN | pass3 | 2026-07-09T05:12:40Z | VALIDATED | 8 | memo written; verdict hold |
+| MSFT | claude_pass1 | 2026-07-09T05:14:35Z | VALIDATED | 8 | research pass complete |
+| MSFT | pass2 | 2026-07-09T05:14:35Z | VALIDATED | 8 | expected IV 325.3 vs price 388.84; hold |
+| MSFT | pass3 | 2026-07-09T05:14:35Z | VALIDATED | 8 | memo written; verdict hold |

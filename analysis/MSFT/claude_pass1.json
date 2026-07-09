@@ -1,0 +1,29 @@
+{
+  "ticker": "MSFT",
+  "thesis": "Microsoft is the AI-capex bear market's poster child: operationally superb (Q3 FY2026 revenue $82.9B +18%, Azure +40%, AI run-rate $37B +123%) yet down ~30% from its $555 high after its worst month in 25 years, because ~$190B of calendar-2026 capex crushed quarterly FCF 22% to $15.8B and gross margin to its narrowest since 2022. The unusual disclosure that ~45% (~$281B) of its $625B backlog is tied to OpenAI adds a single-counterparty risk unprecedented at this scale. At 22.8x trailing - a discount to its recent history - the stock is the cheapest of the megacap AI spenders.",
+  "catalysts": [
+    "Q4 FY2026 results (~late July 2026): guidance $86.7-87.8B revenue, Azure +39-40% cc",
+    "Sequential FCF-margin improvement - the explicit signal the capex cycle is peaking (CFO guided ~$190B CY2026 capex)",
+    "Microsoft 365 Copilot enterprise adoption metrics (the monetization bridge)",
+    "OpenAI relationship milestones or diversification of the $625B RPO base",
+    "Azure AI run-rate ($37B, +123%) compounding"
+  ],
+  "risk_factors": [
+    "OpenAI concentration: ~45% (~$281B) of remaining performance obligations tied to one customer whose own economics are unproven",
+    "Capex cycle: ~$190B CY2026 with Q4 above $40B; if it does not peak in 2026, FCF recovery slips and the multiple stays compressed",
+    "Gross margin 67.6% - narrowest since 2022 - as data-center depreciation mounts; Q4 operating margin guided down to 44%",
+    "Copilot enterprise adoption slower than expected (bear case flagged across coverage); hiring freeze in some cloud segments",
+    "Regulatory scrutiny across cloud/AI bundling"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q3_fy2026_revenue": {"value": 82900000000, "unit": "USD", "note": "+18% y/y; diluted EPS 4.27 +23%; Microsoft Cloud 54.5B +29%; Azure +40% (39% cc)", "source": "Microsoft Q3 FY2026 results (CNBC 2026-04-29 / microsoft.com IR)", "date": "2026-04-29"},
+    "ai_run_rate": {"value": 37000000000, "unit": "USD", "note": "+123% y/y", "source": "Microsoft Q3 FY2026 earnings call", "date": "2026-04-29"},
+    "q3_fy2026_fcf": {"value": 15800000000, "unit": "USD", "note": "-22% y/y despite record operating cash flow 46.7B; capex 30.9B +85%", "source": "Microsoft Q3 FY2026 results coverage (TIKR/qz)", "date": "2026-04-29"},
+    "cy2026_capex_guide": {"value": 190000000000, "unit": "USD", "note": "CFO Amy Hood guidance; Q4 FY26 capex >40B", "source": "Microsoft guidance commentary", "date": "2026-04-29"},
+    "openai_rpo_concentration": {"value": 281000000000, "unit": "USD", "note": "~45% of 625B remaining performance obligations tied to OpenAI", "source": "coverage of Microsoft disclosures (indmoney/TIKR)", "date": "2026-06-30"},
+    "q4_fy2026_guidance_revenue": {"value": [86700000000, 87800000000], "unit": "USD", "note": "13-15% growth; operating margin guided ~44% from 46.3%", "source": "Microsoft Q3 FY2026 guidance", "date": "2026-04-29"},
+    "market_cap": {"value": 2848000000000, "unit": "USD", "source": "market snapshot (pass1_data.json, web quote aggregate)", "date": "2026-07-08"},
+    "trailing_pe": {"value": 22.82, "unit": "x", "source": "market snapshot (pass1_data.json)", "date": "2026-07-08"}
+  }
+}
