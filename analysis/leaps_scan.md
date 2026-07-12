@@ -105,6 +105,56 @@ case.**
   the narrative to crack even if fundamentals hold. Thesis breakers are listed in
   `analysis/ADBE/pass3_memo.md`.
 
+## Live-market anchors (sourced) and model estimates
+
+Chain tables remain unfetchable from this environment (providers return 403 via the
+egress proxy), but scoped research recovered these dated anchors:
+
+- **ADBE**: spot **$223.64** with near-term (Jul 17, 2026) implied volatility
+  **43.0%** and IV rank 54% — optionsamurai.com data surfaced 2026-07-10.
+- **NVDA**: 30-day IV **38.1%**, IV rank 30% (52-wk IV range 31.1%–54.2%) —
+  projectoption.com, as of 2026-05-26 (stale ~6 weeks; treat as approximate).
+- **CRM**: no reliable IV figure could be sourced (the one datum found was a
+  single-expiration outlier); no model estimate is offered for CRM.
+- Sentiment color, July 2026: Michael Burry disclosed adding to a long Adobe
+  position (Yahoo Finance/Benzinga coverage of his long-dated call purchases), and
+  The Motley Fool's options service lists **long ADBE January 2028 $330 calls** as a
+  recommendation — external confirmation that Jan-2028 ADBE LEAPS are a trafficked
+  expression of this thesis.
+
+**Black-Scholes estimates (NOT quotes)** — computed from the sourced spot/IV above,
+r = 4%, ~558 DTE (Jan 21, 2028); long-dated IV typically sits below an elevated
+near-term IV, so the two columns bracket the plausible premium:
+
+**ADBE (spot $223.64):**
+
+| Strike | Est. premium @ 35% IV | Est. premium @ 43% IV | Est. delta | Fits $3,500? |
+|--------|----------------------:|----------------------:|-----------:|--------------|
+| $230 | ~$4,140 | ~$4,990 | 0.62–0.63 | No |
+| $250 | ~$3,380 | ~$4,250 | 0.54–0.57 | Borderline |
+| $260 | ~$3,050 | ~$3,930 | 0.50–0.54 | Borderline |
+| $280 | ~$2,470 | ~$3,350 | 0.44–0.48 | **Yes** |
+| $330 | ~$1,460 | ~$2,260 | 0.29–0.36 | Yes (below delta band) |
+
+**NVDA (spot $192.53, snapshot 2026-07-09):**
+
+| Strike | Est. premium @ 33% IV | Est. premium @ 38% IV | Est. delta | Payoff if → $225.50 |
+|--------|----------------------:|----------------------:|-----------:|--------------------:|
+| $200 | ~$3,300 | ~$3,760 | 0.60–0.61 | $2,550 |
+| $210 | ~$2,910 | ~$3,380 | 0.56–0.57 | $1,550 |
+| $220 | ~$2,560 | ~$3,030 | 0.51–0.53 | $1,050 |
+
+NVDA reading: every strike that fits the budget pays back **less than its estimated
+cost** even if the stock fully converges to the pipeline's expected intrinsic value —
+the 14.6% margin of safety cannot carry a LEAPS premium. The buy verdict is an
+equity verdict, not an options verdict.
+
+ADBE reading: the budget/delta/convexity intersection sits at **K ≈ $260–$280,
+Jan-2028**: estimated cost $2,500–$3,900 (confirm ≤ $3,500 on the live chain),
+delta ~0.44–0.54, and payoff-if-converged of $5,320–$7,320 (≈ 1.5–2.9× the budget
+cap). The published $330-strike recommendation fits the budget easily but sits
+below the 0.45 delta floor — it is a higher-variance expression of the same thesis.
+
 ## Recommended next action
 
 1. Pre-fetch chains where Yahoo is reachable (`market_data.py --options ADBE NVDA CRM`).
@@ -117,4 +167,13 @@ case.**
 
 *Not investment advice; this is the pipeline's framework applied to the user's
 LEAPS mandate. All figures trace to validated pipeline files except where labeled
-as arithmetic bounds.*
+as arithmetic bounds or Black-Scholes estimates from the sourced anchors above.*
+
+## Sources (live-market anchors section)
+
+- ADBE spot/IV: optionsamurai.com ADBE option chain (data of 2026-07-10)
+- NVDA IV30/rank: projectoption.com NVDA implied volatility (as of 2026-05-26)
+- Burry Adobe position: finance.yahoo.com "Michael Burry Buys Long-Dated Microsoft
+  Calls, Adds To JD And Adobe" / benzinga.com Burry LEAP coverage (July 2026)
+- ADBE Jan-2028 $330 call recommendation: The Motley Fool options disclosure line
+  (surfaced July 2026)

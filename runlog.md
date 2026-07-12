@@ -160,3 +160,4 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | ELF | pass3 | 2026-07-12T00:19:01Z | VALIDATED | 8 | memo written; verdict avoid |
 | ALL | rerank | 2026-07-12T19:05:50Z | OK | - | ranking refreshed; 28 ranked + 2 excluded (MNST, ELF now included) |
 | ADBE,NVDA,CRM | leaps_scan | 2026-07-12T19:05:50Z | BLOCKED_EGRESS | - | live chains unreachable (Yahoo + public chain sites 403 via proxy); tooling added, report written from validated pipeline figures + budget bounds |
+| ADBE,NVDA,CRM | leaps_pricing | 2026-07-12T19:14:49Z | PARTIAL | - | sourced IV anchors (ADBE 43% near-term 07-10; NVDA IV30 38.1% 05-26; CRM none); BS premium estimates added to leaps_scan.md, labeled as estimates not quotes |
