@@ -13,16 +13,18 @@ content are still authoritative there).
 framework/equity_analysis_framework_v2.md   # valuation/memo framework (source of truth)
 config/watchlist.json                       # array of ticker strings
 config/thresholds.json                      # cost gates: warning_units, hard_stop_units
-scripts/market_data.py                      # yfinance snapshot layer: get_snapshot(ticker)
+scripts/market_data.py                      # yfinance layer: get_snapshot(ticker), get_leaps_chain(ticker)
 scripts/run_watchlist.py                    # deterministic orchestrator (pass1 + filter + cost gate)
 scripts/validate_json.py                    # validation: pass1 | claude_pass1 | pass2
 scripts/rank_watchlist.py                   # final ranking (unchanged)
+scripts/leaps_scan.py                       # deterministic LEAPS call scan over ranked buy-rated names
 analysis/{TICKER}/pass1_data.json           # deterministic market snapshot + signal score
 analysis/{TICKER}/claude_pass1.json         # Claude research pass (only if signal_score >= 2)
 analysis/{TICKER}/pass2_valuation.json      # valuation (framework Pass 2)
 analysis/{TICKER}/pass3_memo.md             # committee memo (framework Pass 3)
 analysis/run_plan.json                      # run_watchlist.py output: queue + cost
 analysis/ranking.md / ranking.json          # rank_watchlist.py output
+analysis/leaps_scan.json / leaps_scan.md    # leaps_scan.py output + narrative report
 runlog.md                                   # append-only run log
 ```
 
@@ -96,6 +98,18 @@ ticker only. Same gates, same logging.
 `python3 scripts/run_watchlist.py --dry-run` — shows which tickers would
 trigger Claude analysis and the projected cost. Executes no analysis, writes
 no files. Report the table to the user and stop.
+
+### "scan leaps" (optionally "--budget N")
+
+`python3 scripts/leaps_scan.py` — deterministic scan of long-dated calls
+(≥ 365 DTE, premium ≤ budget, OI/spread/delta filters) on tickers whose
+ranking verdict is strong_buy/buy. Uses `get_leaps_chain` from
+`scripts/market_data.py` (same Yahoo egress caveat: pre-fetch with
+`py scripts/market_data.py --options T1 T2 ... > chains.json` and pass
+`--chains-file chains.json` where Yahoo is blocked). Writes
+`analysis/leaps_scan.json`; narrative goes in `analysis/leaps_scan.md`.
+Costs 1 unit per scanned ticker (deterministic pass); no Claude analysis
+is triggered by this command.
 
 ### "rerank"
 

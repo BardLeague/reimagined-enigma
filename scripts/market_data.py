@@ -97,14 +97,84 @@ def get_snapshot(ticker):
     }
 
 
+def get_leaps_chain(ticker, min_dte_days=365):
+    """Fetch long-dated call options for one ticker via yfinance.
+
+    Returns {"ticker", "as_of", "last_price", "expirations": [
+        {"expiration", "dte_days", "calls": [
+            {"strike", "bid", "ask", "last", "open_interest", "volume",
+             "implied_volatility", "in_the_money"}]}]}.
+    Only expirations at least min_dte_days out are included. Raises
+    MarketDataError when the chain is unavailable (same network caveat as
+    get_snapshot: pre-fetch elsewhere and use leaps_scan.py --chains-file
+    when Yahoo Finance is blocked).
+    """
+    import datetime
+
+    import yfinance as yf
+
+    t = yf.Ticker(ticker)
+    try:
+        expirations = list(t.options or ())
+    except Exception as e:
+        raise MarketDataError("%s: option expirations fetch failed: %s"
+                              % (ticker, e)) from e
+    if not expirations:
+        raise MarketDataError("%s: no option expirations returned" % ticker)
+
+    today = datetime.date.today()
+    out_exps = []
+    for exp in expirations:
+        try:
+            exp_date = datetime.date.fromisoformat(exp)
+        except ValueError:
+            continue
+        dte = (exp_date - today).days
+        if dte < min_dte_days:
+            continue
+        try:
+            chain = t.option_chain(exp)
+        except Exception as e:
+            raise MarketDataError("%s: option chain fetch failed for %s: %s"
+                                  % (ticker, exp, e)) from e
+        calls = []
+        for row in chain.calls.itertuples():
+            calls.append({
+                "strike": _to_float(getattr(row, "strike", None)),
+                "bid": _to_float(getattr(row, "bid", None)),
+                "ask": _to_float(getattr(row, "ask", None)),
+                "last": _to_float(getattr(row, "lastPrice", None)),
+                "open_interest": _to_int(getattr(row, "openInterest", None)),
+                "volume": _to_int(getattr(row, "volume", None)),
+                "implied_volatility": _to_float(
+                    getattr(row, "impliedVolatility", None)),
+                "in_the_money": bool(getattr(row, "inTheMoney", False)),
+            })
+        out_exps.append({"expiration": exp, "dte_days": dte, "calls": calls})
+
+    snapshot = get_snapshot(ticker)
+    return {
+        "ticker": ticker,
+        "as_of": today.isoformat(),
+        "last_price": snapshot["last_price"],
+        "expirations": out_exps,
+    }
+
+
 def main(argv):
-    if len(argv) < 2:
-        print("Usage: market_data.py TICKER [TICKER ...]")
+    args = argv[1:]
+    fetch_options = "--options" in args
+    args = [a for a in args if a != "--options"]
+    if not args:
+        print("Usage: market_data.py [--options] TICKER [TICKER ...]")
         return 1
     out, failed = [], []
-    for ticker in argv[1:]:
+    for ticker in args:
         try:
-            out.append(get_snapshot(ticker))
+            if fetch_options:
+                out.append(get_leaps_chain(ticker))
+            else:
+                out.append(get_snapshot(ticker))
         except MarketDataError as e:
             failed.append(str(e))
     print(json.dumps(out, indent=2))

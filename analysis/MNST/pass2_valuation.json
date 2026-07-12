@@ -1,0 +1,77 @@
+{
+  "ticker": "MNST",
+  "company": "Monster Beverage Corporation",
+  "analysis_date": "2026-07-12",
+  "data_as_of_date": "2026-07-09",
+  "data_reliability_score": 8,
+
+  "business_type": "secular grower",
+  "moat_rating": "Wide",
+  "moat_source": "Brand plus Coca-Cola global distribution network (scale); international sales +44.9% y/y riding a distribution moat competitors cannot replicate",
+  "management_grade": "A",
+  "capital_allocation_grade": "B",
+  "balance_sheet_grade": "A",
+
+  "roic": null,
+  "roe": null,
+  "roa": null,
+
+  "dcf": {
+    "discount_rate": 0.10,
+    "bear": {"probability": 25, "intrinsic_value": 43.9, "terminal_multiple": 20},
+    "base": {"probability": 50, "intrinsic_value": 78.1, "terminal_multiple": 28},
+    "bull": {"probability": 25, "intrinsic_value": 103.6, "terminal_multiple": 32},
+    "expected_intrinsic_value": 75.9
+  },
+
+  "current_price": 96.87,
+  "margin_of_safety_percent": -27.6,
+
+  "returns": {
+    "three_year": {"bear": -14.9, "base": -4.8, "bull": 1.6, "expected": -5.7},
+    "five_year": {"bear": -14.6, "base": -4.2, "bull": 1.4, "expected": -5.4}
+  },
+
+  "sensitivity_key_driver": "terminal_multiple",
+  "primary_model_risk": "Terminal FCF multiple: the stock trades ~47x trailing earnings/FCF; the base case already grants a premium 28x exit on year-5 FCF. Each 2-turn change moves IV roughly $4-5/share; if the market keeps paying 40x+ the model is too conservative, if energy-drink growth matures to staples multiples (20x) the bear case governs.",
+
+  "risks": {
+    "value_trap": "Low",
+    "bankruptcy": "Low",
+    "competitive": "Medium",
+    "regulatory": "Medium",
+    "technological": "Low"
+  },
+
+  "expectations_gap_verdict": "market too optimistic",
+  "expectations_gap_key_variable": "FCF conversion: the price (~47x FCF) requires ~20%+ FCF growth compounding for years; Q1 revenue momentum (+26.9%) supports the P&L but FY2025 FCF was only $1.97B and gross margin is compressing (55.0% vs 56.5%), so the cash-flow path implied by the price is steeper than the reported cash-flow trend",
+
+  "top_5_bull_arguments": [
+    "Fastest growth in a decade: Q1 2026 net sales +26.9% to $2.35B, first $2B+ quarter, 8.9% consensus beat",
+    "International engine: +44.9% y/y to ~45% of sales on Coca-Cola distribution; China/India still early",
+    "New-product wave already ~15% of US sales since Sep 2025 launches - innovation flywheel is working",
+    "Net cash balance sheet ($5.08 cash/share, current ratio 3.26) with ~$400M buyback authorization remaining",
+    "Management $10B FY2027 revenue glidepath would make current estimates look low if hit"
+  ],
+  "top_5_bear_arguments": [
+    "Price already exceeds the FactSet mean target ($93.55) after a +31.6% 90-day run - re-rating has front-run the results",
+    "~47x trailing P/E and ~47x FCF for a beverage company, with gross margin compressing 150bps y/y",
+    "International mix shift is structurally margin-dilutive (aluminum, freight, geographic mix)",
+    "FY2025 FCF $1.97B implies FCF conversion lagging the revenue narrative; buyback pace (~$100M/qtr) is immaterial at a $95B cap",
+    "Regulatory overhang on energy drinks (caffeine/youth marketing) is unpriced at a premium multiple"
+  ],
+  "thesis_breakers": [
+    "International net sales growth decelerating below ~20% y/y for two consecutive quarters",
+    "Gross margin falling below 53% (accelerating erosion beyond mix effects)",
+    "Revenue tracking materially below the ~$10B-by-FY2027 management glidepath",
+    "FCF failing to grow toward $2.5B+ annualized while the P&L compounds - conversion gap widening"
+  ],
+
+  "position_size_recommendation": "None at current price; revisit below ~$76 (expected IV) or after the Aug 10 split-related flow settles",
+  "probability_of_success": 0.30,
+  "probability_of_permanent_loss": 0.15,
+
+  "overall_score": 48,
+  "verdict": "avoid",
+  "confidence_level": "medium"
+}

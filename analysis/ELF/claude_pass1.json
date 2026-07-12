@@ -1,0 +1,32 @@
+{
+  "ticker": "ELF",
+  "thesis": "e.l.f. Beauty closed fiscal 2026 (ended 2026-03-31) with net sales +25% to $1.636B and a 35% Q4 (+$449.3M, beating $424.8M consensus), with all five brands growing and the newly acquired Rhode at ~$390M annualized sales growing ~80% y/y. The stock collapsed early in 2026, then rebounded ~47% through June and into July (pass1 shows +21.0% over 5 days to $73.49) on the Q4 beat, a $55M tariff refund, and the mid-June e.l.f. Hair category launch. The tension: FY2027 adjusted-EPS guidance of $3.27-$3.32 came in well below the ~$3.61 consensus, GAAP net income fell 77% to $26.3M (GAAP EPS $0.45 vs adjusted $3.13 - a very wide gap from Rhode deal costs, amortization, and SBC), and total debt jumped to $841.7M against $289.7M cash. This is a momentum re-rating on a decelerating-guide, newly levered story.",
+  "catalysts": [
+    "Q1 FY2027 earnings on 2026-08-05: first full quarter showing whether the +12-14% guided growth is conservative or honest",
+    "Rhode international expansion into Mexico and seven European markets during FY2027",
+    "e.l.f. Hair launch (mid-June 2026): six mass-priced haircare SKUs via TikTok Shop, D2C, and Target online ahead of wider store rollout - a whole new category if it works",
+    "Further tariff relief following the $55M tariff refund received in mid-2026",
+    "Continued market-share gains across all five brands (management-cited momentum at Q4)"
+  ],
+  "risk_factors": [
+    "FY2027 adjusted EPS guidance $3.27-$3.32 vs ~$3.61 consensus - the Street reset targets downward (one prominent reset from $85 to $50) even as the stock rallied",
+    "GAAP/adjusted gap: FY2026 GAAP EPS $0.45 vs adjusted $3.13; GAAP net income -77% to $26.3M - quality of earnings depends heavily on add-backs",
+    "Leverage: total debt $841.7M (from $256.7M) vs $289.7M cash after the Rhode acquisition - net debt ~$552M on a company with $26.3M GAAP net income",
+    "Momentum/beta risk: beta 2.39 and a +47% June move mean the position re-prices violently on any guide-down; the 5-day +21% into the pass1 snapshot is sentiment, not new fundamentals",
+    "Category/fad risk: mass cosmetics and TikTok-driven brands (Rhode ~80% growth) have short fashion cycles; core e.l.f. growth is decelerating (guided +12-14% vs +25% delivered)",
+    "No free-cash-flow figure was verifiable in this pass - valuation must proxy owner earnings from adjusted EPS with an explicit haircut"
+  ],
+  "sentiment": "neutral",
+  "key_financials": {
+    "q4_fy2026_net_sales": {"value": 449300000, "unit": "USD", "note": "+35% y/y, vs $424.8M consensus", "source": "e.l.f. Beauty Q4 FY2026 8-K (SEC EDGAR) / StockTitan", "date": "2026-05-20"},
+    "fy2026_net_sales": {"value": 1636000000, "unit": "USD", "note": "+25% y/y", "source": "e.l.f. Beauty Q4 FY2026 8-K (SEC EDGAR)", "date": "2026-05-20"},
+    "fy2026_gaap_net_income": {"value": 26300000, "unit": "USD", "note": "-77% y/y; GAAP EPS $0.45 vs $1.99 FY2025", "source": "stockanalysis.com FY2026 summary / Q4 8-K", "date": "2026-05-20"},
+    "fy2026_adj_eps": {"value": 3.13, "unit": "USD", "note": "Q4 adjusted EPS $0.32 vs $0.29 expected", "source": "e.l.f. Beauty Q4 FY2026 8-K / Yahoo Finance coverage", "date": "2026-05-20"},
+    "fy2027_guidance_net_sales": {"value": [1840000000, 1870000000], "unit": "USD", "note": "+12-14% y/y", "source": "e.l.f. Beauty Q4 FY2026 8-K guidance", "date": "2026-05-20"},
+    "fy2027_guidance_adj_eps": {"value": [3.27, 3.32], "unit": "USD", "note": "below ~$3.61 consensus at the time of the guide", "source": "e.l.f. Beauty Q4 FY2026 8-K / proactiveinvestors coverage", "date": "2026-05-20"},
+    "total_debt": {"value": 841700000, "unit": "USD", "note": "up from $256.7M; cash $289.7M; net debt ~$552M (derived)", "source": "Q4 FY2026 balance sheet via Simply Wall St / 8-K", "date": "2026-05-20"},
+    "rhode_annualized_sales": {"value": 390000000, "unit": "USD", "note": "~80% y/y growth; expanding to Mexico + 7 European markets", "source": "Q4 FY2026 earnings coverage (Simply Wall St / StockTitan)", "date": "2026-05-20"},
+    "tariff_refund": {"value": 55000000, "unit": "USD", "note": "one-time refund cited among rally drivers", "source": "TipRanks catalyst coverage", "date": "2026-06-30"},
+    "market_cap": {"value": 4392000000, "unit": "USD", "note": "~59.8M shares implied at $73.49 (derived: market_cap / last_price from pass1 snapshot)", "source": "pass1_data.json snapshot", "date": "2026-07-09"}
+  }
+}

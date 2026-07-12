@@ -152,3 +152,11 @@ Status values: `STARTED`, `VALIDATED`, `RETRY`, `FAILED`, `SKIPPED_FRESH`, `SKIP
 | KO | claude_pass1 | 2026-07-09T05:54:08Z | VALIDATED | 8 | research pass complete |
 | KO | pass2 | 2026-07-09T05:54:08Z | VALIDATED | 8 | expected IV 51.1 vs price 83.78; avoid (hurdle-rate driven) |
 | KO | pass3 | 2026-07-09T05:54:08Z | VALIDATED | 8 | memo written; verdict avoid |
+| MNST | claude_pass1 | 2026-07-12T00:16:12Z | VALIDATED | 8 | research pass complete (resumed interrupted 2026-07-09 queue) |
+| MNST | pass2 | 2026-07-12T00:16:12Z | VALIDATED | 8 | expected IV 75.9 vs price 96.87; avoid (hurdle-rate driven, quality intact) |
+| MNST | pass3 | 2026-07-12T00:16:12Z | VALIDATED | 8 | memo written; verdict avoid |
+| ELF | claude_pass1 | 2026-07-12T00:19:01Z | VALIDATED | 8 | research pass complete (resumed interrupted 2026-07-09 queue) |
+| ELF | pass2 | 2026-07-12T00:19:01Z | VALIDATED | 8 | expected IV 52.8 vs price 73.49; avoid (momentum re-rate into a below-consensus guide; FCF unverifiable, confidence low) |
+| ELF | pass3 | 2026-07-12T00:19:01Z | VALIDATED | 8 | memo written; verdict avoid |
+| ALL | rerank | 2026-07-12T19:05:50Z | OK | - | ranking refreshed; 28 ranked + 2 excluded (MNST, ELF now included) |
+| ADBE,NVDA,CRM | leaps_scan | 2026-07-12T19:05:50Z | BLOCKED_EGRESS | - | live chains unreachable (Yahoo + public chain sites 403 via proxy); tooling added, report written from validated pipeline figures + budget bounds |

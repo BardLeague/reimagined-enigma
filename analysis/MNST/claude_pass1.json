@@ -1,0 +1,31 @@
+{
+  "ticker": "MNST",
+  "thesis": "Monster Beverage is executing its strongest growth phase in a decade: Q1 2026 net sales rose 26.9% to $2.35B (first $2B+ quarter in company history, an 8.9% beat), adjusted EPS +23.7% to $0.58, and international sales grew 44.9% to ~45% of revenue on Coca-Cola's distribution network plus China/India demand. New products launched since September 2025 already contribute ~15% of US sales. The business is high quality and net cash, but the stock has re-rated hard (+31.6% in 90 days to ~$95-97, ~47x trailing earnings) and now trades at or above the FactSet mean target of $93.55, so the growth is largely priced in. A 2-for-1 stock split is effective August 10, 2026.",
+  "catalysts": [
+    "Q2 2026 earnings (~August 2026): continuation of the 25%+ international-led growth would force further estimate revisions",
+    "Two-for-one stock split effective August 10, 2026 (announced; retail-flow tailwind)",
+    "Management projection of ~$10B revenue by FY2027 (vs a FY2025 base implied by prior-year Q1 net sales of $1.85B) - hitting the glidepath re-rates the growth narrative",
+    "New product wave: brands launched since Sep 2025 already ~15% of US sales (Morgan Stanley, July 2026)",
+    "Ongoing buyback: ~$400M remaining authorized after ~$100M repurchased in Q1 2026 at avg $73.86"
+  ],
+  "risk_factors": [
+    "Valuation: ~47x trailing P/E and price ($96.87 at pass1 snapshot) already above the FactSet mean analyst target of $93.55 - little margin for execution slip",
+    "Gross margin compressed to 55.0% from 56.5% y/y on geographic mix, aluminum can costs, and freight - international mix shift is structurally margin-dilutive",
+    "Growth increasingly tied to international expansion, raising exposure to regulatory shifts, tariffs, and local demand shocks (China, India)",
+    "FCF conversion lags the P&L: FY2025 FCF was $1.97B (~$2.08/share TTM as of Mar 2026), so the stock trades near ~47x FCF as well",
+    "Energy-drink category regulatory risk (caffeine limits, youth-marketing restrictions) is a persistent Low-probability/High-impact overhang"
+  ],
+  "sentiment": "bullish",
+  "key_financials": {
+    "q1_2026_net_sales": {"value": 2350000000, "unit": "USD", "note": "+26.9% y/y vs $1.85B prior year and $2.16B consensus (8.9% beat); first $2B+ quarter", "source": "Monster Beverage Q1 2026 8-K via StockTitan / Zacks coverage", "date": "2026-05-08"},
+    "q1_2026_adj_eps": {"value": 0.58, "unit": "USD", "note": "+23.7% y/y, vs $0.53 Zacks consensus", "source": "Zacks Q1 2026 earnings coverage", "date": "2026-05-08"},
+    "q1_2026_gross_margin": {"value": 0.550, "unit": "ratio", "note": "down from 56.5% y/y on geographic mix, aluminum, freight-in", "source": "Zacks Q1 2026 earnings coverage", "date": "2026-05-08"},
+    "international_net_sales_q1_2026": {"value": 1060000000, "unit": "USD", "note": "+44.9% y/y, ~45% of total net sales", "source": "Monster Beverage Q1 2026 8-K via StockTitan / TIKR", "date": "2026-05-08"},
+    "fy2025_fcf": {"value": 1970000000, "unit": "USD", "note": "TTM FCF/share $2.08 as of Mar 2026 (GuruFocus)", "source": "stockanalysis.com cash flow statement / GuruFocus", "date": "2026-03-31"},
+    "q1_2026_buybacks": {"value": 100000000, "unit": "USD", "note": "~1.4M shares at average $73.86; ~$400M authorization remaining", "source": "Monster Beverage Q1 2026 8-K via StockTitan", "date": "2026-05-08"},
+    "cash_per_share": {"value": 5.08, "unit": "USD", "note": "cash ratio 1.37, current ratio 3.26 - net cash balance sheet", "source": "stockanalysis.com / Macroaxis balance sheet data", "date": "2026-03-31"},
+    "analyst_targets": {"value": 93.55, "unit": "USD", "note": "FactSet mean; Morgan Stanley $103 OW, Wells Fargo $105, Goldman $106 (raised from $97)", "source": "FactSet via TradingView / MarketScreener / TheStreet", "date": "2026-07-01"},
+    "stock_split": {"value": 2, "unit": "ratio", "note": "two-for-one split effective 2026-08-10", "source": "company announcement via Yahoo Finance / stocksguide", "date": "2026-06-15"},
+    "market_cap": {"value": 94790000000, "unit": "USD", "note": "~978M shares implied at $96.87 (derived: market_cap / last_price from pass1 snapshot)", "source": "pass1_data.json snapshot", "date": "2026-07-09"}
+  }
+}
